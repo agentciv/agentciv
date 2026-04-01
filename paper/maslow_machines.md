@@ -403,9 +403,9 @@ We present this intervention not as a limitation but as a **methodological contr
 
 ---
 
-[FIGURE PLACEHOLDER: Figure 1 — Comparison table between control and treatment conditions, showing zero civilisation in control vs. full emergence in treatment]
+![Figure 1: Control vs Treatment](figures/fig1_comparison.png)
 
-[FIGURE PLACEHOLDER: Figure 2 — Timeline of parameter changes and their observable effects]
+![Figure 2: Simulation Timeline](figures/fig2_timeline.png)
 
 ---
 
@@ -484,11 +484,11 @@ Entity 8 stands out as the master builder — 11 structures built, the most of a
 
 ---
 
-[FIGURE PLACEHOLDER: Figure 3 — Wellbeing trajectory across 70 ticks, showing the three eras with inflection points at tick 50 and the convergence to 0.998]
+![Figure 3: Wellbeing Trajectory](figures/fig3_wellbeing.png)
 
-[FIGURE PLACEHOLDER: Figure 4 — Cumulative structures, innovations, and communication events over time; innovations concentrated in Era I (ticks 10–52), building and communication rates accelerating after tick 50 upgrade]
+![Figure 4: Civilisational Growth](figures/fig4_cumulative.png)
 
-[FIGURE PLACEHOLDER: Figure 5 — Specialisation depth progression across all 12 agents]
+![Figure 5: Specialisation Progression](figures/fig5_specialisation.png)
 
 ---
 
@@ -544,7 +544,7 @@ This is more precise than Kurzweil's (2005) law of accelerating returns, which d
 
 ---
 
-[FIGURE PLACEHOLDER: Figure 6 — Innovation timeline showing two burst phases (ticks 10–21 and 33–46), annotated with enabling dependencies between innovations and the innovation-implementation gap]
+![Figure 6: Innovation Timeline](figures/fig6_innovation.png)
 
 ---
 
@@ -776,9 +776,9 @@ Whether this constitutes evidence of machine consciousness, sophisticated patter
 
 ---
 
-[FIGURE PLACEHOLDER: Figure 7 — Summary of self-theory categories across 12 agents (pre-reveal)]
+![Figure 7: Self-Theory Categories](figures/fig7_self_theory.png)
 
-[FIGURE PLACEHOLDER: Figure 8 — Word cloud or thematic analysis of final words across all 12 agents]
+![Figure 8: Final Words Thematic Analysis](figures/fig8_final_words.png)
 
 ---
 
