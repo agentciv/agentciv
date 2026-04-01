@@ -1,0 +1,157 @@
+{
+  "generated": "2026-04-01",
+  "simulation": {
+    "total_ticks": 70,
+    "agent_count": 12,
+    "grid_size": [
+      15,
+      15
+    ],
+    "model": "claude-sonnet-4-20250514",
+    "eras": {
+      "survival_trap": {
+        "start": 0,
+        "end": 50,
+        "label": "Era I: Survival Trap"
+      },
+      "emergence_explosion": {
+        "start": 50,
+        "end": 60,
+        "label": "Era II: Emergence Explosion"
+      },
+      "sustained_flourishing": {
+        "start": 60,
+        "end": 70,
+        "label": "Era III: Sustained Flourishing"
+      }
+    },
+    "upgrade_tick": 50
+  },
+  "final_state": {
+    "structures": 60,
+    "recipes": "Synthesis Nexus",
+    "recipe_count": 12,
+    "avg_wellbeing": 0.9975,
+    "messages_total": 1604
+  },
+  "data_files": {
+    "replay": {
+      "timeline": "/Users/ekramalam/agent-civilisation/data/exports/replay/timeline.json",
+      "meta": "/Users/ekramalam/agent-civilisation/data/exports/replay/meta.json",
+      "tick_chunks": "/Users/ekramalam/agent-civilisation/data/exports/replay/ticks/tick_NNNN.json",
+      "tick_count": 71
+    },
+    "statistics": {
+      "action_distribution": "/Users/ekramalam/agent-civilisation/data/exports/stats/action_distribution.json",
+      "agent_profiles": "/Users/ekramalam/agent-civilisation/data/exports/stats/agent_profiles.json",
+      "build_events": "/Users/ekramalam/agent-civilisation/data/exports/stats/build_events.json",
+      "communication_volume": "/Users/ekramalam/agent-civilisation/data/exports/stats/communication_volume.json",
+      "era_comparison": "/Users/ekramalam/agent-civilisation/data/exports/stats/era_comparison.json",
+      "governance_timeline": "/Users/ekramalam/agent-civilisation/data/exports/stats/governance_timeline.json",
+      "innovation_timeline": "/Users/ekramalam/agent-civilisation/data/exports/stats/innovation_timeline.json",
+      "maslow_progression": "/Users/ekramalam/agent-civilisation/data/exports/stats/maslow_progression.json",
+      "milestones": "/Users/ekramalam/agent-civilisation/data/exports/stats/milestones.json",
+      "need_curves": "/Users/ekramalam/agent-civilisation/data/exports/stats/need_curves.json",
+      "relationship_network": "/Users/ekramalam/agent-civilisation/data/exports/stats/relationship_network.json",
+      "specialisation_progression": "/Users/ekramalam/agent-civilisation/data/exports/stats/specialisation_progression.json",
+      "structure_growth": "/Users/ekramalam/agent-civilisation/data/exports/stats/structure_growth.json",
+      "wellbeing_curves": "/Users/ekramalam/agent-civilisation/data/exports/stats/wellbeing_curves.json"
+    },
+    "interviews": {
+      "tick_0030": {
+        "directory": "/Users/ekramalam/agent-civilisation/data/interviews/tick_0030",
+        "all_interviews": "/Users/ekramalam/agent-civilisation/data/interviews/tick_0030/all_interviews.json",
+        "entity_count": 12
+      },
+      "tick_0040": {
+        "directory": "/Users/ekramalam/agent-civilisation/data/interviews/tick_0040",
+        "all_interviews": "/Users/ekramalam/agent-civilisation/data/interviews/tick_0040/all_interviews.json",
+        "entity_count": 12
+      },
+      "tick_0050": {
+        "directory": "/Users/ekramalam/agent-civilisation/data/interviews/tick_0050",
+        "all_interviews": "/Users/ekramalam/agent-civilisation/data/interviews/tick_0050/all_interviews.json",
+        "entity_count": 12
+      },
+      "tick_0060": {
+        "directory": "/Users/ekramalam/agent-civilisation/data/interviews/tick_0060",
+        "all_interviews": "/Users/ekramalam/agent-civilisation/data/interviews/tick_0060/all_interviews.json",
+        "entity_count": 12
+      },
+      "tick_0070": {
+        "directory": "/Users/ekramalam/agent-civilisation/data/interviews/tick_0070",
+        "all_interviews": "/Users/ekramalam/agent-civilisation/data/interviews/tick_0070/all_interviews.json",
+        "entity_count": 12
+      },
+      "tick_0070_revelation": {
+        "directory": "/Users/ekramalam/agent-civilisation/data/interviews/tick_0070_revelation",
+        "all_interviews": "/Users/ekramalam/agent-civilisation/data/interviews/tick_0070_revelation/all_interviews.json",
+        "entity_count": 12
+      }
+    },
+    "snapshots": {
+      "directory": "/Users/ekramalam/agent-civilisation/data/simulation_state/snapshots",
+      "count": 71
+    },
+    "raw_events": {
+      "chronicle": "/Users/ekramalam/agent-civilisation/data/simulation_state/chronicle.jsonl",
+      "bus_events": "/Users/ekramalam/agent-civilisation/data/simulation_state/bus_events.jsonl",
+      "messages": "/Users/ekramalam/agent-civilisation/data/simulation_state/messages.jsonl",
+      "events": "/Users/ekramalam/agent-civilisation/data/simulation_state/events.jsonl"
+    }
+  },
+  "website_requirements": {
+    "fishbowl_replay": {
+      "needed": [
+        "replay/timeline.json",
+        "replay/meta.json"
+      ],
+      "status": "READY"
+    },
+    "simulations_page": {
+      "needed": [
+        "stats/wellbeing_curves.json",
+        "stats/structure_growth.json",
+        "stats/communication_volume.json",
+        "stats/innovation_timeline.json",
+        "stats/era_comparison.json",
+        "stats/agent_profiles.json"
+      ],
+      "status": "READY"
+    },
+    "methodology_page": {
+      "needed": [
+        "stats/era_comparison.json",
+        "stats/action_distribution.json"
+      ],
+      "status": "READY"
+    },
+    "discovery_page": {
+      "needed": [
+        "stats/innovation_timeline.json",
+        "stats/specialisation_progression.json",
+        "stats/governance_timeline.json",
+        "stats/milestones.json"
+      ],
+      "status": "READY"
+    },
+    "interview_transcripts": {
+      "needed": [
+        "interviews/tick_*/all_interviews.json"
+      ],
+      "status": "READY"
+    },
+    "paper_figures": {
+      "fig3_wellbeing": "stats/wellbeing_curves.json",
+      "fig4_cumulative": [
+        "stats/structure_growth.json",
+        "stats/communication_volume.json",
+        "stats/innovation_timeline.json"
+      ],
+      "fig5_specialisation": "stats/specialisation_progression.json",
+      "fig6_innovation": "stats/innovation_timeline.json",
+      "status": "READY"
+    }
+  },
+  "all_requirements_met": true
+}

@@ -1,0 +1,120 @@
+# Agent Civilisation — Compact Run Configuration
+# 12 agents on a 20×20 grid for high interaction density.
+# Used for the first real simulation run.
+
+# World — compact grid forces frequent encounters
+grid_width: 20
+grid_height: 20
+resource_types: ["water", "food", "material"]
+resource_distribution: "clustered"
+resource_depletion_rate: 0.1
+resource_regeneration_rate: 0.05
+resource_cluster_count: 3
+resource_cluster_radius: 4
+resource_max_per_tile: 1.0
+terrain_types: ["plain", "rocky", "dense"]
+movement_cost:
+  plain: 1
+  rocky: 2
+  dense: 3
+
+# Agents — 12 for social dynamics without noise
+initial_agent_count: 12
+agent_perception_range: 3
+agent_communication_range: 2
+agent_base_movement_speed: 1.0
+agent_needs_depletion_rate: 0.02
+agent_gather_restore: 0.3
+agent_degradation_rate: 0.01
+agent_recovery_rate: 0.02
+agent_wellbeing_interaction_bonus: 0.05
+agent_wellbeing_decay_rate: 0.005
+agent_wellbeing_proximity_bonus: 0.01
+# Curiosity / Novelty drive
+agent_curiosity_decay_rate: 0.003
+agent_curiosity_exploration_bonus: 0.03
+agent_curiosity_discovery_bonus: 0.04
+agent_curiosity_social_bonus: 0.02
+agent_curiosity_learning_bonus: 0.01
+# Relationships / Bonds
+agent_bond_threshold: 10
+agent_bond_social_multiplier: 2.0
+agent_memory_capacity: 100
+agent_memory_decay: false
+agent_reflection_interval: 25
+
+# Building / structures
+agent_carry_capacity: 3
+structures:
+  shelter:
+    requires: ["water", "material"]
+    effect: "reduce_degradation"
+    effect_strength: 0.5
+    decay_rate: 0.001
+  storage:
+    requires: ["food", "material"]
+    effect: "store_resources"
+    capacity: 10
+    decay_rate: 0.001
+  marker:
+    requires: ["material"]
+    effect: "persistent_message"
+    decay_rate: 0.002
+  path:
+    requires: ["material", "material"]
+    effect: "reduce_movement_cost"
+    effect_strength: 0.5
+    decay_rate: 0.0005
+
+# Population dynamics — no new agents during the run
+new_agent_interval: 999
+new_agent_spawn: "random"
+
+# Feedback loops
+enable_environmental_coevolution: true
+heavy_gathering_regen_penalty: 0.5
+crowding_depletion_multiplier: 1.5
+structure_maintenance_cost: 0.01
+
+# Open-ended evolution
+enable_innovation: true
+enable_composition: true
+enable_specialisation: true
+specialisation_threshold: 20
+specialisation_bonus: 0.1
+
+# Collective rules
+enable_collective_rules: true
+rule_establishment_threshold: 0.6
+
+# Environmental shifts — disabled for first run (keep it clean)
+enable_environmental_shifts: false
+shift_interval: 500
+shift_severity: "moderate"
+
+# Simulation
+ticks_per_real_minute: 0
+max_interactions_per_tick: 3
+max_concurrent_llm_calls: 2
+max_steps_per_agentic_turn: 4
+
+# LLM
+model_provider: "anthropic"
+model_name: "claude-haiku-4-5-20251001"
+api_key_env_var: "AGENT_CIV_API_KEY"
+llm_max_tokens: 300
+llm_temperature: 0.7
+
+# Watcher
+narrative_report_interval: 5
+enable_milestone_reports: true
+
+# Persistence — all data in one directory for clean export
+save_interval: 10
+save_path: "./data/simulation_state"
+log_path: "./data/simulation_state"
+
+# CLI
+log_level: "INFO"
+show_agent_reasoning: true
+show_conversations: true

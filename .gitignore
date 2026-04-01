@@ -1,0 +1,48 @@
+# Python
+__pycache__/
+*.pyc
+*.pyo
+*.egg-info/
+dist/
+build/
+.venv/
+venv/
+
+# Environment
+.env
+.env.local
+
+# Data (simulation state, snapshots — regenerated per run)
+data/*
+!data/exports/
+
+# Node
+node_modules/
+src/frontend/node_modules/
+
+# Frontend build output
+src/frontend/dist/
+
+# Internal working docs (not for public repo)
+agent_civilisation_master_build_plan.md
+agentciv_website_content.md
+agentciv_whitepaper.md
+agentciv_whitepaper_simulation_as_discovery.md
+AGENTCIV_ENGINE_DISCUSSION.md
+PRODUCTION_ROADMAP.md
+e is for ekram*
+NEW - E IS FOR EK*
+test_key.py
+
+# OS
+.DS_Store
+Thumbs.db
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# Test replay data (regenerated via scripts)
+src/frontend/public/replay_data/

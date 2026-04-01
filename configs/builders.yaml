@@ -1,0 +1,116 @@
+# Builders — Civilisational Emergence Config
+#
+# Tests whether agents discover building, form settlements, and develop
+# persistent infrastructure. Moderate world size, slower decay so structures
+# last long enough for patterns to compound.
+#
+# Key question: do agents independently discover that combining resources
+# creates structures that benefit them and others?
+
+# World
+grid_width: 30
+grid_height: 30
+resource_types: ["water", "food", "material"]
+resource_distribution: "clustered"
+resource_depletion_rate: 0.08
+resource_regeneration_rate: 0.04
+resource_cluster_count: 2
+resource_cluster_radius: 4
+resource_max_per_tile: 1.0
+terrain_types: ["plain", "rocky", "dense"]
+movement_cost:
+  plain: 1
+  rocky: 2
+  dense: 3
+
+# Agents
+initial_agent_count: 30
+agent_perception_range: 4
+agent_communication_range: 3
+agent_base_movement_speed: 1.0
+agent_needs_depletion_rate: 0.015
+agent_gather_restore: 0.25
+agent_degradation_rate: 0.01
+agent_recovery_rate: 0.02
+agent_wellbeing_interaction_bonus: 0.06
+agent_wellbeing_decay_rate: 0.004
+agent_wellbeing_proximity_bonus: 0.015
+agent_memory_capacity: 150
+agent_memory_decay: false
+agent_reflection_interval: 20
+
+# Building / structures — slow decay for settlement formation
+agent_carry_capacity: 3
+structures:
+  shelter:
+    requires: ["water", "material"]
+    effect: "reduce_degradation"
+    effect_strength: 0.4
+    decay_rate: 0.0005
+  storage:
+    requires: ["food", "material"]
+    effect: "store_resources"
+    capacity: 15
+    decay_rate: 0.0005
+  marker:
+    requires: ["material"]
+    effect: "persistent_message"
+    decay_rate: 0.001
+  path:
+    requires: ["material", "material"]
+    effect: "reduce_movement_cost"
+    effect_strength: 0.4
+    decay_rate: 0.0003
+
+# Feedback loops — gentler for settlement formation
+enable_environmental_coevolution: true
+heavy_gathering_regen_penalty: 0.6      # less punishing so settlements can form
+crowding_depletion_multiplier: 1.3      # mild crowding effect
+structure_maintenance_cost: 0.005       # low upkeep for settlement longevity
+
+# Open-ended evolution — all enabled
+enable_innovation: true
+enable_composition: true
+enable_specialisation: true
+specialisation_threshold: 15            # lower threshold — agents specialise faster
+specialisation_bonus: 0.15             # stronger bonus rewards settling into roles
+
+# Collective rules
+enable_collective_rules: true
+rule_establishment_threshold: 0.5       # lower bar — rules emerge faster in small groups
+
+# Population dynamics
+new_agent_interval: 40
+new_agent_spawn: "random"
+
+# Environmental shifts — mild, infrequent (don't disrupt settlements)
+enable_environmental_shifts: true
+shift_interval: 800
+shift_severity: "mild"
+
+# Simulation
+ticks_per_real_minute: 0
+max_interactions_per_tick: 4
+max_concurrent_llm_calls: 10
+max_steps_per_agentic_turn: 4
+
+# LLM
+model_provider: "openai"
+model_name: "gpt-4o-mini"
+api_key_env_var: "AGENT_CIV_API_KEY"
+llm_max_tokens: 400
+llm_temperature: 0.7
+
+# Watcher
+narrative_report_interval: 50
+enable_milestone_reports: true
+
+# Persistence
+save_interval: 10
+save_path: "./data/builders_state"
+log_path: "./data/builders_logs"
+
+# CLI
+log_level: "INFO"
+show_agent_reasoning: true
+show_conversations: true

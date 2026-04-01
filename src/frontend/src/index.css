@@ -1,0 +1,140 @@
+@import "tailwindcss";
+
+/*
+ * AgentCiv Design System
+ *
+ * Aesthetic: sunshine, warmth, openness, natural beauty.
+ * "Standing on a hilltop on a clear day, looking out at something vast and alive."
+ *
+ * - Light warm backgrounds (cream, soft white)
+ * - Nature-derived accent colours (sky, gold, sage, earth)
+ * - Serif headings (Lora) + humanist sans body (Inter)
+ * - Generous whitespace — the design breathes
+ * - Warm dark text (never pure black)
+ */
+
+@theme {
+  /* --- Palette --- */
+  --color-cream: #FEFCF6;
+  --color-cream-dark: #F8F4EA;
+  --color-warm-white: #FFFAF0;
+  --color-parchment: #F3EDE0;
+
+  --color-ink: #2D2A24;
+  --color-ink-light: #5C5648;
+  --color-ink-muted: #8C8578;
+
+  --color-sky: #5B9BD5;
+  --color-sky-light: #A8CDE8;
+  --color-sky-pale: #E3F0FA;
+
+  --color-gold: #C5962B;
+  --color-gold-light: #E8D59A;
+  --color-gold-pale: #FDF6E3;
+
+  --color-sage: #6B9B7B;
+  --color-sage-light: #A8CBB5;
+  --color-sage-pale: #E8F2EC;
+
+  --color-earth: #8B7355;
+  --color-earth-light: #BBA88D;
+
+  --color-rose: #C88B93;
+  --color-rose-light: #E8C5CA;
+
+  --color-ember: #D4785A;
+
+  /* --- Typography --- */
+  --font-heading: "Lora", Georgia, "Times New Roman", serif;
+  --font-body: "Inter", system-ui, -apple-system, sans-serif;
+  --font-mono: "SF Mono", "Fira Code", "Fira Mono", monospace;
+
+  /* --- Spacing scale (based on 4px) --- */
+  --spacing-page: 6rem;
+  --spacing-section: 4rem;
+
+  /* --- Borders --- */
+  --color-border: #E8E2D6;
+  --color-border-light: #F0ECE3;
+}
+
+/* --- Base styles --- */
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  font-family: var(--font-body);
+  color: var(--color-ink);
+  background-color: var(--color-cream);
+  line-height: 1.7;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+/* --- Heading styles --- */
+
+h1, h2, h3, h4, h5, h6 {
+  font-family: var(--font-heading);
+  font-weight: 600;
+  line-height: 1.3;
+  color: var(--color-ink);
+}
+
+h1 { font-size: 2.75rem; letter-spacing: -0.02em; }
+h2 { font-size: 2rem; letter-spacing: -0.01em; }
+h3 { font-size: 1.5rem; }
+h4 { font-size: 1.25rem; }
+
+@media (max-width: 768px) {
+  h1 { font-size: 2rem; }
+  h2 { font-size: 1.5rem; }
+  h3 { font-size: 1.25rem; }
+}
+
+/* --- Link styles --- */
+
+a {
+  color: var(--color-sky);
+  text-decoration: none;
+  transition: color 0.2s ease;
+}
+
+a:hover {
+  color: var(--color-gold);
+}
+
+/* --- Selection --- */
+
+::selection {
+  background-color: var(--color-gold-light);
+  color: var(--color-ink);
+}
+
+/* --- Scrollbar (subtle, warm) --- */
+
+::-webkit-scrollbar {
+  width: 8px;
+  height: 8px;
+}
+
+::-webkit-scrollbar-track {
+  background: var(--color-cream);
+}
+
+::-webkit-scrollbar-thumb {
+  background: var(--color-earth-light);
+  border-radius: 4px;
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background: var(--color-earth);
+}
+
+/* --- Fishbowl animations --- */
+
+@keyframes fadeIn {
+  from { opacity: 0; transform: translateY(4px); }
+  to { opacity: 1; transform: translateY(0); }
+}

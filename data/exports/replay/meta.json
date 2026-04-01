@@ -1,0 +1,41 @@
+{
+  "total_ticks": 70,
+  "grid_width": 15,
+  "grid_height": 15,
+  "agent_count": 12,
+  "agent_ids": [
+    0,
+    1,
+    2,
+    3,
+    4,
+    5,
+    6,
+    7,
+    8,
+    9,
+    10,
+    11
+  ],
+  "total_messages": 1604,
+  "total_structures": 60,
+  "total_recipes": 12,
+  "eras": {
+    "survival_trap": {
+      "start": 0,
+      "end": 50,
+      "label": "Era I: Survival Trap"
+    },
+    "emergence_explosion": {
+      "start": 50,
+      "end": 60,
+      "label": "Era II: Emergence Explosion"
+    },
+    "sustained_flourishing": {
+      "start": 60,
+      "end": 70,
+      "label": "Era III: Sustained Flourishing"
+    }
+  },
+  "upgrade_tick": 50
+}

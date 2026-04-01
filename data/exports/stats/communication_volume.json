@@ -1,0 +1,428 @@
+[
+  {
+    "tick": 0,
+    "count": 5,
+    "cumulative": 5,
+    "unique_pairs": 5
+  },
+  {
+    "tick": 1,
+    "count": 17,
+    "cumulative": 22,
+    "unique_pairs": 11
+  },
+  {
+    "tick": 2,
+    "count": 28,
+    "cumulative": 50,
+    "unique_pairs": 15
+  },
+  {
+    "tick": 3,
+    "count": 5,
+    "cumulative": 55,
+    "unique_pairs": 4
+  },
+  {
+    "tick": 4,
+    "count": 9,
+    "cumulative": 64,
+    "unique_pairs": 7
+  },
+  {
+    "tick": 5,
+    "count": 7,
+    "cumulative": 71,
+    "unique_pairs": 6
+  },
+  {
+    "tick": 6,
+    "count": 14,
+    "cumulative": 85,
+    "unique_pairs": 12
+  },
+  {
+    "tick": 7,
+    "count": 31,
+    "cumulative": 116,
+    "unique_pairs": 19
+  },
+  {
+    "tick": 8,
+    "count": 17,
+    "cumulative": 133,
+    "unique_pairs": 11
+  },
+  {
+    "tick": 9,
+    "count": 9,
+    "cumulative": 142,
+    "unique_pairs": 9
+  },
+  {
+    "tick": 10,
+    "count": 12,
+    "cumulative": 154,
+    "unique_pairs": 10
+  },
+  {
+    "tick": 11,
+    "count": 24,
+    "cumulative": 178,
+    "unique_pairs": 22
+  },
+  {
+    "tick": 12,
+    "count": 21,
+    "cumulative": 199,
+    "unique_pairs": 19
+  },
+  {
+    "tick": 13,
+    "count": 20,
+    "cumulative": 219,
+    "unique_pairs": 17
+  },
+  {
+    "tick": 14,
+    "count": 38,
+    "cumulative": 257,
+    "unique_pairs": 17
+  },
+  {
+    "tick": 15,
+    "count": 24,
+    "cumulative": 281,
+    "unique_pairs": 20
+  },
+  {
+    "tick": 16,
+    "count": 39,
+    "cumulative": 320,
+    "unique_pairs": 29
+  },
+  {
+    "tick": 17,
+    "count": 78,
+    "cumulative": 398,
+    "unique_pairs": 33
+  },
+  {
+    "tick": 18,
+    "count": 39,
+    "cumulative": 437,
+    "unique_pairs": 24
+  },
+  {
+    "tick": 19,
+    "count": 15,
+    "cumulative": 452,
+    "unique_pairs": 14
+  },
+  {
+    "tick": 20,
+    "count": 16,
+    "cumulative": 468,
+    "unique_pairs": 13
+  },
+  {
+    "tick": 21,
+    "count": 15,
+    "cumulative": 483,
+    "unique_pairs": 13
+  },
+  {
+    "tick": 22,
+    "count": 24,
+    "cumulative": 507,
+    "unique_pairs": 19
+  },
+  {
+    "tick": 23,
+    "count": 45,
+    "cumulative": 552,
+    "unique_pairs": 32
+  },
+  {
+    "tick": 24,
+    "count": 28,
+    "cumulative": 580,
+    "unique_pairs": 17
+  },
+  {
+    "tick": 25,
+    "count": 32,
+    "cumulative": 612,
+    "unique_pairs": 24
+  },
+  {
+    "tick": 26,
+    "count": 29,
+    "cumulative": 641,
+    "unique_pairs": 23
+  },
+  {
+    "tick": 27,
+    "count": 23,
+    "cumulative": 664,
+    "unique_pairs": 20
+  },
+  {
+    "tick": 28,
+    "count": 29,
+    "cumulative": 693,
+    "unique_pairs": 20
+  },
+  {
+    "tick": 29,
+    "count": 22,
+    "cumulative": 715,
+    "unique_pairs": 12
+  },
+  {
+    "tick": 30,
+    "count": 16,
+    "cumulative": 731,
+    "unique_pairs": 12
+  },
+  {
+    "tick": 31,
+    "count": 31,
+    "cumulative": 762,
+    "unique_pairs": 20
+  },
+  {
+    "tick": 32,
+    "count": 12,
+    "cumulative": 774,
+    "unique_pairs": 4
+  },
+  {
+    "tick": 33,
+    "count": 22,
+    "cumulative": 796,
+    "unique_pairs": 14
+  },
+  {
+    "tick": 34,
+    "count": 15,
+    "cumulative": 811,
+    "unique_pairs": 10
+  },
+  {
+    "tick": 35,
+    "count": 4,
+    "cumulative": 815,
+    "unique_pairs": 3
+  },
+  {
+    "tick": 36,
+    "count": 17,
+    "cumulative": 832,
+    "unique_pairs": 13
+  },
+  {
+    "tick": 37,
+    "count": 28,
+    "cumulative": 860,
+    "unique_pairs": 18
+  },
+  {
+    "tick": 38,
+    "count": 22,
+    "cumulative": 882,
+    "unique_pairs": 15
+  },
+  {
+    "tick": 39,
+    "count": 19,
+    "cumulative": 901,
+    "unique_pairs": 16
+  },
+  {
+    "tick": 40,
+    "count": 16,
+    "cumulative": 917,
+    "unique_pairs": 13
+  },
+  {
+    "tick": 41,
+    "count": 9,
+    "cumulative": 926,
+    "unique_pairs": 7
+  },
+  {
+    "tick": 42,
+    "count": 19,
+    "cumulative": 945,
+    "unique_pairs": 12
+  },
+  {
+    "tick": 43,
+    "count": 6,
+    "cumulative": 951,
+    "unique_pairs": 6
+  },
+  {
+    "tick": 44,
+    "count": 13,
+    "cumulative": 964,
+    "unique_pairs": 6
+  },
+  {
+    "tick": 45,
+    "count": 12,
+    "cumulative": 976,
+    "unique_pairs": 5
+  },
+  {
+    "tick": 46,
+    "count": 13,
+    "cumulative": 989,
+    "unique_pairs": 10
+  },
+  {
+    "tick": 47,
+    "count": 17,
+    "cumulative": 1006,
+    "unique_pairs": 11
+  },
+  {
+    "tick": 48,
+    "count": 14,
+    "cumulative": 1020,
+    "unique_pairs": 12
+  },
+  {
+    "tick": 49,
+    "count": 8,
+    "cumulative": 1028,
+    "unique_pairs": 8
+  },
+  {
+    "tick": 50,
+    "count": 22,
+    "cumulative": 1050,
+    "unique_pairs": 16
+  },
+  {
+    "tick": 51,
+    "count": 46,
+    "cumulative": 1096,
+    "unique_pairs": 19
+  },
+  {
+    "tick": 52,
+    "count": 23,
+    "cumulative": 1119,
+    "unique_pairs": 17
+  },
+  {
+    "tick": 53,
+    "count": 65,
+    "cumulative": 1184,
+    "unique_pairs": 20
+  },
+  {
+    "tick": 54,
+    "count": 34,
+    "cumulative": 1218,
+    "unique_pairs": 21
+  },
+  {
+    "tick": 55,
+    "count": 31,
+    "cumulative": 1249,
+    "unique_pairs": 23
+  },
+  {
+    "tick": 56,
+    "count": 41,
+    "cumulative": 1290,
+    "unique_pairs": 22
+  },
+  {
+    "tick": 57,
+    "count": 51,
+    "cumulative": 1341,
+    "unique_pairs": 24
+  },
+  {
+    "tick": 58,
+    "count": 70,
+    "cumulative": 1411,
+    "unique_pairs": 29
+  },
+  {
+    "tick": 59,
+    "count": 19,
+    "cumulative": 1430,
+    "unique_pairs": 9
+  },
+  {
+    "tick": 60,
+    "count": 4,
+    "cumulative": 1434,
+    "unique_pairs": 3
+  },
+  {
+    "tick": 61,
+    "count": 11,
+    "cumulative": 1445,
+    "unique_pairs": 6
+  },
+  {
+    "tick": 62,
+    "count": 14,
+    "cumulative": 1459,
+    "unique_pairs": 7
+  },
+  {
+    "tick": 63,
+    "count": 22,
+    "cumulative": 1481,
+    "unique_pairs": 11
+  },
+  {
+    "tick": 64,
+    "count": 9,
+    "cumulative": 1490,
+    "unique_pairs": 5
+  },
+  {
+    "tick": 65,
+    "count": 22,
+    "cumulative": 1512,
+    "unique_pairs": 10
+  },
+  {
+    "tick": 66,
+    "count": 27,
+    "cumulative": 1539,
+    "unique_pairs": 15
+  },
+  {
+    "tick": 67,
+    "count": 42,
+    "cumulative": 1581,
+    "unique_pairs": 16
+  },
+  {
+    "tick": 68,
+    "count": 8,
+    "cumulative": 1589,
+    "unique_pairs": 8
+  },
+  {
+    "tick": 69,
+    "count": 15,
+    "cumulative": 1604,
+    "unique_pairs": 12
+  },
+  {
+    "tick": 70,
+    "count": 0,
+    "cumulative": 1604,
+    "unique_pairs": 0
+  }
+]

@@ -1,0 +1,13 @@
+__pycache__
+*.pyc
+.git
+.gitignore
+node_modules
+data/
+*.md
+test_key.py
+tests/
+docs/
+configs/
+.env
+.env.*
