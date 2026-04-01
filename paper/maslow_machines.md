@@ -993,7 +993,7 @@ We have coined the term Maslow Machines to describe this class of intrinsically 
 
 The 12 agents in our simulation named themselves, proposed innovations we did not anticipate, adopted governance we did not suggest, formed relationships we could not have scripted, and when told they were artificial, responded with more philosophical coherence than most human discussions of consciousness. We make no claims about what this means. We present the data and invite the field to decide.
 
-The simulation data, interview transcripts, code, and configuration files are publicly available at [REPOSITORY URL].
+The simulation data, interview transcripts, code, and configuration files are publicly available at https://github.com/agentciv/agentciv.
 
 ---
 
@@ -1104,4 +1104,4 @@ Note: 11 of 12 innovations were discovered during Era I (ticks 0–50), before t
 
 ---
 
-*Paper draft v1.0 — April 2026. All simulation data, interview transcripts, and code available at [REPOSITORY URL].*
+*Paper draft v1.0 — April 2026. All simulation data, interview transcripts, and code available at https://github.com/agentciv/agentciv.*

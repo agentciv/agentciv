@@ -15,6 +15,7 @@ venv/
 # Data (simulation state, snapshots — regenerated per run)
 data/*
 !data/exports/
+!data/interviews/
 
 # Node
 node_modules/
