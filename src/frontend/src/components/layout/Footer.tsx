@@ -48,7 +48,7 @@ export default function Footer() {
                 About
               </Link>
               <a
-                href="https://github.com/ekramalam/agent-civilisation"
+                href="https://github.com/agentciv/agentciv"
                 target="_blank"
                 rel="noopener noreferrer"
                 className="block text-ink-light hover:text-ink"
@@ -70,7 +70,7 @@ export default function Footer() {
         </div>
 
         <div className="mt-10 border-t border-border pt-6 text-center text-xs text-ink-muted">
-          AgentCiv by Ekram Alam. Open source under MIT License.
+          AgentCiv by Mark E. Mala. Open source under MIT License.
         </div>
       </div>
     </footer>

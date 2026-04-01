@@ -9,7 +9,7 @@ export default function About() {
         <h1 className="mb-8">About</h1>
 
         <p className="mb-6 leading-relaxed text-ink-light">
-          AgentCiv is created by Ekram Alam — a technologist, founder, and
+          AgentCiv is created by Mark E. Mala — a technologist, founder, and
           creator driven by curiosity about emergence, intelligence, and
           civilisation.
         </p>
@@ -73,7 +73,7 @@ export default function About() {
             Watch Sim
           </Link>
           <a
-            href="https://github.com/ekramalam/agent-civilisation"
+            href="https://github.com/agentciv/agentciv"
             target="_blank"
             rel="noopener noreferrer"
             className="rounded-full border border-border bg-warm-white px-6 py-2.5 font-semibold text-ink transition-colors hover:bg-parchment"
@@ -81,7 +81,7 @@ export default function About() {
             GitHub
           </a>
           <a
-            href="mailto:ekram@agentciv.ai"
+            href="mailto:hello@agentciv.ai"
             className="rounded-full border border-border bg-warm-white px-6 py-2.5 font-semibold text-ink transition-colors hover:bg-parchment"
           >
             Contact

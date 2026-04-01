@@ -1,6 +1,6 @@
 # Future Directions for AgentCiv
 
-**Author:** Ekram Alam
+**Author:** Mark E. Mala
 **Date:** April 2026
 **Status:** Living document — comprehensive but not exhaustive
 

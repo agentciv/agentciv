@@ -276,4 +276,4 @@ MIT — see [LICENSE](LICENSE).
 
 ## Author
 
-Created by [Ekram Alam](https://github.com/ekramalam).
+Created by [Mark E. Mala](https://github.com/agentciv).

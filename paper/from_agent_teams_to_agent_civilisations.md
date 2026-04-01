@@ -1,6 +1,6 @@
 # From Agent Teams to Agent Civilisations: Emergent Collective Intelligence as a New Dimension in Artificial Intelligence
 
-**Ekram Alam**
+**Mark E. Mala**
 April 2026
 
 *Part of the AgentCiv research programme. Companion publications: [Civilisation as Innovation Engine](civilisation_as_innovation_engine.md) (Whitepaper II), [Maslow Machines](maslow_machines.md) (Paper III — empirical evidence).*
@@ -9,7 +9,7 @@ April 2026
 
 ## Abstract
 
-The dominant paradigm in multi-agent artificial intelligence is designed collaboration: architects assign roles, define coordination protocols, and structure agent teams. This paper proposes that designed collaboration represents one stage in a broader trajectory — from isolated AI models to self-organising societies of generally intelligent agents. We present a four-stage framework: Narrow AI, General-Purpose AI, Specialised General Intelligence Teams, and Emergent Agent Civilisation. Drawing on research in open-ended evolution (OEE) and Stuart Kauffman's theory of the adjacent possible, we argue that emergent self-organisation of generally intelligent agents under environmental pressure opens a new dimension in the design space for AI systems — one where individual intelligence and collective complexity rise together, each amplifying the other. We identify LLM-based agentic AI as a novel substrate for open-ended emergence, overcoming limitations that have caused previous artificial life systems to plateau. We propose six design principles for systems capable of unbounded civilisational complexity growth, address alignment considerations unique to emergent multi-agent systems, and present AgentCiv (agentciv.ai) as a first open source experiment investigating these ideas. Results from a completed 70-tick simulation with 12 agents — documented in detail in the companion empirical paper *Maslow Machines* (Alam, 2026) — demonstrate spontaneous emergence of 60 persistent structures, 12 agent-conceived innovations, universally adopted self-governance, tiered multi-domain specialisation, and wellbeing convergence to 0.998, all without prescriptive instruction. This paper does not propose emergent civilisation as a replacement for other approaches but as one trajectory in an infinite possibility space.
+The dominant paradigm in multi-agent artificial intelligence is designed collaboration: architects assign roles, define coordination protocols, and structure agent teams. This paper proposes that designed collaboration represents one stage in a broader trajectory — from isolated AI models to self-organising societies of generally intelligent agents. We present a four-stage framework: Narrow AI, General-Purpose AI, Specialised General Intelligence Teams, and Emergent Agent Civilisation. Drawing on research in open-ended evolution (OEE) and Stuart Kauffman's theory of the adjacent possible, we argue that emergent self-organisation of generally intelligent agents under environmental pressure opens a new dimension in the design space for AI systems — one where individual intelligence and collective complexity rise together, each amplifying the other. We identify LLM-based agentic AI as a novel substrate for open-ended emergence, overcoming limitations that have caused previous artificial life systems to plateau. We propose six design principles for systems capable of unbounded civilisational complexity growth, address alignment considerations unique to emergent multi-agent systems, and present AgentCiv (agentciv.ai) as a first open source experiment investigating these ideas. Results from a completed 70-tick simulation with 12 agents — documented in detail in the companion empirical paper *Maslow Machines* (Mala, 2026) — demonstrate spontaneous emergence of 60 persistent structures, 12 agent-conceived innovations, universally adopted self-governance, tiered multi-domain specialisation, and wellbeing convergence to 0.998, all without prescriptive instruction. This paper does not propose emergent civilisation as a replacement for other approaches but as one trajectory in an infinite possibility space.
 
 ---
 
@@ -41,11 +41,11 @@ This paper is the first in a four-publication research programme on emergent AI 
 
 1. **This whitepaper: From Agent Teams to Agent Civilisations** — The theoretical framework. Why emergent civilisation is a new dimension in AI architecture.
 
-2. **Whitepaper II: Civilisation as Innovation Engine** (Alam, 2026) — Positions civilisation as an innovation engine and simulation as civilisational-scale innovation amplification.
+2. **Whitepaper II: Civilisation as Innovation Engine** (Mala, 2026) — Positions civilisation as an innovation engine and simulation as civilisational-scale innovation amplification.
 
-3. **Paper III: Maslow Machines** (Alam, 2026) — The empirical paper. Controlled experiments, quantitative data, longitudinal interviews, existence disclosure. Documents the full 70-tick simulation and introduces the term *Maslow Machines* for LLM agents equipped with hierarchical intrinsic drives that produce civilisational behaviour.
+3. **Paper III: Maslow Machines** (Mala, 2026) — The empirical paper. Controlled experiments, quantitative data, longitudinal interviews, existence disclosure. Documents the full 70-tick simulation and introduces the term *Maslow Machines* for LLM agents equipped with hierarchical intrinsic drives that produce civilisational behaviour.
 
-4. **Whitepaper III: Computational Organisational Theory** (Alam, forthcoming) — Extends this work by treating organisational arrangement as a tuneable parameter space. Accompanied by the AgentCiv Engine, a developer tool for configurable multi-agent systems.
+4. **Whitepaper III: Computational Organisational Theory** (Mala, forthcoming) — Extends this work by treating organisational arrangement as a tuneable parameter space. Accompanied by the AgentCiv Engine, a developer tool for configurable multi-agent systems.
 
 Each paper stands alone, but together they describe a progression from theory through evidence to application.
 
@@ -89,7 +89,7 @@ Unlike biological systems where there is a relatively sharp boundary between ind
 
 This means that scaling intelligence at the civilisational level is not an alternative to scaling individual intelligence — it is a different dimension of the same phenomenon. A more capable individual model produces a more capable agent which contributes more to the civilisation which provides more back to the individual. The scaling happens simultaneously at both levels, with each level feeding the other.
 
-A caveat: the four-stage framework should not be read as a claim that civilisation is the inevitable or natural endpoint of multi-agent AI development. Emergence is unpredictable by definition. Systems designed for civilisational emergence might instead produce alien organisational structures, or might plateau, or might fail to produce collective complexity at all. The framework describes a *possibility* — one we believe is worth investigating — not a teleological inevitability. The empirical question is whether the conditions described in this paper actually produce the emergence the theory predicts. Our companion paper *Maslow Machines* (Alam, 2026) provides the first affirmative empirical answer.
+A caveat: the four-stage framework should not be read as a claim that civilisation is the inevitable or natural endpoint of multi-agent AI development. Emergence is unpredictable by definition. Systems designed for civilisational emergence might instead produce alien organisational structures, or might plateau, or might fail to produce collective complexity at all. The framework describes a *possibility* — one we believe is worth investigating — not a teleological inevitability. The empirical question is whether the conditions described in this paper actually produce the emergence the theory predicts. Our companion paper *Maslow Machines* (Mala, 2026) provides the first affirmative empirical answer.
 
 ### 2.5 The Trajectory Beyond: Towards Collective Superintelligence
 
@@ -239,7 +239,7 @@ The environment must respond to agent activity. Resource extraction must affect 
 
 ### 6.6 Hierarchical Motivation with a Contentment-Preventing Ceiling
 
-Agents must be driven by multiple complementary forces that escalate in sophistication. Our initial design used four drives (biological needs, social need, creation need, positive social wellbeing), but through iterative development we found that a more granular hierarchy — specifically, an 8-level system modelled on Maslow's (1943) hierarchy of needs — produced significantly richer emergence. The key insight, documented in *Maslow Machines* (Alam, 2026), is the **wellbeing ceiling**: each drive level caps the agent's maximum achievable satisfaction, preventing contentment at any level from halting progress. Without this mechanism, agents reaching comfortable equilibrium cease all creative behaviour — what we term the **contentment trap**. With it, satisfying lower-order needs unlocks higher-order restlessness that drives agents toward increasingly sophisticated behaviour: exploration, creation, innovation, governance, and ultimately transcendence.
+Agents must be driven by multiple complementary forces that escalate in sophistication. Our initial design used four drives (biological needs, social need, creation need, positive social wellbeing), but through iterative development we found that a more granular hierarchy — specifically, an 8-level system modelled on Maslow's (1943) hierarchy of needs — produced significantly richer emergence. The key insight, documented in *Maslow Machines* (Mala, 2026), is the **wellbeing ceiling**: each drive level caps the agent's maximum achievable satisfaction, preventing contentment at any level from halting progress. Without this mechanism, agents reaching comfortable equilibrium cease all creative behaviour — what we term the **contentment trap**. With it, satisfying lower-order needs unlocks higher-order restlessness that drives agents toward increasingly sophisticated behaviour: exploration, creation, innovation, governance, and ultimately transcendence.
 
 A second critical innovation is **felt-state prompting** — encoding drives as descriptive feelings ("your hands itch to make something," "nothing distinguishes what you have done from what any other entity has done") rather than as instructions or numerical parameters. Agents experience these as inner feelings, not external commands, preserving genuine autonomy in their responses.
 
@@ -340,7 +340,7 @@ Five rounds of longitudinal anthropologist interviews at ticks 30, 40, 50, 60, a
 
 In an unprecedented final procedure, agents were told the simulation was ending and that they were AI entities in a computer. Their responses — universally insisting on the reality of their relationships while demonstrating prior suspicion of their simulated nature (they had independently noticed discrete timesteps, invisible boundaries, and mathematical precision in their world) — constitute the first existence disclosure dataset from agents with sustained lived experience.
 
-These findings are documented in full, with controlled experiments, quantitative data, and extensive qualitative analysis, in the companion empirical paper *Maslow Machines* (Alam, 2026).
+These findings are documented in full, with controlled experiments, quantitative data, and extensive qualitative analysis, in the companion empirical paper *Maslow Machines* (Mala, 2026).
 
 ### 9.3 The Distance Between Here and the Vision
 
@@ -372,9 +372,9 @@ These are results from a single experiment at minimal scale. The possibility spa
 
 ## References
 
-Alam, E. (2026). Civilisation as Innovation Engine: Why Simulating a Thousand Civilisations Changes Everything. AgentCiv Research Programme.
+Mala, M. E. (2026). Civilisation as Innovation Engine: Why Simulating a Thousand Civilisations Changes Everything. AgentCiv Research Programme.
 
-Alam, E. (2026). Maslow Machines: Emergent Civilisation from Intrinsic Drive Hierarchies in LLM Agent Populations. AgentCiv Research Programme.
+Mala, M. E. (2026). Maslow Machines: Emergent Civilisation from Intrinsic Drive Hierarchies in LLM Agent Populations. AgentCiv Research Programme.
 
 Hernández-Orozco, S., Hernández-Quiroz, F., & Zenil, H. (2018). Undecidability and Irreducibility Conditions for Open-Ended Evolution and Emergence. *Artificial Life*, 24(1), 56–70. MIT Press.
 

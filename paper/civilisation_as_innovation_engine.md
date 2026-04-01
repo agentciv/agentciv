@@ -1,6 +1,6 @@
 # Civilisation as Innovation Engine: Why Simulating a Thousand Civilisations Changes Everything
 
-**Ekram Alam**
+**Mark E. Mala**
 April 2026
 
 *Part of the AgentCiv research programme. Companion publications: [From Agent Teams to Agent Civilisations](from_agent_teams_to_agent_civilisations.md) (Whitepaper I — theoretical framework), [Maslow Machines](maslow_machines.md) (Paper III — empirical evidence).*
@@ -207,7 +207,7 @@ The simulation leads. Reality follows. The lag between discovery in simulation a
 
 ### 7.1 The Proof of Concept
 
-AgentCiv (agentciv.ai) has completed its first full experiment: 12 Claude Sonnet agents running for 70 ticks on a 15×15 grid with resource dynamics, building mechanics, a composition engine, an innovation system, practice-based specialisation, collective rule proposal, and an 8-level Maslow-inspired drive hierarchy — what we term *Maslow Machines* (Alam, 2026) — that prevents contentment at any level from halting creative behaviour.
+AgentCiv (agentciv.ai) has completed its first full experiment: 12 Claude Sonnet agents running for 70 ticks on a 15×15 grid with resource dynamics, building mechanics, a composition engine, an innovation system, practice-based specialisation, collective rule proposal, and an 8-level Maslow-inspired drive hierarchy — what we term *Maslow Machines* (Mala, 2026) — that prevents contentment at any level from halting creative behaviour.
 
 The results demonstrate that the innovation engine operates even at this minimal scale. With no social programming and no prescriptive instruction, 12 agents spontaneously produced 60 persistent structures, 12 entirely agent-conceived innovations (Communication Beacons, Knowledge Hubs, a Synthesis Nexus, and more), a universally adopted governance rule, tiered specialisation across multiple domains, and a civilisational trajectory exhibiting accelerating returns — each innovation expanding the adjacent possible and enabling the next faster.
 
@@ -215,7 +215,7 @@ The accelerating returns finding is particularly significant for this paper's th
 
 A controlled comparison confirmed the causal mechanism. The same agents, same model, same world, with only survival and social drives (no higher-order Maslow levels) reached 0.93 wellbeing but produced zero structures, zero innovations, and zero governance. The concept of building never entered their reasoning. This **contentment trap** — agents plateauing at comfortable subsistence — is broken by the Maslow wellbeing ceiling, which prevents satisfaction at any level from producing contentment.
 
-The simulation exhibited three eras — a survival trap, an emergence explosion, and sustained flourishing — demonstrating that civilisational development in agent populations follows phase-transition dynamics rather than linear growth. Five rounds of longitudinal anthropologist interviews captured the full developmental arc, and an unprecedented existence disclosure procedure produced the first dataset of agent responses to being told they are AI. The full empirical analysis is presented in the companion paper *Maslow Machines* (Alam, 2026).
+The simulation exhibited three eras — a survival trap, an emergence explosion, and sustained flourishing — demonstrating that civilisational development in agent populations follows phase-transition dynamics rather than linear growth. Five rounds of longitudinal anthropologist interviews captured the full developmental arc, and an unprecedented existence disclosure procedure produced the first dataset of agent responses to being told they are AI. The full empirical analysis is presented in the companion paper *Maslow Machines* (Mala, 2026).
 
 ### 7.2 The Vision
 
@@ -289,9 +289,9 @@ The question is not whether to scale it. The question is what we'll find when we
 
 ## References
 
-Alam, E. (2026). From Agent Teams to Agent Civilisations: Emergent Collective Intelligence as a New Dimension in Artificial Intelligence. AgentCiv Research Programme.
+Mala, M. E. (2026). From Agent Teams to Agent Civilisations: Emergent Collective Intelligence as a New Dimension in Artificial Intelligence. AgentCiv Research Programme.
 
-Alam, E. (2026). Maslow Machines: Emergent Civilisation from Intrinsic Drive Hierarchies in LLM Agent Populations. AgentCiv Research Programme.
+Mala, M. E. (2026). Maslow Machines: Emergent Civilisation from Intrinsic Drive Hierarchies in LLM Agent Populations. AgentCiv Research Programme.
 
 Kauffman, S. A. (2000). *Investigations*. Oxford University Press.
 

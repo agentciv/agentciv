@@ -61,7 +61,7 @@ const faqItems = [
   {
     question: "Who made this?",
     answer:
-      "Ekram Alam. The project is open source and welcomes contributions.",
+      "Mark E. Mala. The project is open source and welcomes contributions.",
   },
   {
     question: "Can I contribute?",
@@ -702,7 +702,7 @@ export default function OpenSource() {
           <h3 className="mb-4 text-xl">Quick start</h3>
           <div className="mb-8 overflow-x-auto rounded-lg border border-border bg-cream p-5">
             <pre className="font-mono text-sm leading-relaxed text-ink-light">
-              <code>{`git clone https://github.com/ekramalam/agent-civilisation.git
+              <code>{`git clone https://github.com/agentciv/agentciv.git
 cd agent-civilisation
 pip install -r requirements.txt
 export AGENT_CIV_API_KEY=your-api-key  # Anthropic, OpenAI, or other provider

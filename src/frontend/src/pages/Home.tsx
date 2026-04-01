@@ -226,7 +226,7 @@ export default function Home() {
             Run Your Own
           </Link>
           <a
-            href="https://github.com/ekramalam/agent-civilisation"
+            href="https://github.com/agentciv/agentciv"
             target="_blank"
             rel="noopener noreferrer"
             className="text-sky hover:text-gold"

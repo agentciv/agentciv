@@ -20,7 +20,7 @@ export default function Whitepaper() {
             Intelligence as a New Dimension in Artificial Intelligence
           </h2>
           <p className="mb-4 text-sm text-ink-light">
-            Ekram Alam &middot; March 2026
+            Mark E. Mala &middot; March 2026
           </p>
           <p className="leading-relaxed text-ink-light">
             The dominant paradigm in multi-agent AI is designed collaboration:
@@ -125,7 +125,7 @@ export default function Whitepaper() {
             Simulations
           </Link>
           <a
-            href="https://github.com/ekramalam/agent-civilisation"
+            href="https://github.com/agentciv/agentciv"
             target="_blank"
             rel="noopener noreferrer"
             className="rounded-full border border-border bg-warm-white px-6 py-2.5 font-semibold text-ink transition-colors hover:bg-parchment"

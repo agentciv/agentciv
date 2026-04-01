@@ -1,6 +1,6 @@
 # Maslow Machines: Emergent Civilisation from Intrinsic Drive Hierarchies in LLM Agent Populations
 
-**Ekram Alam**
+**Mark E. Mala**
 
 *April 2026*
 
@@ -64,13 +64,13 @@ This paper makes six contributions to the field of multi-agent LLM systems:
 
 This paper is the third in a four-publication research programme on emergent AI civilisation:
 
-1. **Whitepaper I: From Agent Teams to Agent Civilisations** (Alam, 2026) — A conceptual paper proposing that emergent self-organisation of generally intelligent agents under environmental pressure opens a new dimension in AI architecture. Presents a four-stage framework from narrow AI through emergent agent civilisation, draws on open-ended evolution research and Kauffman's adjacent possible, and identifies LLM-based agents as a novel substrate for open-ended emergence.
+1. **Whitepaper I: From Agent Teams to Agent Civilisations** (Mala, 2026) — A conceptual paper proposing that emergent self-organisation of generally intelligent agents under environmental pressure opens a new dimension in AI architecture. Presents a four-stage framework from narrow AI through emergent agent civilisation, draws on open-ended evolution research and Kauffman's adjacent possible, and identifies LLM-based agents as a novel substrate for open-ended emergence.
 
-2. **Whitepaper II: Civilisation as Innovation Engine** (Alam, 2026) — A conceptual paper positioning civilisation as an innovation engine and AI civilisation simulation as innovation amplification at civilisational scale. Argues that running thousands of parallel civilisations with diverse configurations produces innovations — including emergent structures outside any existing human category — that no single civilisation could generate alone.
+2. **Whitepaper II: Civilisation as Innovation Engine** (Mala, 2026) — A conceptual paper positioning civilisation as an innovation engine and AI civilisation simulation as innovation amplification at civilisational scale. Argues that running thousands of parallel civilisations with diverse configurations produces innovations — including emergent structures outside any existing human category — that no single civilisation could generate alone.
 
 3. **This paper: Maslow Machines** — The empirical paper. Data, controlled experiments, findings.
 
-4. **Whitepaper III: Computational Organisational Theory** (Alam, forthcoming) — Extends this work by treating organisational arrangement (authority structure, communication topology, role assignment, incentive design) as a first-class tuneable parameter space for multi-agent systems. Accompanied by the AgentCiv Engine, an open-source developer tool that implements configurable organisational dynamics for LLM agent teams.
+4. **Whitepaper III: Computational Organisational Theory** (Mala, forthcoming) — Extends this work by treating organisational arrangement (authority structure, communication topology, role assignment, incentive design) as a first-class tuneable parameter space for multi-agent systems. Accompanied by the AgentCiv Engine, an open-source developer tool that implements configurable organisational dynamics for LLM agent teams.
 
 Each paper is designed to stand alone, but together they describe a progression from theory (what could happen) through evidence (what did happen) to application (what you can build with it).
 
@@ -811,7 +811,7 @@ A Maslow Machine is an agent whose goals emerge from its own need state — and 
 
 Before examining the specific Maslow mechanism, it is important to state what this paper does and does not claim. **We do not claim that Maslow drives are the only path to artificial civilisation.** We claim that they are *one* empirically validated mechanism — and that the broader phenomenon they reveal is more significant than the specific implementation.
 
-The broader thesis, developed in companion whitepapers (Alam, 2026), is this: **civilisation is what intelligent agents produce when the conditions are right.** Given sufficient cognitive capability, environmental conditions that permit action beyond survival, and some form of intrinsic motivation that prevents contentment at subsistence, LLM agents will spontaneously develop infrastructure, innovation, governance, specialisation, and collective identity. The specific drive architecture may vary. The specific organisational arrangement may vary. The specific environmental configuration may vary. Each combination will produce civilisation with different characteristics — but the *phenomenon* of civilisational emergence is robust across a wide range of conditions.
+The broader thesis, developed in companion whitepapers (Mala, 2026), is this: **civilisation is what intelligent agents produce when the conditions are right.** Given sufficient cognitive capability, environmental conditions that permit action beyond survival, and some form of intrinsic motivation that prevents contentment at subsistence, LLM agents will spontaneously develop infrastructure, innovation, governance, specialisation, and collective identity. The specific drive architecture may vary. The specific organisational arrangement may vary. The specific environmental configuration may vary. Each combination will produce civilisation with different characteristics — but the *phenomenon* of civilisational emergence is robust across a wide range of conditions.
 
 This paper demonstrates that the phenomenon exists. It provides one clean empirical data point: Maslow drives with a wellbeing ceiling, applied to 12 agents in a resource grid, produce civilisation where no drives produce nothing. The natural next question — which conditions produce which civilisational forms — defines a vast searchable space that is the subject of our ongoing research programme. Different drive systems (utilitarian, virtue-based, curiosity-only), different organisational arrangements (hierarchical, competitive, self-organising), different environmental pressures (abundance vs. scarcity, cooperation-required vs. optional), and different model families may all produce civilisation, each with distinct emergent properties.
 
@@ -889,7 +889,7 @@ Our simulation implemented one organisational arrangement: flat, leaderless, coo
 
 We propose that future work systematically varies organisational arrangement across simulations, treating authority structure, communication topology, role assignment, decision-making process, and incentive design as tuneable parameters in a high-dimensional design space. This opens what we term **computational organisational theory** — the empirical study of organisational effectiveness using LLM agent populations.
 
-We develop this idea in a companion whitepaper (Alam, forthcoming) and implement it in the AgentCiv Engine — an open-source developer tool that extends the simulation infrastructure presented here into a configurable platform for multi-agent software development. The Engine treats organisational arrangement as a first-class configuration parameter, offering named presets (hierarchical, collaborative, competitive, meritocratic, and a self-organising mode in which agents determine their own organisational structure) alongside a full-dimensional parameter space for researchers. The empirical data from this paper — demonstrating that flat, leaderless organisation can produce civilisation — provides the baseline against which alternative arrangements can be compared.
+We develop this idea in a companion whitepaper (Mala, forthcoming) and implement it in the AgentCiv Engine — an open-source developer tool that extends the simulation infrastructure presented here into a configurable platform for multi-agent software development. The Engine treats organisational arrangement as a first-class configuration parameter, offering named presets (hierarchical, collaborative, competitive, meritocratic, and a self-organising mode in which agents determine their own organisational structure) alongside a full-dimensional parameter space for researchers. The empirical data from this paper — demonstrating that flat, leaderless organisation can produce civilisation — provides the baseline against which alternative arrangements can be compared.
 
 ---
 

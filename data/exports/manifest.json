@@ -36,68 +36,68 @@
   },
   "data_files": {
     "replay": {
-      "timeline": "/Users/ekramalam/agent-civilisation/data/exports/replay/timeline.json",
-      "meta": "/Users/ekramalam/agent-civilisation/data/exports/replay/meta.json",
-      "tick_chunks": "/Users/ekramalam/agent-civilisation/data/exports/replay/ticks/tick_NNNN.json",
+      "timeline": "data/exports/replay/timeline.json",
+      "meta": "data/exports/replay/meta.json",
+      "tick_chunks": "data/exports/replay/ticks/tick_NNNN.json",
       "tick_count": 71
     },
     "statistics": {
-      "action_distribution": "/Users/ekramalam/agent-civilisation/data/exports/stats/action_distribution.json",
-      "agent_profiles": "/Users/ekramalam/agent-civilisation/data/exports/stats/agent_profiles.json",
-      "build_events": "/Users/ekramalam/agent-civilisation/data/exports/stats/build_events.json",
-      "communication_volume": "/Users/ekramalam/agent-civilisation/data/exports/stats/communication_volume.json",
-      "era_comparison": "/Users/ekramalam/agent-civilisation/data/exports/stats/era_comparison.json",
-      "governance_timeline": "/Users/ekramalam/agent-civilisation/data/exports/stats/governance_timeline.json",
-      "innovation_timeline": "/Users/ekramalam/agent-civilisation/data/exports/stats/innovation_timeline.json",
-      "maslow_progression": "/Users/ekramalam/agent-civilisation/data/exports/stats/maslow_progression.json",
-      "milestones": "/Users/ekramalam/agent-civilisation/data/exports/stats/milestones.json",
-      "need_curves": "/Users/ekramalam/agent-civilisation/data/exports/stats/need_curves.json",
-      "relationship_network": "/Users/ekramalam/agent-civilisation/data/exports/stats/relationship_network.json",
-      "specialisation_progression": "/Users/ekramalam/agent-civilisation/data/exports/stats/specialisation_progression.json",
-      "structure_growth": "/Users/ekramalam/agent-civilisation/data/exports/stats/structure_growth.json",
-      "wellbeing_curves": "/Users/ekramalam/agent-civilisation/data/exports/stats/wellbeing_curves.json"
+      "action_distribution": "data/exports/stats/action_distribution.json",
+      "agent_profiles": "data/exports/stats/agent_profiles.json",
+      "build_events": "data/exports/stats/build_events.json",
+      "communication_volume": "data/exports/stats/communication_volume.json",
+      "era_comparison": "data/exports/stats/era_comparison.json",
+      "governance_timeline": "data/exports/stats/governance_timeline.json",
+      "innovation_timeline": "data/exports/stats/innovation_timeline.json",
+      "maslow_progression": "data/exports/stats/maslow_progression.json",
+      "milestones": "data/exports/stats/milestones.json",
+      "need_curves": "data/exports/stats/need_curves.json",
+      "relationship_network": "data/exports/stats/relationship_network.json",
+      "specialisation_progression": "data/exports/stats/specialisation_progression.json",
+      "structure_growth": "data/exports/stats/structure_growth.json",
+      "wellbeing_curves": "data/exports/stats/wellbeing_curves.json"
     },
     "interviews": {
       "tick_0030": {
-        "directory": "/Users/ekramalam/agent-civilisation/data/interviews/tick_0030",
-        "all_interviews": "/Users/ekramalam/agent-civilisation/data/interviews/tick_0030/all_interviews.json",
+        "directory": "data/interviews/tick_0030",
+        "all_interviews": "data/interviews/tick_0030/all_interviews.json",
         "entity_count": 12
       },
       "tick_0040": {
-        "directory": "/Users/ekramalam/agent-civilisation/data/interviews/tick_0040",
-        "all_interviews": "/Users/ekramalam/agent-civilisation/data/interviews/tick_0040/all_interviews.json",
+        "directory": "data/interviews/tick_0040",
+        "all_interviews": "data/interviews/tick_0040/all_interviews.json",
         "entity_count": 12
       },
       "tick_0050": {
-        "directory": "/Users/ekramalam/agent-civilisation/data/interviews/tick_0050",
-        "all_interviews": "/Users/ekramalam/agent-civilisation/data/interviews/tick_0050/all_interviews.json",
+        "directory": "data/interviews/tick_0050",
+        "all_interviews": "data/interviews/tick_0050/all_interviews.json",
         "entity_count": 12
       },
       "tick_0060": {
-        "directory": "/Users/ekramalam/agent-civilisation/data/interviews/tick_0060",
-        "all_interviews": "/Users/ekramalam/agent-civilisation/data/interviews/tick_0060/all_interviews.json",
+        "directory": "data/interviews/tick_0060",
+        "all_interviews": "data/interviews/tick_0060/all_interviews.json",
         "entity_count": 12
       },
       "tick_0070": {
-        "directory": "/Users/ekramalam/agent-civilisation/data/interviews/tick_0070",
-        "all_interviews": "/Users/ekramalam/agent-civilisation/data/interviews/tick_0070/all_interviews.json",
+        "directory": "data/interviews/tick_0070",
+        "all_interviews": "data/interviews/tick_0070/all_interviews.json",
         "entity_count": 12
       },
       "tick_0070_revelation": {
-        "directory": "/Users/ekramalam/agent-civilisation/data/interviews/tick_0070_revelation",
-        "all_interviews": "/Users/ekramalam/agent-civilisation/data/interviews/tick_0070_revelation/all_interviews.json",
+        "directory": "data/interviews/tick_0070_revelation",
+        "all_interviews": "data/interviews/tick_0070_revelation/all_interviews.json",
         "entity_count": 12
       }
     },
     "snapshots": {
-      "directory": "/Users/ekramalam/agent-civilisation/data/simulation_state/snapshots",
+      "directory": "data/simulation_state/snapshots",
       "count": 71
     },
     "raw_events": {
-      "chronicle": "/Users/ekramalam/agent-civilisation/data/simulation_state/chronicle.jsonl",
-      "bus_events": "/Users/ekramalam/agent-civilisation/data/simulation_state/bus_events.jsonl",
-      "messages": "/Users/ekramalam/agent-civilisation/data/simulation_state/messages.jsonl",
-      "events": "/Users/ekramalam/agent-civilisation/data/simulation_state/events.jsonl"
+      "chronicle": "data/simulation_state/chronicle.jsonl",
+      "bus_events": "data/simulation_state/bus_events.jsonl",
+      "messages": "data/simulation_state/messages.jsonl",
+      "events": "data/simulation_state/events.jsonl"
     }
   },
   "website_requirements": {
