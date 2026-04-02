@@ -10,6 +10,7 @@ const Interviews = lazy(() => import("./pages/Interviews"));
 const DataExplorer = lazy(() => import("./pages/DataExplorer"));
 const Fishbowl = lazy(() => import("./pages/Fishbowl"));
 const TheJourney = lazy(() => import("./pages/TheJourney"));
+const Highlights = lazy(() => import("./pages/Highlights"));
 
 // Lighter pages — direct imports
 import HowItWorks from "./pages/HowItWorks";
@@ -46,6 +47,7 @@ export default function App() {
           {/* Information pages — standard layout with nav + footer */}
           <Route element={<Layout />}>
             <Route path="/" element={<Home />} />
+            <Route path="/highlights" element={<Highlights />} />
             <Route path="/how-it-works" element={<HowItWorks />} />
             <Route path="/science" element={<TheScience />} />
             <Route path="/ethics" element={<Ethics />} />
