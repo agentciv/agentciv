@@ -3,8 +3,8 @@
 # a different civilisation. See docs/CONFIGURATION.md for what each does.
 
 # World
-grid_width: 50
-grid_height: 50
+grid_width: 15
+grid_height: 15
 resource_types: ["water", "food", "material"]
 resource_distribution: "clustered"
 resource_depletion_rate: 0.1
@@ -19,7 +19,7 @@ movement_cost:
   dense: 3
 
 # Agents
-initial_agent_count: 50
+initial_agent_count: 12
 agent_perception_range: 3
 agent_communication_range: 2
 agent_base_movement_speed: 1.0
@@ -100,7 +100,7 @@ max_steps_per_agentic_turn: 4  # ReAct loop steps per agent turn
 
 # LLM
 model_provider: "anthropic"
-model_name: "claude-haiku-4-5-20251001"
+model_name: "claude-sonnet-4-20250514"
 api_key_env_var: "AGENT_CIV_API_KEY"
 llm_max_tokens: 300
 llm_temperature: 0.7

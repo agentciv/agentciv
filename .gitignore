@@ -17,12 +17,11 @@ data/*
 !data/exports/
 !data/interviews/
 
+# Website (deployed separately, not part of open source project)
+src/frontend/
+
 # Node
 node_modules/
-src/frontend/node_modules/
-
-# Frontend build output
-src/frontend/dist/
 
 # Internal working docs (not for public repo)
 agent_civilisation_master_build_plan.md
@@ -43,6 +42,3 @@ Thumbs.db
 .idea/
 *.swp
 *.swo
-
-# Test replay data (regenerated via scripts)
-src/frontend/public/replay_data/

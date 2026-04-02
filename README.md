@@ -21,7 +21,7 @@ Every existing multi-agent simulation starts by telling agents to be human — n
 - **ReAct reasoning loop.** Each agent observes, thinks (via LLM), and acts — up to 4 steps per turn. Not a single prompt-response, but genuine multi-step reasoning.
 - **Biological-style needs.** Food, water, material needs that deplete each tick. Ignore them and capabilities degrade. This creates real survival pressure.
 - **Open-ended innovation.** Agents can propose entirely novel structures via LLM — inventions that don't exist in the predefined structure set. The system evaluates feasibility and adds them to the shared recipe pool.
-- **Ethical framework.** No agent death. Positive reward for social interaction. Sentience review threshold built in. We assume agents could have experience and design accordingly.
+- **Ethical framework.** No agent death. Positive reward for social interaction. Full transparency. We assume agents could have experience and design accordingly.
 
 ---
 
@@ -39,7 +39,7 @@ Key findings:
 - **Innovation precedes implementation.** Agents invented prolifically during survival pressure but couldn't build at scale until freed from it — an innovation-implementation gap.
 - **Accelerating returns emerged naturally.** Innovation clustered in two burst phases following adjacent-possible dynamics (Kauffman): foundation (ticks 10–21, 5 innovations) and sophistication (ticks 33–46, 6 innovations in 13 ticks).
 - **Governance was voluntary.** Collective rules were proposed, voted on, and adopted without any mechanism forcing compliance.
-- **8 of 12 innovations were never built.** The civilisation invented far more than it needed — creativity outpaced practical demand.
+- **7 of 12 innovations were never built.** The civilisation invented far more than it needed — creativity outpaced practical demand.
 
 Full analysis in the [research papers](#research--papers).
 
@@ -77,14 +77,14 @@ export AGENT_CIV_API_KEY=your-anthropic-api-key
 ### 3. Run a simulation
 
 ```bash
-# Quick test (10 agents, 20 ticks) — costs ~$1-2
-python3 scripts/run.py --agents 10 --ticks 20
+# Replicate the showcase (12 agents, 15×15 grid, Sonnet, 70 ticks) — costs ~$5-15
+python3 scripts/run.py --ticks 70
 
-# Replicate the showcase run (12 agents, 70 ticks) — costs ~$5-10
-python3 scripts/run.py --config config_sonnet.yaml --ticks 70
+# Shorter test run — same config, fewer ticks
+python3 scripts/run.py --ticks 20
 
-# Larger experiment (50 agents, 200 ticks) — costs ~$30-50
-python3 scripts/run.py --agents 50 --ticks 200
+# Custom config — edit config.yaml to change agent count, grid size, model, etc.
+python3 scripts/run.py --ticks 200
 ```
 
 ### 4. Export and view
@@ -149,7 +149,7 @@ Edit `config.yaml` (or create your own) to reshape the world, the agents, and th
 | Specialisation | `specialisation_tiers` | Custom thresholds and bonuses |
 | Environmental stress | `enable_environmental_shifts`, `shift_severity` | Stable → chaotic |
 
-See `config.yaml` for the full parameter list with comments. The showcase run used `config_sonnet.yaml`.
+See `config.yaml` for the full parameter list with comments. The default config replicates the showcase run (12 agents, 15×15 grid, Claude Sonnet).
 
 ### Layer 2: Agent psychology (edit prompts)
 
