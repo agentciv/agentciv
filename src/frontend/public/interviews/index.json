@@ -1,0 +1,26 @@
+[
+  {
+    "tick_name": "tick_0030",
+    "agent_count": 12
+  },
+  {
+    "tick_name": "tick_0040",
+    "agent_count": 12
+  },
+  {
+    "tick_name": "tick_0050",
+    "agent_count": 12
+  },
+  {
+    "tick_name": "tick_0060",
+    "agent_count": 12
+  },
+  {
+    "tick_name": "tick_0070",
+    "agent_count": 12
+  },
+  {
+    "tick_name": "tick_0070_revelation",
+    "agent_count": 12
+  }
+]

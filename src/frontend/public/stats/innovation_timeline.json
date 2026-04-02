@@ -1,0 +1,177 @@
+{
+  "innovations": [
+    {
+      "name": "Communication Beacon",
+      "description": "Allows entities to leave messages that can be read by any entity within 10 tiles instead of only at the beacon's location",
+      "discovered_by": 0,
+      "discovered_tick": 10,
+      "times_built": 0,
+      "effect_type": "persistent_message",
+      "inputs": [
+        "material",
+        "material",
+        "water"
+      ]
+    },
+    {
+      "name": "Knowledge Hub",
+      "description": "Entities can deposit knowledge of their specializations and other entities can visit to temporarily gain skill bonuses in those areas for a limited time",
+      "discovered_by": 1,
+      "discovered_tick": 19,
+      "times_built": 9,
+      "effect_type": "persistent_message",
+      "inputs": [
+        "food",
+        "material",
+        "water"
+      ]
+    },
+    {
+      "name": "Resource Exchange",
+      "description": "Entities within 5 tiles can post and view offers to trade specific resources with each other, creating a localized marketplace for resource coordination",
+      "discovered_by": 4,
+      "discovered_tick": 20,
+      "times_built": 0,
+      "effect_type": "persistent_message",
+      "inputs": [
+        "food",
+        "material",
+        "material"
+      ]
+    },
+    {
+      "name": "Memory Garden",
+      "description": "Entities can store and retrieve memories of resource locations they've discovered, allowing others to learn about nearby resource deposits without having to explore themselves",
+      "discovered_by": 11,
+      "discovered_tick": 20,
+      "times_built": 7,
+      "effect_type": "persistent_message",
+      "inputs": [
+        "food",
+        "material",
+        "water"
+      ]
+    },
+    {
+      "name": "Contemplation Garden",
+      "description": "Entities who spend time here gain temporary bonuses to social interaction success rates and have a small chance to discover new resource locations through reflection",
+      "discovered_by": 2,
+      "discovered_tick": 21,
+      "times_built": 0,
+      "effect_type": "persistent_message",
+      "inputs": [
+        "food",
+        "material",
+        "water"
+      ]
+    },
+    {
+      "name": "Recovery Workshop",
+      "description": "Entities can spend time here to restore their needs (hunger, thirst, etc.) at an accelerated rate while also gaining temporary skill bonuses from knowledge shared by other entities who have recently visited",
+      "discovered_by": 8,
+      "discovered_tick": 33,
+      "times_built": 0,
+      "effect_type": "reduce_degradation",
+      "inputs": [
+        "food",
+        "material",
+        "water",
+        "water"
+      ]
+    },
+    {
+      "name": "Gathering Mentor Stone",
+      "description": "Entities can spend time here to gain temporary bonuses to resource gathering efficiency and quality detection, with the stone's power increasing as more skilled gatherers contribute knowledge to it",
+      "discovered_by": 9,
+      "discovered_tick": 34,
+      "times_built": 10,
+      "effect_type": "reduce_movement_cost",
+      "inputs": [
+        "food",
+        "material",
+        "material"
+      ]
+    },
+    {
+      "name": "Innovation Workshop",
+      "description": "Multiple entities can collaborate here simultaneously to unlock new structure blueprints or advanced recipes that require combining different specializations, with success probability increasing based on the diversity of skills present",
+      "discovered_by": 7,
+      "discovered_tick": 37,
+      "times_built": 1,
+      "effect_type": "persistent_message",
+      "inputs": [
+        "food",
+        "material",
+        "material",
+        "water"
+      ]
+    },
+    {
+      "name": "Emergency Relief Station",
+      "description": "Automatically provides resources to any entity with critically low needs (below 0.3) within 3 tiles, drawing from a communal stockpile that entities can contribute to",
+      "discovered_by": 5,
+      "discovered_tick": 41,
+      "times_built": 0,
+      "effect_type": "reduce_need_depletion",
+      "inputs": [
+        "food",
+        "material",
+        "material",
+        "material",
+        "water"
+      ]
+    },
+    {
+      "name": "Resource Balancer",
+      "description": "Monitors a 3x3 area and slowly generates small amounts of the locally scarcest resource type to help maintain settlement balance",
+      "discovered_by": 3,
+      "discovered_tick": 43,
+      "times_built": 0,
+      "effect_type": "boost_regeneration",
+      "inputs": [
+        "food",
+        "material",
+        "water"
+      ]
+    },
+    {
+      "name": "Master's Archive",
+      "description": "Masters can permanently deposit their specialized knowledge, creating cumulative bonuses that grow stronger as more masters contribute across different specializations",
+      "discovered_by": 6,
+      "discovered_tick": 46,
+      "times_built": 3,
+      "effect_type": "boost_gathering",
+      "inputs": [
+        "food",
+        "material",
+        "material",
+        "material",
+        "water"
+      ]
+    },
+    {
+      "name": "Synthesis Nexus",
+      "description": "Master-level entities can permanently combine their specializations to create hybrid recipes that blend multiple skill types into new functional structures",
+      "discovered_by": 10,
+      "discovered_tick": 52,
+      "times_built": 0,
+      "effect_type": "persistent_message",
+      "inputs": [
+        "food",
+        "material",
+        "material",
+        "water",
+        "water"
+      ]
+    }
+  ],
+  "by_era": {
+    "era1_count": 11,
+    "era1_rate": 0.22,
+    "era2_count": 1,
+    "era2_rate": 0.1,
+    "era3_count": 0,
+    "era3_rate": 0
+  },
+  "acceleration_factor": 0.5
+}

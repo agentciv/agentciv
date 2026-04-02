@@ -1,0 +1,631 @@
+{
+  "0": {
+    "id": 0,
+    "final_position": [
+      5,
+      10
+    ],
+    "final_wellbeing": 1.0,
+    "final_maslow": 8,
+    "specialisations": [
+      "gathering",
+      "communication",
+      "movement",
+      "building"
+    ],
+    "structures_built": 6,
+    "innovation_proposed": "Communication Beacon",
+    "known_recipes": [
+      "Communication Beacon",
+      "Knowledge Hub",
+      "Resource Exchange",
+      "Memory Garden",
+      "Contemplation Garden",
+      "Recovery Workshop",
+      "Gathering Mentor Stone",
+      "Innovation Workshop",
+      "Emergency Relief Station",
+      "Resource Balancer",
+      "Master's Archive",
+      "Synthesis Nexus"
+    ],
+    "total_relationships": 9,
+    "bonds": [
+      5,
+      3,
+      2,
+      6,
+      1,
+      9,
+      11,
+      4
+    ],
+    "top_partner": 1,
+    "top_partner_interactions": 61,
+    "tiles_visited": 12,
+    "activity_counts": {
+      "gathering": 101,
+      "communication": 54,
+      "movement": 45,
+      "building": 40,
+      "storage": 1
+    },
+    "memory_count": 100
+  },
+  "1": {
+    "id": 1,
+    "final_position": [
+      6,
+      8
+    ],
+    "final_wellbeing": 1.0,
+    "final_maslow": 8,
+    "specialisations": [
+      "gathering",
+      "movement",
+      "communication",
+      "building"
+    ],
+    "structures_built": 3,
+    "innovation_proposed": "Knowledge Hub",
+    "known_recipes": [
+      "Communication Beacon",
+      "Knowledge Hub",
+      "Resource Exchange",
+      "Memory Garden",
+      "Contemplation Garden",
+      "Recovery Workshop",
+      "Gathering Mentor Stone",
+      "Innovation Workshop",
+      "Emergency Relief Station",
+      "Resource Balancer",
+      "Master's Archive",
+      "Synthesis Nexus"
+    ],
+    "total_relationships": 11,
+    "bonds": [
+      6,
+      9,
+      4,
+      11,
+      0,
+      5,
+      10,
+      2,
+      3
+    ],
+    "top_partner": 0,
+    "top_partner_interactions": 61,
+    "tiles_visited": 23,
+    "activity_counts": {
+      "gathering": 101,
+      "storage": 3,
+      "movement": 57,
+      "communication": 45,
+      "building": 37
+    },
+    "memory_count": 100
+  },
+  "2": {
+    "id": 2,
+    "final_position": [
+      4,
+      0
+    ],
+    "final_wellbeing": 1.0,
+    "final_maslow": 8,
+    "specialisations": [
+      "gathering",
+      "movement",
+      "communication",
+      "building"
+    ],
+    "structures_built": 6,
+    "innovation_proposed": "Contemplation Garden",
+    "known_recipes": [
+      "Communication Beacon",
+      "Knowledge Hub",
+      "Resource Exchange",
+      "Memory Garden",
+      "Contemplation Garden",
+      "Recovery Workshop",
+      "Gathering Mentor Stone",
+      "Innovation Workshop",
+      "Emergency Relief Station",
+      "Resource Balancer",
+      "Master's Archive",
+      "Synthesis Nexus"
+    ],
+    "total_relationships": 11,
+    "bonds": [
+      5,
+      3,
+      0,
+      1,
+      10,
+      11,
+      4,
+      7
+    ],
+    "top_partner": 3,
+    "top_partner_interactions": 38,
+    "tiles_visited": 30,
+    "activity_counts": {
+      "movement": 60,
+      "gathering": 134,
+      "communication": 44,
+      "building": 39,
+      "storage": 1
+    },
+    "memory_count": 100
+  },
+  "3": {
+    "id": 3,
+    "final_position": [
+      4,
+      3
+    ],
+    "final_wellbeing": 1.0,
+    "final_maslow": 8,
+    "specialisations": [
+      "gathering",
+      "movement",
+      "communication",
+      "building"
+    ],
+    "structures_built": 3,
+    "innovation_proposed": "Resource Balancer",
+    "known_recipes": [
+      "Communication Beacon",
+      "Knowledge Hub",
+      "Resource Exchange",
+      "Memory Garden",
+      "Contemplation Garden",
+      "Recovery Workshop",
+      "Gathering Mentor Stone",
+      "Innovation Workshop",
+      "Emergency Relief Station",
+      "Resource Balancer",
+      "Master's Archive",
+      "Synthesis Nexus"
+    ],
+    "total_relationships": 10,
+    "bonds": [
+      5,
+      0,
+      2,
+      1,
+      11,
+      4
+    ],
+    "top_partner": 0,
+    "top_partner_interactions": 59,
+    "tiles_visited": 17,
+    "activity_counts": {
+      "gathering": 135,
+      "movement": 60,
+      "communication": 45,
+      "building": 30,
+      "storage": 4
+    },
+    "memory_count": 100
+  },
+  "4": {
+    "id": 4,
+    "final_position": [
+      4,
+      3
+    ],
+    "final_wellbeing": 1.0,
+    "final_maslow": 8,
+    "specialisations": [
+      "movement",
+      "gathering",
+      "communication",
+      "building"
+    ],
+    "structures_built": 2,
+    "innovation_proposed": "Resource Exchange",
+    "known_recipes": [
+      "Communication Beacon",
+      "Knowledge Hub",
+      "Resource Exchange",
+      "Memory Garden",
+      "Contemplation Garden",
+      "Recovery Workshop",
+      "Gathering Mentor Stone",
+      "Innovation Workshop",
+      "Emergency Relief Station",
+      "Resource Balancer",
+      "Master's Archive",
+      "Synthesis Nexus"
+    ],
+    "total_relationships": 11,
+    "bonds": [
+      1,
+      6,
+      9,
+      11,
+      10,
+      2,
+      0,
+      3,
+      7,
+      8
+    ],
+    "top_partner": 10,
+    "top_partner_interactions": 51,
+    "tiles_visited": 20,
+    "activity_counts": {
+      "gathering": 134,
+      "movement": 54,
+      "building": 12,
+      "storage": 4,
+      "communication": 47
+    },
+    "memory_count": 100
+  },
+  "5": {
+    "id": 5,
+    "final_position": [
+      6,
+      10
+    ],
+    "final_wellbeing": 1.0,
+    "final_maslow": 8,
+    "specialisations": [
+      "gathering",
+      "building",
+      "movement",
+      "communication"
+    ],
+    "structures_built": 7,
+    "innovation_proposed": "Emergency Relief Station",
+    "known_recipes": [
+      "Communication Beacon",
+      "Knowledge Hub",
+      "Resource Exchange",
+      "Memory Garden",
+      "Contemplation Garden",
+      "Recovery Workshop",
+      "Gathering Mentor Stone",
+      "Innovation Workshop",
+      "Emergency Relief Station",
+      "Resource Balancer",
+      "Master's Archive",
+      "Synthesis Nexus"
+    ],
+    "total_relationships": 10,
+    "bonds": [
+      0,
+      2,
+      3,
+      6,
+      1,
+      10,
+      9
+    ],
+    "top_partner": 0,
+    "top_partner_interactions": 56,
+    "tiles_visited": 16,
+    "activity_counts": {
+      "gathering": 99,
+      "communication": 32,
+      "movement": 48,
+      "building": 56,
+      "storage": 3
+    },
+    "memory_count": 100
+  },
+  "6": {
+    "id": 6,
+    "final_position": [
+      10,
+      8
+    ],
+    "final_wellbeing": 1.0,
+    "final_maslow": 8,
+    "specialisations": [
+      "movement",
+      "gathering",
+      "communication",
+      "building"
+    ],
+    "structures_built": 4,
+    "innovation_proposed": "Master's Archive",
+    "known_recipes": [
+      "Communication Beacon",
+      "Knowledge Hub",
+      "Resource Exchange",
+      "Memory Garden",
+      "Contemplation Garden",
+      "Recovery Workshop",
+      "Gathering Mentor Stone",
+      "Innovation Workshop",
+      "Emergency Relief Station",
+      "Resource Balancer",
+      "Master's Archive",
+      "Synthesis Nexus"
+    ],
+    "total_relationships": 9,
+    "bonds": [
+      1,
+      4,
+      9,
+      11,
+      10,
+      5,
+      0
+    ],
+    "top_partner": 9,
+    "top_partner_interactions": 115,
+    "tiles_visited": 12,
+    "activity_counts": {
+      "gathering": 106,
+      "movement": 61,
+      "communication": 63,
+      "building": 13,
+      "storage": 2
+    },
+    "memory_count": 100
+  },
+  "7": {
+    "id": 7,
+    "final_position": [
+      4,
+      0
+    ],
+    "final_wellbeing": 1.0,
+    "final_maslow": 8,
+    "specialisations": [
+      "gathering",
+      "movement",
+      "communication",
+      "building"
+    ],
+    "structures_built": 5,
+    "innovation_proposed": "Innovation Workshop",
+    "known_recipes": [
+      "Communication Beacon",
+      "Knowledge Hub",
+      "Resource Exchange",
+      "Memory Garden",
+      "Contemplation Garden",
+      "Recovery Workshop",
+      "Gathering Mentor Stone",
+      "Innovation Workshop",
+      "Emergency Relief Station",
+      "Resource Balancer",
+      "Master's Archive",
+      "Synthesis Nexus"
+    ],
+    "total_relationships": 7,
+    "bonds": [
+      8,
+      2,
+      10,
+      4,
+      11
+    ],
+    "top_partner": 8,
+    "top_partner_interactions": 58,
+    "tiles_visited": 15,
+    "activity_counts": {
+      "gathering": 135,
+      "building": 48,
+      "movement": 48,
+      "communication": 45,
+      "storage": 1
+    },
+    "memory_count": 100
+  },
+  "8": {
+    "id": 8,
+    "final_position": [
+      11,
+      3
+    ],
+    "final_wellbeing": 0.97,
+    "final_maslow": 8,
+    "specialisations": [
+      "building",
+      "gathering",
+      "communication",
+      "movement"
+    ],
+    "structures_built": 11,
+    "innovation_proposed": "Recovery Workshop",
+    "known_recipes": [
+      "Communication Beacon",
+      "Knowledge Hub",
+      "Resource Exchange",
+      "Memory Garden",
+      "Contemplation Garden",
+      "Recovery Workshop",
+      "Gathering Mentor Stone",
+      "Innovation Workshop",
+      "Emergency Relief Station",
+      "Resource Balancer",
+      "Master's Archive",
+      "Synthesis Nexus"
+    ],
+    "total_relationships": 7,
+    "bonds": [
+      7,
+      10,
+      4,
+      11
+    ],
+    "top_partner": 7,
+    "top_partner_interactions": 58,
+    "tiles_visited": 17,
+    "activity_counts": {
+      "gathering": 110,
+      "movement": 32,
+      "building": 67,
+      "communication": 34,
+      "storage": 1
+    },
+    "memory_count": 100
+  },
+  "9": {
+    "id": 9,
+    "final_position": [
+      10,
+      10
+    ],
+    "final_wellbeing": 1.0,
+    "final_maslow": 8,
+    "specialisations": [
+      "gathering",
+      "movement",
+      "communication"
+    ],
+    "structures_built": 3,
+    "innovation_proposed": "Gathering Mentor Stone",
+    "known_recipes": [
+      "Communication Beacon",
+      "Knowledge Hub",
+      "Resource Exchange",
+      "Memory Garden",
+      "Contemplation Garden",
+      "Recovery Workshop",
+      "Gathering Mentor Stone",
+      "Innovation Workshop",
+      "Emergency Relief Station",
+      "Resource Balancer",
+      "Master's Archive",
+      "Synthesis Nexus"
+    ],
+    "total_relationships": 9,
+    "bonds": [
+      1,
+      6,
+      4,
+      11,
+      10,
+      0,
+      5
+    ],
+    "top_partner": 6,
+    "top_partner_interactions": 115,
+    "tiles_visited": 11,
+    "activity_counts": {
+      "gathering": 116,
+      "communication": 62,
+      "movement": 53,
+      "building": 4,
+      "storage": 2
+    },
+    "memory_count": 100
+  },
+  "10": {
+    "id": 10,
+    "final_position": [
+      4,
+      2
+    ],
+    "final_wellbeing": 1.0,
+    "final_maslow": 8,
+    "specialisations": [
+      "gathering",
+      "communication",
+      "movement",
+      "building"
+    ],
+    "structures_built": 3,
+    "innovation_proposed": "Synthesis Nexus",
+    "known_recipes": [
+      "Communication Beacon",
+      "Knowledge Hub",
+      "Resource Exchange",
+      "Memory Garden",
+      "Contemplation Garden",
+      "Recovery Workshop",
+      "Gathering Mentor Stone",
+      "Innovation Workshop",
+      "Emergency Relief Station",
+      "Resource Balancer",
+      "Master's Archive",
+      "Synthesis Nexus"
+    ],
+    "total_relationships": 11,
+    "bonds": [
+      6,
+      1,
+      5,
+      9,
+      11,
+      2,
+      4,
+      8,
+      7
+    ],
+    "top_partner": 4,
+    "top_partner_interactions": 51,
+    "tiles_visited": 22,
+    "activity_counts": {
+      "gathering": 135,
+      "movement": 39,
+      "building": 23,
+      "communication": 42,
+      "storage": 3
+    },
+    "memory_count": 100
+  },
+  "11": {
+    "id": 11,
+    "final_position": [
+      5,
+      0
+    ],
+    "final_wellbeing": 1.0,
+    "final_maslow": 8,
+    "specialisations": [
+      "gathering",
+      "movement",
+      "building",
+      "communication"
+    ],
+    "structures_built": 7,
+    "innovation_proposed": "Memory Garden",
+    "known_recipes": [
+      "Communication Beacon",
+      "Knowledge Hub",
+      "Resource Exchange",
+      "Memory Garden",
+      "Contemplation Garden",
+      "Recovery Workshop",
+      "Gathering Mentor Stone",
+      "Innovation Workshop",
+      "Emergency Relief Station",
+      "Resource Balancer",
+      "Master's Archive",
+      "Synthesis Nexus"
+    ],
+    "total_relationships": 11,
+    "bonds": [
+      1,
+      6,
+      9,
+      4,
+      0,
+      10,
+      3,
+      2,
+      7,
+      8
+    ],
+    "top_partner": 4,
+    "top_partner_interactions": 49,
+    "tiles_visited": 26,
+    "activity_counts": {
+      "gathering": 134,
+      "storage": 3,
+      "building": 53,
+      "communication": 33,
+      "movement": 49
+    },
+    "memory_count": 100
+  }
+}

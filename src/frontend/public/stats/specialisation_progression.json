@@ -1,0 +1,9157 @@
+{
+  "events": [
+    {
+      "tick": 12,
+      "agent": 2,
+      "skill": "",
+      "tier": ""
+    },
+    {
+      "tick": 13,
+      "agent": 8,
+      "skill": "",
+      "tier": ""
+    },
+    {
+      "tick": 14,
+      "agent": 1,
+      "skill": "",
+      "tier": ""
+    },
+    {
+      "tick": 14,
+      "agent": 10,
+      "skill": "",
+      "tier": ""
+    },
+    {
+      "tick": 15,
+      "agent": 4,
+      "skill": "",
+      "tier": ""
+    },
+    {
+      "tick": 15,
+      "agent": 7,
+      "skill": "",
+      "tier": ""
+    },
+    {
+      "tick": 15,
+      "agent": 9,
+      "skill": "",
+      "tier": ""
+    },
+    {
+      "tick": 16,
+      "agent": 0,
+      "skill": "",
+      "tier": ""
+    },
+    {
+      "tick": 16,
+      "agent": 8,
+      "skill": "",
+      "tier": ""
+    },
+    {
+      "tick": 17,
+      "agent": 4,
+      "skill": "",
+      "tier": ""
+    },
+    {
+      "tick": 18,
+      "agent": 2,
+      "skill": "",
+      "tier": ""
+    },
+    {
+      "tick": 18,
+      "agent": 5,
+      "skill": "",
+      "tier": ""
+    },
+    {
+      "tick": 18,
+      "agent": 6,
+      "skill": "",
+      "tier": ""
+    },
+    {
+      "tick": 18,
+      "agent": 11,
+      "skill": "",
+      "tier": ""
+    },
+    {
+      "tick": 19,
+      "agent": 6,
+      "skill": "",
+      "tier": ""
+    },
+    {
+      "tick": 20,
+      "agent": 9,
+      "skill": "",
+      "tier": ""
+    },
+    {
+      "tick": 21,
+      "agent": 11,
+      "skill": "",
+      "tier": ""
+    },
+    {
+      "tick": 22,
+      "agent": 0,
+      "skill": "",
+      "tier": ""
+    },
+    {
+      "tick": 22,
+      "agent": 3,
+      "skill": "",
+      "tier": ""
+    },
+    {
+      "tick": 22,
+      "agent": 5,
+      "skill": "",
+      "tier": ""
+    },
+    {
+      "tick": 22,
+      "agent": 7,
+      "skill": "",
+      "tier": ""
+    },
+    {
+      "tick": 23,
+      "agent": 0,
+      "skill": "",
+      "tier": ""
+    },
+    {
+      "tick": 24,
+      "agent": 7,
+      "skill": "",
+      "tier": ""
+    },
+    {
+      "tick": 25,
+      "agent": 2,
+      "skill": "",
+      "tier": ""
+    },
+    {
+      "tick": 25,
+      "agent": 6,
+      "skill": "",
+      "tier": ""
+    },
+    {
+      "tick": 26,
+      "agent": 1,
+      "skill": "",
+      "tier": ""
+    },
+    {
+      "tick": 26,
+      "agent": 3,
+      "skill": "",
+      "tier": ""
+    },
+    {
+      "tick": 28,
+      "agent": 8,
+      "skill": "",
+      "tier": ""
+    },
+    {
+      "tick": 29,
+      "agent": 4,
+      "skill": "",
+      "tier": ""
+    },
+    {
+      "tick": 30,
+      "agent": 10,
+      "skill": "",
+      "tier": ""
+    },
+    {
+      "tick": 31,
+      "agent": 1,
+      "skill": "",
+      "tier": ""
+    },
+    {
+      "tick": 31,
+      "agent": 3,
+      "skill": "",
+      "tier": ""
+    },
+    {
+      "tick": 32,
+      "agent": 9,
+      "skill": "",
+      "tier": ""
+    },
+    {
+      "tick": 33,
+      "agent": 5,
+      "skill": "",
+      "tier": ""
+    },
+    {
+      "tick": 36,
+      "agent": 5,
+      "skill": "",
+      "tier": ""
+    },
+    {
+      "tick": 38,
+      "agent": 3,
+      "skill": "",
+      "tier": ""
+    },
+    {
+      "tick": 40,
+      "agent": 3,
+      "skill": "",
+      "tier": ""
+    },
+    {
+      "tick": 42,
+      "agent": 0,
+      "skill": "",
+      "tier": ""
+    },
+    {
+      "tick": 42,
+      "agent": 6,
+      "skill": "",
+      "tier": ""
+    },
+    {
+      "tick": 42,
+      "agent": 11,
+      "skill": "",
+      "tier": ""
+    },
+    {
+      "tick": 43,
+      "agent": 2,
+      "skill": "",
+      "tier": ""
+    },
+    {
+      "tick": 43,
+      "agent": 10,
+      "skill": "",
+      "tier": ""
+    },
+    {
+      "tick": 44,
+      "agent": 0,
+      "skill": "",
+      "tier": ""
+    },
+    {
+      "tick": 44,
+      "agent": 7,
+      "skill": "",
+      "tier": ""
+    },
+    {
+      "tick": 44,
+      "agent": 8,
+      "skill": "",
+      "tier": ""
+    },
+    {
+      "tick": 44,
+      "agent": 11,
+      "skill": "",
+      "tier": ""
+    },
+    {
+      "tick": 45,
+      "agent": 8,
+      "skill": "",
+      "tier": ""
+    },
+    {
+      "tick": 45,
+      "agent": 10,
+      "skill": "",
+      "tier": ""
+    },
+    {
+      "tick": 46,
+      "agent": 6,
+      "skill": "",
+      "tier": ""
+    },
+    {
+      "tick": 46,
+      "agent": 9,
+      "skill": "",
+      "tier": ""
+    },
+    {
+      "tick": 47,
+      "agent": 1,
+      "skill": "",
+      "tier": ""
+    },
+    {
+      "tick": 47,
+      "agent": 3,
+      "skill": "",
+      "tier": ""
+    },
+    {
+      "tick": 47,
+      "agent": 4,
+      "skill": "",
+      "tier": ""
+    },
+    {
+      "tick": 48,
+      "agent": 2,
+      "skill": "",
+      "tier": ""
+    },
+    {
+      "tick": 48,
+      "agent": 2,
+      "skill": "",
+      "tier": ""
+    },
+    {
+      "tick": 48,
+      "agent": 6,
+      "skill": "",
+      "tier": ""
+    },
+    {
+      "tick": 49,
+      "agent": 9,
+      "skill": "",
+      "tier": ""
+    },
+    {
+      "tick": 49,
+      "agent": 9,
+      "skill": "",
+      "tier": ""
+    },
+    {
+      "tick": 51,
+      "agent": 5,
+      "skill": "",
+      "tier": ""
+    },
+    {
+      "tick": 52,
+      "agent": 5,
+      "skill": "",
+      "tier": ""
+    },
+    {
+      "tick": 53,
+      "agent": 1,
+      "skill": "",
+      "tier": ""
+    },
+    {
+      "tick": 54,
+      "agent": 1,
+      "skill": "",
+      "tier": ""
+    },
+    {
+      "tick": 54,
+      "agent": 1,
+      "skill": "",
+      "tier": ""
+    },
+    {
+      "tick": 54,
+      "agent": 3,
+      "skill": "",
+      "tier": ""
+    },
+    {
+      "tick": 55,
+      "agent": 4,
+      "skill": "",
+      "tier": ""
+    },
+    {
+      "tick": 55,
+      "agent": 11,
+      "skill": "",
+      "tier": ""
+    },
+    {
+      "tick": 55,
+      "agent": 11,
+      "skill": "",
+      "tier": ""
+    },
+    {
+      "tick": 57,
+      "agent": 0,
+      "skill": "",
+      "tier": ""
+    },
+    {
+      "tick": 57,
+      "agent": 0,
+      "skill": "",
+      "tier": ""
+    },
+    {
+      "tick": 57,
+      "agent": 1,
+      "skill": "",
+      "tier": ""
+    },
+    {
+      "tick": 57,
+      "agent": 7,
+      "skill": "",
+      "tier": ""
+    },
+    {
+      "tick": 58,
+      "agent": 7,
+      "skill": "",
+      "tier": ""
+    },
+    {
+      "tick": 59,
+      "agent": 8,
+      "skill": "",
+      "tier": ""
+    },
+    {
+      "tick": 60,
+      "agent": 10,
+      "skill": "",
+      "tier": ""
+    },
+    {
+      "tick": 61,
+      "agent": 0,
+      "skill": "",
+      "tier": ""
+    },
+    {
+      "tick": 61,
+      "agent": 0,
+      "skill": "",
+      "tier": ""
+    },
+    {
+      "tick": 61,
+      "agent": 1,
+      "skill": "",
+      "tier": ""
+    },
+    {
+      "tick": 61,
+      "agent": 4,
+      "skill": "",
+      "tier": ""
+    },
+    {
+      "tick": 61,
+      "agent": 11,
+      "skill": "",
+      "tier": ""
+    },
+    {
+      "tick": 62,
+      "agent": 5,
+      "skill": "",
+      "tier": ""
+    },
+    {
+      "tick": 63,
+      "agent": 2,
+      "skill": "",
+      "tier": ""
+    },
+    {
+      "tick": 63,
+      "agent": 4,
+      "skill": "",
+      "tier": ""
+    },
+    {
+      "tick": 63,
+      "agent": 7,
+      "skill": "",
+      "tier": ""
+    },
+    {
+      "tick": 64,
+      "agent": 10,
+      "skill": "",
+      "tier": ""
+    },
+    {
+      "tick": 65,
+      "agent": 7,
+      "skill": "",
+      "tier": ""
+    },
+    {
+      "tick": 66,
+      "agent": 6,
+      "skill": "",
+      "tier": ""
+    },
+    {
+      "tick": 68,
+      "agent": 3,
+      "skill": "",
+      "tier": ""
+    },
+    {
+      "tick": 69,
+      "agent": 0,
+      "skill": "",
+      "tier": ""
+    },
+    {
+      "tick": 69,
+      "agent": 2,
+      "skill": "",
+      "tier": ""
+    },
+    {
+      "tick": 69,
+      "agent": 6,
+      "skill": "",
+      "tier": ""
+    }
+  ],
+  "per_agent": {
+    "0": [
+      {
+        "tick": 0,
+        "specialisations": [],
+        "spec_count": 0,
+        "top_activity": null,
+        "top_count": 0
+      },
+      {
+        "tick": 1,
+        "specialisations": [],
+        "spec_count": 0,
+        "top_activity": "gathering",
+        "top_count": 2
+      },
+      {
+        "tick": 2,
+        "specialisations": [],
+        "spec_count": 0,
+        "top_activity": "gathering",
+        "top_count": 4
+      },
+      {
+        "tick": 3,
+        "specialisations": [],
+        "spec_count": 0,
+        "top_activity": "gathering",
+        "top_count": 4
+      },
+      {
+        "tick": 4,
+        "specialisations": [],
+        "spec_count": 0,
+        "top_activity": "movement",
+        "top_count": 5
+      },
+      {
+        "tick": 5,
+        "specialisations": [],
+        "spec_count": 0,
+        "top_activity": "movement",
+        "top_count": 6
+      },
+      {
+        "tick": 6,
+        "specialisations": [],
+        "spec_count": 0,
+        "top_activity": "movement",
+        "top_count": 7
+      },
+      {
+        "tick": 7,
+        "specialisations": [],
+        "spec_count": 0,
+        "top_activity": "movement",
+        "top_count": 8
+      },
+      {
+        "tick": 8,
+        "specialisations": [],
+        "spec_count": 0,
+        "top_activity": "gathering",
+        "top_count": 9
+      },
+      {
+        "tick": 9,
+        "specialisations": [],
+        "spec_count": 0,
+        "top_activity": "gathering",
+        "top_count": 10
+      },
+      {
+        "tick": 10,
+        "specialisations": [],
+        "spec_count": 0,
+        "top_activity": "gathering",
+        "top_count": 12
+      },
+      {
+        "tick": 11,
+        "specialisations": [],
+        "spec_count": 0,
+        "top_activity": "gathering",
+        "top_count": 13
+      },
+      {
+        "tick": 12,
+        "specialisations": [],
+        "spec_count": 0,
+        "top_activity": "gathering",
+        "top_count": 14
+      },
+      {
+        "tick": 13,
+        "specialisations": [],
+        "spec_count": 0,
+        "top_activity": "gathering",
+        "top_count": 15
+      },
+      {
+        "tick": 14,
+        "specialisations": [],
+        "spec_count": 0,
+        "top_activity": "gathering",
+        "top_count": 18
+      },
+      {
+        "tick": 15,
+        "specialisations": [],
+        "spec_count": 0,
+        "top_activity": "gathering",
+        "top_count": 18
+      },
+      {
+        "tick": 16,
+        "specialisations": [],
+        "spec_count": 0,
+        "top_activity": "gathering",
+        "top_count": 19
+      },
+      {
+        "tick": 17,
+        "specialisations": [
+          "gathering"
+        ],
+        "spec_count": 1,
+        "top_activity": "gathering",
+        "top_count": 20
+      },
+      {
+        "tick": 18,
+        "specialisations": [
+          "gathering"
+        ],
+        "spec_count": 1,
+        "top_activity": "gathering",
+        "top_count": 20
+      },
+      {
+        "tick": 19,
+        "specialisations": [
+          "gathering"
+        ],
+        "spec_count": 1,
+        "top_activity": "gathering",
+        "top_count": 20
+      },
+      {
+        "tick": 20,
+        "specialisations": [
+          "gathering"
+        ],
+        "spec_count": 1,
+        "top_activity": "gathering",
+        "top_count": 21
+      },
+      {
+        "tick": 21,
+        "specialisations": [
+          "gathering"
+        ],
+        "spec_count": 1,
+        "top_activity": "gathering",
+        "top_count": 22
+      },
+      {
+        "tick": 22,
+        "specialisations": [
+          "gathering"
+        ],
+        "spec_count": 1,
+        "top_activity": "gathering",
+        "top_count": 23
+      },
+      {
+        "tick": 23,
+        "specialisations": [
+          "gathering",
+          "communication"
+        ],
+        "spec_count": 2,
+        "top_activity": "gathering",
+        "top_count": 23
+      },
+      {
+        "tick": 24,
+        "specialisations": [
+          "gathering",
+          "communication",
+          "movement"
+        ],
+        "spec_count": 3,
+        "top_activity": "gathering",
+        "top_count": 23
+      },
+      {
+        "tick": 25,
+        "specialisations": [
+          "gathering",
+          "communication",
+          "movement"
+        ],
+        "spec_count": 3,
+        "top_activity": "gathering",
+        "top_count": 25
+      },
+      {
+        "tick": 26,
+        "specialisations": [
+          "gathering",
+          "communication",
+          "movement"
+        ],
+        "spec_count": 3,
+        "top_activity": "gathering",
+        "top_count": 25
+      },
+      {
+        "tick": 27,
+        "specialisations": [
+          "gathering",
+          "communication",
+          "movement"
+        ],
+        "spec_count": 3,
+        "top_activity": "gathering",
+        "top_count": 26
+      },
+      {
+        "tick": 28,
+        "specialisations": [
+          "gathering",
+          "communication",
+          "movement"
+        ],
+        "spec_count": 3,
+        "top_activity": "gathering",
+        "top_count": 26
+      },
+      {
+        "tick": 29,
+        "specialisations": [
+          "gathering",
+          "communication",
+          "movement"
+        ],
+        "spec_count": 3,
+        "top_activity": "gathering",
+        "top_count": 27
+      },
+      {
+        "tick": 30,
+        "specialisations": [
+          "gathering",
+          "communication",
+          "movement"
+        ],
+        "spec_count": 3,
+        "top_activity": "communication",
+        "top_count": 28
+      },
+      {
+        "tick": 31,
+        "specialisations": [
+          "gathering",
+          "communication",
+          "movement"
+        ],
+        "spec_count": 3,
+        "top_activity": "gathering",
+        "top_count": 28
+      },
+      {
+        "tick": 32,
+        "specialisations": [
+          "gathering",
+          "communication",
+          "movement"
+        ],
+        "spec_count": 3,
+        "top_activity": "communication",
+        "top_count": 30
+      },
+      {
+        "tick": 33,
+        "specialisations": [
+          "gathering",
+          "communication",
+          "movement"
+        ],
+        "spec_count": 3,
+        "top_activity": "communication",
+        "top_count": 32
+      },
+      {
+        "tick": 34,
+        "specialisations": [
+          "gathering",
+          "communication",
+          "movement"
+        ],
+        "spec_count": 3,
+        "top_activity": "communication",
+        "top_count": 33
+      },
+      {
+        "tick": 35,
+        "specialisations": [
+          "gathering",
+          "communication",
+          "movement"
+        ],
+        "spec_count": 3,
+        "top_activity": "communication",
+        "top_count": 33
+      },
+      {
+        "tick": 36,
+        "specialisations": [
+          "gathering",
+          "communication",
+          "movement"
+        ],
+        "spec_count": 3,
+        "top_activity": "communication",
+        "top_count": 33
+      },
+      {
+        "tick": 37,
+        "specialisations": [
+          "gathering",
+          "communication",
+          "movement"
+        ],
+        "spec_count": 3,
+        "top_activity": "communication",
+        "top_count": 34
+      },
+      {
+        "tick": 38,
+        "specialisations": [
+          "gathering",
+          "communication",
+          "movement"
+        ],
+        "spec_count": 3,
+        "top_activity": "gathering",
+        "top_count": 34
+      },
+      {
+        "tick": 39,
+        "specialisations": [
+          "gathering",
+          "communication",
+          "movement"
+        ],
+        "spec_count": 3,
+        "top_activity": "gathering",
+        "top_count": 36
+      },
+      {
+        "tick": 40,
+        "specialisations": [
+          "gathering",
+          "communication",
+          "movement"
+        ],
+        "spec_count": 3,
+        "top_activity": "gathering",
+        "top_count": 36
+      },
+      {
+        "tick": 41,
+        "specialisations": [
+          "gathering",
+          "communication",
+          "movement"
+        ],
+        "spec_count": 3,
+        "top_activity": "gathering",
+        "top_count": 37
+      },
+      {
+        "tick": 42,
+        "specialisations": [
+          "gathering",
+          "communication",
+          "movement"
+        ],
+        "spec_count": 3,
+        "top_activity": "gathering",
+        "top_count": 37
+      },
+      {
+        "tick": 43,
+        "specialisations": [
+          "gathering",
+          "communication",
+          "movement",
+          "building"
+        ],
+        "spec_count": 4,
+        "top_activity": "gathering",
+        "top_count": 38
+      },
+      {
+        "tick": 44,
+        "specialisations": [
+          "gathering",
+          "communication",
+          "movement",
+          "building"
+        ],
+        "spec_count": 4,
+        "top_activity": "gathering",
+        "top_count": 39
+      },
+      {
+        "tick": 45,
+        "specialisations": [
+          "gathering",
+          "communication",
+          "movement",
+          "building"
+        ],
+        "spec_count": 4,
+        "top_activity": "gathering",
+        "top_count": 40
+      },
+      {
+        "tick": 46,
+        "specialisations": [
+          "gathering",
+          "communication",
+          "movement",
+          "building"
+        ],
+        "spec_count": 4,
+        "top_activity": "gathering",
+        "top_count": 41
+      },
+      {
+        "tick": 47,
+        "specialisations": [
+          "gathering",
+          "communication",
+          "movement",
+          "building"
+        ],
+        "spec_count": 4,
+        "top_activity": "gathering",
+        "top_count": 45
+      },
+      {
+        "tick": 48,
+        "specialisations": [
+          "gathering",
+          "communication",
+          "movement",
+          "building"
+        ],
+        "spec_count": 4,
+        "top_activity": "gathering",
+        "top_count": 46
+      },
+      {
+        "tick": 49,
+        "specialisations": [
+          "gathering",
+          "communication",
+          "movement",
+          "building"
+        ],
+        "spec_count": 4,
+        "top_activity": "gathering",
+        "top_count": 47
+      },
+      {
+        "tick": 50,
+        "specialisations": [
+          "gathering",
+          "communication",
+          "movement",
+          "building"
+        ],
+        "spec_count": 4,
+        "top_activity": "gathering",
+        "top_count": 48
+      },
+      {
+        "tick": 51,
+        "specialisations": [
+          "gathering",
+          "communication",
+          "movement",
+          "building"
+        ],
+        "spec_count": 4,
+        "top_activity": "gathering",
+        "top_count": 49
+      },
+      {
+        "tick": 52,
+        "specialisations": [
+          "gathering",
+          "communication",
+          "movement",
+          "building"
+        ],
+        "spec_count": 4,
+        "top_activity": "gathering",
+        "top_count": 53
+      },
+      {
+        "tick": 53,
+        "specialisations": [
+          "gathering",
+          "communication",
+          "movement",
+          "building"
+        ],
+        "spec_count": 4,
+        "top_activity": "gathering",
+        "top_count": 54
+      },
+      {
+        "tick": 54,
+        "specialisations": [
+          "gathering",
+          "communication",
+          "movement",
+          "building"
+        ],
+        "spec_count": 4,
+        "top_activity": "gathering",
+        "top_count": 55
+      },
+      {
+        "tick": 55,
+        "specialisations": [
+          "gathering",
+          "communication",
+          "movement",
+          "building"
+        ],
+        "spec_count": 4,
+        "top_activity": "gathering",
+        "top_count": 64
+      },
+      {
+        "tick": 56,
+        "specialisations": [
+          "gathering",
+          "communication",
+          "movement",
+          "building"
+        ],
+        "spec_count": 4,
+        "top_activity": "gathering",
+        "top_count": 66
+      },
+      {
+        "tick": 57,
+        "specialisations": [
+          "gathering",
+          "communication",
+          "movement",
+          "building"
+        ],
+        "spec_count": 4,
+        "top_activity": "gathering",
+        "top_count": 70
+      },
+      {
+        "tick": 58,
+        "specialisations": [
+          "gathering",
+          "communication",
+          "movement",
+          "building"
+        ],
+        "spec_count": 4,
+        "top_activity": "gathering",
+        "top_count": 73
+      },
+      {
+        "tick": 59,
+        "specialisations": [
+          "gathering",
+          "communication",
+          "movement",
+          "building"
+        ],
+        "spec_count": 4,
+        "top_activity": "gathering",
+        "top_count": 74
+      },
+      {
+        "tick": 60,
+        "specialisations": [
+          "gathering",
+          "communication",
+          "movement",
+          "building"
+        ],
+        "spec_count": 4,
+        "top_activity": "gathering",
+        "top_count": 78
+      },
+      {
+        "tick": 61,
+        "specialisations": [
+          "gathering",
+          "communication",
+          "movement",
+          "building"
+        ],
+        "spec_count": 4,
+        "top_activity": "gathering",
+        "top_count": 79
+      },
+      {
+        "tick": 62,
+        "specialisations": [
+          "gathering",
+          "communication",
+          "movement",
+          "building"
+        ],
+        "spec_count": 4,
+        "top_activity": "gathering",
+        "top_count": 82
+      },
+      {
+        "tick": 63,
+        "specialisations": [
+          "gathering",
+          "communication",
+          "movement",
+          "building"
+        ],
+        "spec_count": 4,
+        "top_activity": "gathering",
+        "top_count": 84
+      },
+      {
+        "tick": 64,
+        "specialisations": [
+          "gathering",
+          "communication",
+          "movement",
+          "building"
+        ],
+        "spec_count": 4,
+        "top_activity": "gathering",
+        "top_count": 84
+      },
+      {
+        "tick": 65,
+        "specialisations": [
+          "gathering",
+          "communication",
+          "movement",
+          "building"
+        ],
+        "spec_count": 4,
+        "top_activity": "gathering",
+        "top_count": 84
+      },
+      {
+        "tick": 66,
+        "specialisations": [
+          "gathering",
+          "communication",
+          "movement",
+          "building"
+        ],
+        "spec_count": 4,
+        "top_activity": "gathering",
+        "top_count": 90
+      },
+      {
+        "tick": 67,
+        "specialisations": [
+          "gathering",
+          "communication",
+          "movement",
+          "building"
+        ],
+        "spec_count": 4,
+        "top_activity": "gathering",
+        "top_count": 93
+      },
+      {
+        "tick": 68,
+        "specialisations": [
+          "gathering",
+          "communication",
+          "movement",
+          "building"
+        ],
+        "spec_count": 4,
+        "top_activity": "gathering",
+        "top_count": 96
+      },
+      {
+        "tick": 69,
+        "specialisations": [
+          "gathering",
+          "communication",
+          "movement",
+          "building"
+        ],
+        "spec_count": 4,
+        "top_activity": "gathering",
+        "top_count": 100
+      },
+      {
+        "tick": 70,
+        "specialisations": [
+          "gathering",
+          "communication",
+          "movement",
+          "building"
+        ],
+        "spec_count": 4,
+        "top_activity": "gathering",
+        "top_count": 101
+      }
+    ],
+    "1": [
+      {
+        "tick": 0,
+        "specialisations": [],
+        "spec_count": 0,
+        "top_activity": null,
+        "top_count": 0
+      },
+      {
+        "tick": 1,
+        "specialisations": [],
+        "spec_count": 0,
+        "top_activity": "gathering",
+        "top_count": 2
+      },
+      {
+        "tick": 2,
+        "specialisations": [],
+        "spec_count": 0,
+        "top_activity": "gathering",
+        "top_count": 2
+      },
+      {
+        "tick": 3,
+        "specialisations": [],
+        "spec_count": 0,
+        "top_activity": "gathering",
+        "top_count": 3
+      },
+      {
+        "tick": 4,
+        "specialisations": [],
+        "spec_count": 0,
+        "top_activity": "gathering",
+        "top_count": 5
+      },
+      {
+        "tick": 5,
+        "specialisations": [],
+        "spec_count": 0,
+        "top_activity": "gathering",
+        "top_count": 6
+      },
+      {
+        "tick": 6,
+        "specialisations": [],
+        "spec_count": 0,
+        "top_activity": "gathering",
+        "top_count": 7
+      },
+      {
+        "tick": 7,
+        "specialisations": [],
+        "spec_count": 0,
+        "top_activity": "gathering",
+        "top_count": 9
+      },
+      {
+        "tick": 8,
+        "specialisations": [],
+        "spec_count": 0,
+        "top_activity": "gathering",
+        "top_count": 9
+      },
+      {
+        "tick": 9,
+        "specialisations": [],
+        "spec_count": 0,
+        "top_activity": "gathering",
+        "top_count": 10
+      },
+      {
+        "tick": 10,
+        "specialisations": [],
+        "spec_count": 0,
+        "top_activity": "gathering",
+        "top_count": 12
+      },
+      {
+        "tick": 11,
+        "specialisations": [],
+        "spec_count": 0,
+        "top_activity": "gathering",
+        "top_count": 13
+      },
+      {
+        "tick": 12,
+        "specialisations": [],
+        "spec_count": 0,
+        "top_activity": "gathering",
+        "top_count": 15
+      },
+      {
+        "tick": 13,
+        "specialisations": [],
+        "spec_count": 0,
+        "top_activity": "gathering",
+        "top_count": 17
+      },
+      {
+        "tick": 14,
+        "specialisations": [],
+        "spec_count": 0,
+        "top_activity": "gathering",
+        "top_count": 18
+      },
+      {
+        "tick": 15,
+        "specialisations": [
+          "gathering"
+        ],
+        "spec_count": 1,
+        "top_activity": "gathering",
+        "top_count": 22
+      },
+      {
+        "tick": 16,
+        "specialisations": [
+          "gathering"
+        ],
+        "spec_count": 1,
+        "top_activity": "gathering",
+        "top_count": 22
+      },
+      {
+        "tick": 17,
+        "specialisations": [
+          "gathering"
+        ],
+        "spec_count": 1,
+        "top_activity": "gathering",
+        "top_count": 23
+      },
+      {
+        "tick": 18,
+        "specialisations": [
+          "gathering"
+        ],
+        "spec_count": 1,
+        "top_activity": "gathering",
+        "top_count": 24
+      },
+      {
+        "tick": 19,
+        "specialisations": [
+          "gathering"
+        ],
+        "spec_count": 1,
+        "top_activity": "gathering",
+        "top_count": 24
+      },
+      {
+        "tick": 20,
+        "specialisations": [
+          "gathering"
+        ],
+        "spec_count": 1,
+        "top_activity": "gathering",
+        "top_count": 24
+      },
+      {
+        "tick": 21,
+        "specialisations": [
+          "gathering"
+        ],
+        "spec_count": 1,
+        "top_activity": "gathering",
+        "top_count": 26
+      },
+      {
+        "tick": 22,
+        "specialisations": [
+          "gathering"
+        ],
+        "spec_count": 1,
+        "top_activity": "gathering",
+        "top_count": 27
+      },
+      {
+        "tick": 23,
+        "specialisations": [
+          "gathering"
+        ],
+        "spec_count": 1,
+        "top_activity": "gathering",
+        "top_count": 28
+      },
+      {
+        "tick": 24,
+        "specialisations": [
+          "gathering"
+        ],
+        "spec_count": 1,
+        "top_activity": "gathering",
+        "top_count": 29
+      },
+      {
+        "tick": 25,
+        "specialisations": [
+          "gathering"
+        ],
+        "spec_count": 1,
+        "top_activity": "gathering",
+        "top_count": 30
+      },
+      {
+        "tick": 26,
+        "specialisations": [
+          "gathering"
+        ],
+        "spec_count": 1,
+        "top_activity": "gathering",
+        "top_count": 31
+      },
+      {
+        "tick": 27,
+        "specialisations": [
+          "gathering",
+          "movement"
+        ],
+        "spec_count": 2,
+        "top_activity": "gathering",
+        "top_count": 31
+      },
+      {
+        "tick": 28,
+        "specialisations": [
+          "gathering",
+          "movement"
+        ],
+        "spec_count": 2,
+        "top_activity": "gathering",
+        "top_count": 33
+      },
+      {
+        "tick": 29,
+        "specialisations": [
+          "gathering",
+          "movement"
+        ],
+        "spec_count": 2,
+        "top_activity": "gathering",
+        "top_count": 34
+      },
+      {
+        "tick": 30,
+        "specialisations": [
+          "gathering",
+          "movement"
+        ],
+        "spec_count": 2,
+        "top_activity": "gathering",
+        "top_count": 37
+      },
+      {
+        "tick": 31,
+        "specialisations": [
+          "gathering",
+          "movement"
+        ],
+        "spec_count": 2,
+        "top_activity": "gathering",
+        "top_count": 39
+      },
+      {
+        "tick": 32,
+        "specialisations": [
+          "gathering",
+          "movement",
+          "communication"
+        ],
+        "spec_count": 3,
+        "top_activity": "gathering",
+        "top_count": 39
+      },
+      {
+        "tick": 33,
+        "specialisations": [
+          "gathering",
+          "movement",
+          "communication"
+        ],
+        "spec_count": 3,
+        "top_activity": "gathering",
+        "top_count": 39
+      },
+      {
+        "tick": 34,
+        "specialisations": [
+          "gathering",
+          "movement",
+          "communication"
+        ],
+        "spec_count": 3,
+        "top_activity": "gathering",
+        "top_count": 39
+      },
+      {
+        "tick": 35,
+        "specialisations": [
+          "gathering",
+          "movement",
+          "communication"
+        ],
+        "spec_count": 3,
+        "top_activity": "gathering",
+        "top_count": 40
+      },
+      {
+        "tick": 36,
+        "specialisations": [
+          "gathering",
+          "movement",
+          "communication"
+        ],
+        "spec_count": 3,
+        "top_activity": "gathering",
+        "top_count": 40
+      },
+      {
+        "tick": 37,
+        "specialisations": [
+          "gathering",
+          "movement",
+          "communication"
+        ],
+        "spec_count": 3,
+        "top_activity": "gathering",
+        "top_count": 42
+      },
+      {
+        "tick": 38,
+        "specialisations": [
+          "gathering",
+          "movement",
+          "communication"
+        ],
+        "spec_count": 3,
+        "top_activity": "gathering",
+        "top_count": 43
+      },
+      {
+        "tick": 39,
+        "specialisations": [
+          "gathering",
+          "movement",
+          "communication"
+        ],
+        "spec_count": 3,
+        "top_activity": "gathering",
+        "top_count": 44
+      },
+      {
+        "tick": 40,
+        "specialisations": [
+          "gathering",
+          "movement",
+          "communication"
+        ],
+        "spec_count": 3,
+        "top_activity": "gathering",
+        "top_count": 45
+      },
+      {
+        "tick": 41,
+        "specialisations": [
+          "gathering",
+          "movement",
+          "communication"
+        ],
+        "spec_count": 3,
+        "top_activity": "gathering",
+        "top_count": 46
+      },
+      {
+        "tick": 42,
+        "specialisations": [
+          "gathering",
+          "movement",
+          "communication"
+        ],
+        "spec_count": 3,
+        "top_activity": "gathering",
+        "top_count": 48
+      },
+      {
+        "tick": 43,
+        "specialisations": [
+          "gathering",
+          "movement",
+          "communication"
+        ],
+        "spec_count": 3,
+        "top_activity": "gathering",
+        "top_count": 48
+      },
+      {
+        "tick": 44,
+        "specialisations": [
+          "gathering",
+          "movement",
+          "communication"
+        ],
+        "spec_count": 3,
+        "top_activity": "gathering",
+        "top_count": 52
+      },
+      {
+        "tick": 45,
+        "specialisations": [
+          "gathering",
+          "movement",
+          "communication"
+        ],
+        "spec_count": 3,
+        "top_activity": "gathering",
+        "top_count": 54
+      },
+      {
+        "tick": 46,
+        "specialisations": [
+          "gathering",
+          "movement",
+          "communication"
+        ],
+        "spec_count": 3,
+        "top_activity": "gathering",
+        "top_count": 54
+      },
+      {
+        "tick": 47,
+        "specialisations": [
+          "gathering",
+          "movement",
+          "communication"
+        ],
+        "spec_count": 3,
+        "top_activity": "gathering",
+        "top_count": 55
+      },
+      {
+        "tick": 48,
+        "specialisations": [
+          "gathering",
+          "movement",
+          "communication",
+          "building"
+        ],
+        "spec_count": 4,
+        "top_activity": "gathering",
+        "top_count": 55
+      },
+      {
+        "tick": 49,
+        "specialisations": [
+          "gathering",
+          "movement",
+          "communication",
+          "building"
+        ],
+        "spec_count": 4,
+        "top_activity": "gathering",
+        "top_count": 55
+      },
+      {
+        "tick": 50,
+        "specialisations": [
+          "gathering",
+          "movement",
+          "communication",
+          "building"
+        ],
+        "spec_count": 4,
+        "top_activity": "gathering",
+        "top_count": 55
+      },
+      {
+        "tick": 51,
+        "specialisations": [
+          "gathering",
+          "movement",
+          "communication",
+          "building"
+        ],
+        "spec_count": 4,
+        "top_activity": "gathering",
+        "top_count": 55
+      },
+      {
+        "tick": 52,
+        "specialisations": [
+          "gathering",
+          "movement",
+          "communication",
+          "building"
+        ],
+        "spec_count": 4,
+        "top_activity": "gathering",
+        "top_count": 55
+      },
+      {
+        "tick": 53,
+        "specialisations": [
+          "gathering",
+          "movement",
+          "communication",
+          "building"
+        ],
+        "spec_count": 4,
+        "top_activity": "gathering",
+        "top_count": 55
+      },
+      {
+        "tick": 54,
+        "specialisations": [
+          "gathering",
+          "movement",
+          "communication",
+          "building"
+        ],
+        "spec_count": 4,
+        "top_activity": "gathering",
+        "top_count": 63
+      },
+      {
+        "tick": 55,
+        "specialisations": [
+          "gathering",
+          "movement",
+          "communication",
+          "building"
+        ],
+        "spec_count": 4,
+        "top_activity": "gathering",
+        "top_count": 66
+      },
+      {
+        "tick": 56,
+        "specialisations": [
+          "gathering",
+          "movement",
+          "communication",
+          "building"
+        ],
+        "spec_count": 4,
+        "top_activity": "gathering",
+        "top_count": 67
+      },
+      {
+        "tick": 57,
+        "specialisations": [
+          "gathering",
+          "movement",
+          "communication",
+          "building"
+        ],
+        "spec_count": 4,
+        "top_activity": "gathering",
+        "top_count": 70
+      },
+      {
+        "tick": 58,
+        "specialisations": [
+          "gathering",
+          "movement",
+          "communication",
+          "building"
+        ],
+        "spec_count": 4,
+        "top_activity": "gathering",
+        "top_count": 79
+      },
+      {
+        "tick": 59,
+        "specialisations": [
+          "gathering",
+          "movement",
+          "communication",
+          "building"
+        ],
+        "spec_count": 4,
+        "top_activity": "gathering",
+        "top_count": 80
+      },
+      {
+        "tick": 60,
+        "specialisations": [
+          "gathering",
+          "movement",
+          "communication",
+          "building"
+        ],
+        "spec_count": 4,
+        "top_activity": "gathering",
+        "top_count": 77
+      },
+      {
+        "tick": 61,
+        "specialisations": [
+          "gathering",
+          "movement",
+          "communication",
+          "building"
+        ],
+        "spec_count": 4,
+        "top_activity": "gathering",
+        "top_count": 80
+      },
+      {
+        "tick": 62,
+        "specialisations": [
+          "gathering",
+          "movement",
+          "communication",
+          "building"
+        ],
+        "spec_count": 4,
+        "top_activity": "gathering",
+        "top_count": 81
+      },
+      {
+        "tick": 63,
+        "specialisations": [
+          "gathering",
+          "movement",
+          "communication",
+          "building"
+        ],
+        "spec_count": 4,
+        "top_activity": "gathering",
+        "top_count": 81
+      },
+      {
+        "tick": 64,
+        "specialisations": [
+          "gathering",
+          "movement",
+          "communication",
+          "building"
+        ],
+        "spec_count": 4,
+        "top_activity": "gathering",
+        "top_count": 84
+      },
+      {
+        "tick": 65,
+        "specialisations": [
+          "gathering",
+          "movement",
+          "communication",
+          "building"
+        ],
+        "spec_count": 4,
+        "top_activity": "gathering",
+        "top_count": 85
+      },
+      {
+        "tick": 66,
+        "specialisations": [
+          "gathering",
+          "movement",
+          "communication",
+          "building"
+        ],
+        "spec_count": 4,
+        "top_activity": "gathering",
+        "top_count": 85
+      },
+      {
+        "tick": 67,
+        "specialisations": [
+          "gathering",
+          "movement",
+          "communication",
+          "building"
+        ],
+        "spec_count": 4,
+        "top_activity": "gathering",
+        "top_count": 94
+      },
+      {
+        "tick": 68,
+        "specialisations": [
+          "gathering",
+          "movement",
+          "communication",
+          "building"
+        ],
+        "spec_count": 4,
+        "top_activity": "gathering",
+        "top_count": 98
+      },
+      {
+        "tick": 69,
+        "specialisations": [
+          "gathering",
+          "movement",
+          "communication",
+          "building"
+        ],
+        "spec_count": 4,
+        "top_activity": "gathering",
+        "top_count": 99
+      },
+      {
+        "tick": 70,
+        "specialisations": [
+          "gathering",
+          "movement",
+          "communication",
+          "building"
+        ],
+        "spec_count": 4,
+        "top_activity": "gathering",
+        "top_count": 101
+      }
+    ],
+    "2": [
+      {
+        "tick": 0,
+        "specialisations": [],
+        "spec_count": 0,
+        "top_activity": null,
+        "top_count": 0
+      },
+      {
+        "tick": 1,
+        "specialisations": [],
+        "spec_count": 0,
+        "top_activity": "gathering",
+        "top_count": 2
+      },
+      {
+        "tick": 2,
+        "specialisations": [],
+        "spec_count": 0,
+        "top_activity": "gathering",
+        "top_count": 4
+      },
+      {
+        "tick": 3,
+        "specialisations": [],
+        "spec_count": 0,
+        "top_activity": "gathering",
+        "top_count": 5
+      },
+      {
+        "tick": 4,
+        "specialisations": [],
+        "spec_count": 0,
+        "top_activity": "gathering",
+        "top_count": 9
+      },
+      {
+        "tick": 5,
+        "specialisations": [],
+        "spec_count": 0,
+        "top_activity": "gathering",
+        "top_count": 10
+      },
+      {
+        "tick": 6,
+        "specialisations": [],
+        "spec_count": 0,
+        "top_activity": "gathering",
+        "top_count": 10
+      },
+      {
+        "tick": 7,
+        "specialisations": [],
+        "spec_count": 0,
+        "top_activity": "gathering",
+        "top_count": 14
+      },
+      {
+        "tick": 8,
+        "specialisations": [],
+        "spec_count": 0,
+        "top_activity": "gathering",
+        "top_count": 14
+      },
+      {
+        "tick": 9,
+        "specialisations": [],
+        "spec_count": 0,
+        "top_activity": "gathering",
+        "top_count": 15
+      },
+      {
+        "tick": 10,
+        "specialisations": [],
+        "spec_count": 0,
+        "top_activity": "gathering",
+        "top_count": 16
+      },
+      {
+        "tick": 11,
+        "specialisations": [],
+        "spec_count": 0,
+        "top_activity": "gathering",
+        "top_count": 17
+      },
+      {
+        "tick": 12,
+        "specialisations": [],
+        "spec_count": 0,
+        "top_activity": "gathering",
+        "top_count": 19
+      },
+      {
+        "tick": 13,
+        "specialisations": [
+          "gathering"
+        ],
+        "spec_count": 1,
+        "top_activity": "gathering",
+        "top_count": 20
+      },
+      {
+        "tick": 14,
+        "specialisations": [
+          "gathering"
+        ],
+        "spec_count": 1,
+        "top_activity": "gathering",
+        "top_count": 20
+      },
+      {
+        "tick": 15,
+        "specialisations": [
+          "gathering"
+        ],
+        "spec_count": 1,
+        "top_activity": "gathering",
+        "top_count": 21
+      },
+      {
+        "tick": 16,
+        "specialisations": [
+          "gathering"
+        ],
+        "spec_count": 1,
+        "top_activity": "gathering",
+        "top_count": 22
+      },
+      {
+        "tick": 17,
+        "specialisations": [
+          "gathering"
+        ],
+        "spec_count": 1,
+        "top_activity": "gathering",
+        "top_count": 23
+      },
+      {
+        "tick": 18,
+        "specialisations": [
+          "gathering"
+        ],
+        "spec_count": 1,
+        "top_activity": "gathering",
+        "top_count": 24
+      },
+      {
+        "tick": 19,
+        "specialisations": [
+          "gathering",
+          "movement"
+        ],
+        "spec_count": 2,
+        "top_activity": "gathering",
+        "top_count": 25
+      },
+      {
+        "tick": 20,
+        "specialisations": [
+          "gathering",
+          "movement"
+        ],
+        "spec_count": 2,
+        "top_activity": "gathering",
+        "top_count": 26
+      },
+      {
+        "tick": 21,
+        "specialisations": [
+          "gathering",
+          "movement"
+        ],
+        "spec_count": 2,
+        "top_activity": "gathering",
+        "top_count": 27
+      },
+      {
+        "tick": 22,
+        "specialisations": [
+          "gathering",
+          "movement"
+        ],
+        "spec_count": 2,
+        "top_activity": "gathering",
+        "top_count": 29
+      },
+      {
+        "tick": 23,
+        "specialisations": [
+          "gathering",
+          "movement"
+        ],
+        "spec_count": 2,
+        "top_activity": "gathering",
+        "top_count": 30
+      },
+      {
+        "tick": 24,
+        "specialisations": [
+          "gathering",
+          "movement"
+        ],
+        "spec_count": 2,
+        "top_activity": "gathering",
+        "top_count": 31
+      },
+      {
+        "tick": 25,
+        "specialisations": [
+          "gathering",
+          "movement"
+        ],
+        "spec_count": 2,
+        "top_activity": "gathering",
+        "top_count": 32
+      },
+      {
+        "tick": 26,
+        "specialisations": [
+          "gathering",
+          "movement",
+          "communication"
+        ],
+        "spec_count": 3,
+        "top_activity": "gathering",
+        "top_count": 33
+      },
+      {
+        "tick": 27,
+        "specialisations": [
+          "gathering",
+          "movement",
+          "communication"
+        ],
+        "spec_count": 3,
+        "top_activity": "gathering",
+        "top_count": 34
+      },
+      {
+        "tick": 28,
+        "specialisations": [
+          "gathering",
+          "movement",
+          "communication"
+        ],
+        "spec_count": 3,
+        "top_activity": "gathering",
+        "top_count": 36
+      },
+      {
+        "tick": 29,
+        "specialisations": [
+          "gathering",
+          "movement",
+          "communication"
+        ],
+        "spec_count": 3,
+        "top_activity": "gathering",
+        "top_count": 37
+      },
+      {
+        "tick": 30,
+        "specialisations": [
+          "gathering",
+          "movement",
+          "communication"
+        ],
+        "spec_count": 3,
+        "top_activity": "gathering",
+        "top_count": 39
+      },
+      {
+        "tick": 31,
+        "specialisations": [
+          "gathering",
+          "movement",
+          "communication"
+        ],
+        "spec_count": 3,
+        "top_activity": "gathering",
+        "top_count": 40
+      },
+      {
+        "tick": 32,
+        "specialisations": [
+          "gathering",
+          "movement",
+          "communication"
+        ],
+        "spec_count": 3,
+        "top_activity": "gathering",
+        "top_count": 40
+      },
+      {
+        "tick": 33,
+        "specialisations": [
+          "gathering",
+          "movement",
+          "communication"
+        ],
+        "spec_count": 3,
+        "top_activity": "gathering",
+        "top_count": 41
+      },
+      {
+        "tick": 34,
+        "specialisations": [
+          "gathering",
+          "movement",
+          "communication"
+        ],
+        "spec_count": 3,
+        "top_activity": "gathering",
+        "top_count": 42
+      },
+      {
+        "tick": 35,
+        "specialisations": [
+          "gathering",
+          "movement",
+          "communication"
+        ],
+        "spec_count": 3,
+        "top_activity": "gathering",
+        "top_count": 43
+      },
+      {
+        "tick": 36,
+        "specialisations": [
+          "gathering",
+          "movement",
+          "communication"
+        ],
+        "spec_count": 3,
+        "top_activity": "gathering",
+        "top_count": 44
+      },
+      {
+        "tick": 37,
+        "specialisations": [
+          "gathering",
+          "movement",
+          "communication"
+        ],
+        "spec_count": 3,
+        "top_activity": "gathering",
+        "top_count": 44
+      },
+      {
+        "tick": 38,
+        "specialisations": [
+          "gathering",
+          "movement",
+          "communication"
+        ],
+        "spec_count": 3,
+        "top_activity": "gathering",
+        "top_count": 44
+      },
+      {
+        "tick": 39,
+        "specialisations": [
+          "gathering",
+          "movement",
+          "communication"
+        ],
+        "spec_count": 3,
+        "top_activity": "gathering",
+        "top_count": 45
+      },
+      {
+        "tick": 40,
+        "specialisations": [
+          "gathering",
+          "movement",
+          "communication"
+        ],
+        "spec_count": 3,
+        "top_activity": "gathering",
+        "top_count": 45
+      },
+      {
+        "tick": 41,
+        "specialisations": [
+          "gathering",
+          "movement",
+          "communication"
+        ],
+        "spec_count": 3,
+        "top_activity": "gathering",
+        "top_count": 47
+      },
+      {
+        "tick": 42,
+        "specialisations": [
+          "gathering",
+          "movement",
+          "communication"
+        ],
+        "spec_count": 3,
+        "top_activity": "gathering",
+        "top_count": 48
+      },
+      {
+        "tick": 43,
+        "specialisations": [
+          "gathering",
+          "movement",
+          "communication"
+        ],
+        "spec_count": 3,
+        "top_activity": "gathering",
+        "top_count": 48
+      },
+      {
+        "tick": 44,
+        "specialisations": [
+          "gathering",
+          "movement",
+          "communication"
+        ],
+        "spec_count": 3,
+        "top_activity": "gathering",
+        "top_count": 49
+      },
+      {
+        "tick": 45,
+        "specialisations": [
+          "gathering",
+          "movement",
+          "communication"
+        ],
+        "spec_count": 3,
+        "top_activity": "gathering",
+        "top_count": 49
+      },
+      {
+        "tick": 46,
+        "specialisations": [
+          "gathering",
+          "movement",
+          "communication"
+        ],
+        "spec_count": 3,
+        "top_activity": "gathering",
+        "top_count": 51
+      },
+      {
+        "tick": 47,
+        "specialisations": [
+          "gathering",
+          "movement",
+          "communication"
+        ],
+        "spec_count": 3,
+        "top_activity": "gathering",
+        "top_count": 54
+      },
+      {
+        "tick": 48,
+        "specialisations": [
+          "gathering",
+          "movement",
+          "communication"
+        ],
+        "spec_count": 3,
+        "top_activity": "gathering",
+        "top_count": 58
+      },
+      {
+        "tick": 49,
+        "specialisations": [
+          "gathering",
+          "movement",
+          "communication",
+          "building"
+        ],
+        "spec_count": 4,
+        "top_activity": "gathering",
+        "top_count": 66
+      },
+      {
+        "tick": 50,
+        "specialisations": [
+          "gathering",
+          "movement",
+          "communication",
+          "building"
+        ],
+        "spec_count": 4,
+        "top_activity": "gathering",
+        "top_count": 66
+      },
+      {
+        "tick": 51,
+        "specialisations": [
+          "gathering",
+          "movement",
+          "communication",
+          "building"
+        ],
+        "spec_count": 4,
+        "top_activity": "gathering",
+        "top_count": 71
+      },
+      {
+        "tick": 52,
+        "specialisations": [
+          "gathering",
+          "movement",
+          "communication",
+          "building"
+        ],
+        "spec_count": 4,
+        "top_activity": "gathering",
+        "top_count": 74
+      },
+      {
+        "tick": 53,
+        "specialisations": [
+          "gathering",
+          "movement",
+          "communication",
+          "building"
+        ],
+        "spec_count": 4,
+        "top_activity": "gathering",
+        "top_count": 77
+      },
+      {
+        "tick": 54,
+        "specialisations": [
+          "gathering",
+          "movement",
+          "communication",
+          "building"
+        ],
+        "spec_count": 4,
+        "top_activity": "gathering",
+        "top_count": 83
+      },
+      {
+        "tick": 55,
+        "specialisations": [
+          "gathering",
+          "movement",
+          "communication",
+          "building"
+        ],
+        "spec_count": 4,
+        "top_activity": "gathering",
+        "top_count": 90
+      },
+      {
+        "tick": 56,
+        "specialisations": [
+          "gathering",
+          "movement",
+          "communication",
+          "building"
+        ],
+        "spec_count": 4,
+        "top_activity": "gathering",
+        "top_count": 90
+      },
+      {
+        "tick": 57,
+        "specialisations": [
+          "gathering",
+          "movement",
+          "communication",
+          "building"
+        ],
+        "spec_count": 4,
+        "top_activity": "gathering",
+        "top_count": 97
+      },
+      {
+        "tick": 58,
+        "specialisations": [
+          "gathering",
+          "movement",
+          "communication",
+          "building"
+        ],
+        "spec_count": 4,
+        "top_activity": "gathering",
+        "top_count": 103
+      },
+      {
+        "tick": 59,
+        "specialisations": [
+          "gathering",
+          "movement",
+          "communication",
+          "building"
+        ],
+        "spec_count": 4,
+        "top_activity": "gathering",
+        "top_count": 108
+      },
+      {
+        "tick": 60,
+        "specialisations": [
+          "gathering",
+          "movement",
+          "communication",
+          "building"
+        ],
+        "spec_count": 4,
+        "top_activity": "gathering",
+        "top_count": 102
+      },
+      {
+        "tick": 61,
+        "specialisations": [
+          "gathering",
+          "movement",
+          "communication",
+          "building"
+        ],
+        "spec_count": 4,
+        "top_activity": "gathering",
+        "top_count": 103
+      },
+      {
+        "tick": 62,
+        "specialisations": [
+          "gathering",
+          "movement",
+          "communication",
+          "building"
+        ],
+        "spec_count": 4,
+        "top_activity": "gathering",
+        "top_count": 108
+      },
+      {
+        "tick": 63,
+        "specialisations": [
+          "gathering",
+          "movement",
+          "communication",
+          "building"
+        ],
+        "spec_count": 4,
+        "top_activity": "gathering",
+        "top_count": 110
+      },
+      {
+        "tick": 64,
+        "specialisations": [
+          "gathering",
+          "movement",
+          "communication",
+          "building"
+        ],
+        "spec_count": 4,
+        "top_activity": "gathering",
+        "top_count": 110
+      },
+      {
+        "tick": 65,
+        "specialisations": [
+          "gathering",
+          "movement",
+          "communication",
+          "building"
+        ],
+        "spec_count": 4,
+        "top_activity": "gathering",
+        "top_count": 111
+      },
+      {
+        "tick": 66,
+        "specialisations": [
+          "gathering",
+          "movement",
+          "communication",
+          "building"
+        ],
+        "spec_count": 4,
+        "top_activity": "gathering",
+        "top_count": 118
+      },
+      {
+        "tick": 67,
+        "specialisations": [
+          "gathering",
+          "movement",
+          "communication",
+          "building"
+        ],
+        "spec_count": 4,
+        "top_activity": "gathering",
+        "top_count": 121
+      },
+      {
+        "tick": 68,
+        "specialisations": [
+          "gathering",
+          "movement",
+          "communication",
+          "building"
+        ],
+        "spec_count": 4,
+        "top_activity": "gathering",
+        "top_count": 124
+      },
+      {
+        "tick": 69,
+        "specialisations": [
+          "gathering",
+          "movement",
+          "communication",
+          "building"
+        ],
+        "spec_count": 4,
+        "top_activity": "gathering",
+        "top_count": 128
+      },
+      {
+        "tick": 70,
+        "specialisations": [
+          "gathering",
+          "movement",
+          "communication",
+          "building"
+        ],
+        "spec_count": 4,
+        "top_activity": "gathering",
+        "top_count": 134
+      }
+    ],
+    "3": [
+      {
+        "tick": 0,
+        "specialisations": [],
+        "spec_count": 0,
+        "top_activity": null,
+        "top_count": 0
+      },
+      {
+        "tick": 1,
+        "specialisations": [],
+        "spec_count": 0,
+        "top_activity": "gathering",
+        "top_count": 2
+      },
+      {
+        "tick": 2,
+        "specialisations": [],
+        "spec_count": 0,
+        "top_activity": "gathering",
+        "top_count": 4
+      },
+      {
+        "tick": 3,
+        "specialisations": [],
+        "spec_count": 0,
+        "top_activity": "gathering",
+        "top_count": 4
+      },
+      {
+        "tick": 4,
+        "specialisations": [],
+        "spec_count": 0,
+        "top_activity": "movement",
+        "top_count": 6
+      },
+      {
+        "tick": 5,
+        "specialisations": [],
+        "spec_count": 0,
+        "top_activity": "movement",
+        "top_count": 7
+      },
+      {
+        "tick": 6,
+        "specialisations": [],
+        "spec_count": 0,
+        "top_activity": "movement",
+        "top_count": 7
+      },
+      {
+        "tick": 7,
+        "specialisations": [],
+        "spec_count": 0,
+        "top_activity": "movement",
+        "top_count": 8
+      },
+      {
+        "tick": 8,
+        "specialisations": [],
+        "spec_count": 0,
+        "top_activity": "building",
+        "top_count": 9
+      },
+      {
+        "tick": 9,
+        "specialisations": [],
+        "spec_count": 0,
+        "top_activity": "movement",
+        "top_count": 9
+      },
+      {
+        "tick": 10,
+        "specialisations": [],
+        "spec_count": 0,
+        "top_activity": "building",
+        "top_count": 12
+      },
+      {
+        "tick": 11,
+        "specialisations": [],
+        "spec_count": 0,
+        "top_activity": "building",
+        "top_count": 16
+      },
+      {
+        "tick": 12,
+        "specialisations": [],
+        "spec_count": 0,
+        "top_activity": "building",
+        "top_count": 16
+      },
+      {
+        "tick": 13,
+        "specialisations": [],
+        "spec_count": 0,
+        "top_activity": "building",
+        "top_count": 16
+      },
+      {
+        "tick": 14,
+        "specialisations": [],
+        "spec_count": 0,
+        "top_activity": "building",
+        "top_count": 16
+      },
+      {
+        "tick": 15,
+        "specialisations": [],
+        "spec_count": 0,
+        "top_activity": "building",
+        "top_count": 18
+      },
+      {
+        "tick": 16,
+        "specialisations": [],
+        "spec_count": 0,
+        "top_activity": "building",
+        "top_count": 18
+      },
+      {
+        "tick": 17,
+        "specialisations": [],
+        "spec_count": 0,
+        "top_activity": "building",
+        "top_count": 18
+      },
+      {
+        "tick": 18,
+        "specialisations": [],
+        "spec_count": 0,
+        "top_activity": "building",
+        "top_count": 18
+      },
+      {
+        "tick": 19,
+        "specialisations": [],
+        "spec_count": 0,
+        "top_activity": "building",
+        "top_count": 18
+      },
+      {
+        "tick": 20,
+        "specialisations": [],
+        "spec_count": 0,
+        "top_activity": "building",
+        "top_count": 18
+      },
+      {
+        "tick": 21,
+        "specialisations": [],
+        "spec_count": 0,
+        "top_activity": "gathering",
+        "top_count": 18
+      },
+      {
+        "tick": 22,
+        "specialisations": [],
+        "spec_count": 0,
+        "top_activity": "gathering",
+        "top_count": 19
+      },
+      {
+        "tick": 23,
+        "specialisations": [
+          "gathering"
+        ],
+        "spec_count": 1,
+        "top_activity": "gathering",
+        "top_count": 20
+      },
+      {
+        "tick": 24,
+        "specialisations": [
+          "gathering"
+        ],
+        "spec_count": 1,
+        "top_activity": "gathering",
+        "top_count": 21
+      },
+      {
+        "tick": 25,
+        "specialisations": [
+          "gathering"
+        ],
+        "spec_count": 1,
+        "top_activity": "gathering",
+        "top_count": 22
+      },
+      {
+        "tick": 26,
+        "specialisations": [
+          "gathering"
+        ],
+        "spec_count": 1,
+        "top_activity": "gathering",
+        "top_count": 24
+      },
+      {
+        "tick": 27,
+        "specialisations": [
+          "gathering",
+          "movement"
+        ],
+        "spec_count": 2,
+        "top_activity": "gathering",
+        "top_count": 25
+      },
+      {
+        "tick": 28,
+        "specialisations": [
+          "gathering",
+          "movement"
+        ],
+        "spec_count": 2,
+        "top_activity": "gathering",
+        "top_count": 26
+      },
+      {
+        "tick": 29,
+        "specialisations": [
+          "gathering",
+          "movement"
+        ],
+        "spec_count": 2,
+        "top_activity": "gathering",
+        "top_count": 26
+      },
+      {
+        "tick": 30,
+        "specialisations": [
+          "gathering",
+          "movement"
+        ],
+        "spec_count": 2,
+        "top_activity": "gathering",
+        "top_count": 27
+      },
+      {
+        "tick": 31,
+        "specialisations": [
+          "gathering",
+          "movement"
+        ],
+        "spec_count": 2,
+        "top_activity": "gathering",
+        "top_count": 27
+      },
+      {
+        "tick": 32,
+        "specialisations": [
+          "gathering",
+          "movement",
+          "communication"
+        ],
+        "spec_count": 3,
+        "top_activity": "gathering",
+        "top_count": 28
+      },
+      {
+        "tick": 33,
+        "specialisations": [
+          "gathering",
+          "movement",
+          "communication"
+        ],
+        "spec_count": 3,
+        "top_activity": "gathering",
+        "top_count": 29
+      },
+      {
+        "tick": 34,
+        "specialisations": [
+          "gathering",
+          "movement",
+          "communication"
+        ],
+        "spec_count": 3,
+        "top_activity": "gathering",
+        "top_count": 29
+      },
+      {
+        "tick": 35,
+        "specialisations": [
+          "gathering",
+          "movement",
+          "communication"
+        ],
+        "spec_count": 3,
+        "top_activity": "gathering",
+        "top_count": 32
+      },
+      {
+        "tick": 36,
+        "specialisations": [
+          "gathering",
+          "movement",
+          "communication"
+        ],
+        "spec_count": 3,
+        "top_activity": "gathering",
+        "top_count": 33
+      },
+      {
+        "tick": 37,
+        "specialisations": [
+          "gathering",
+          "movement",
+          "communication"
+        ],
+        "spec_count": 3,
+        "top_activity": "gathering",
+        "top_count": 34
+      },
+      {
+        "tick": 38,
+        "specialisations": [
+          "gathering",
+          "movement",
+          "communication"
+        ],
+        "spec_count": 3,
+        "top_activity": "gathering",
+        "top_count": 36
+      },
+      {
+        "tick": 39,
+        "specialisations": [
+          "gathering",
+          "movement",
+          "communication",
+          "building"
+        ],
+        "spec_count": 4,
+        "top_activity": "gathering",
+        "top_count": 36
+      },
+      {
+        "tick": 40,
+        "specialisations": [
+          "gathering",
+          "movement",
+          "communication",
+          "building"
+        ],
+        "spec_count": 4,
+        "top_activity": "gathering",
+        "top_count": 37
+      },
+      {
+        "tick": 41,
+        "specialisations": [
+          "gathering",
+          "movement",
+          "communication",
+          "building"
+        ],
+        "spec_count": 4,
+        "top_activity": "gathering",
+        "top_count": 40
+      },
+      {
+        "tick": 42,
+        "specialisations": [
+          "gathering",
+          "movement",
+          "communication",
+          "building"
+        ],
+        "spec_count": 4,
+        "top_activity": "gathering",
+        "top_count": 42
+      },
+      {
+        "tick": 43,
+        "specialisations": [
+          "gathering",
+          "movement",
+          "communication",
+          "building"
+        ],
+        "spec_count": 4,
+        "top_activity": "gathering",
+        "top_count": 42
+      },
+      {
+        "tick": 44,
+        "specialisations": [
+          "gathering",
+          "movement",
+          "communication",
+          "building"
+        ],
+        "spec_count": 4,
+        "top_activity": "gathering",
+        "top_count": 43
+      },
+      {
+        "tick": 45,
+        "specialisations": [
+          "gathering",
+          "movement",
+          "communication",
+          "building"
+        ],
+        "spec_count": 4,
+        "top_activity": "gathering",
+        "top_count": 43
+      },
+      {
+        "tick": 46,
+        "specialisations": [
+          "gathering",
+          "movement",
+          "communication",
+          "building"
+        ],
+        "spec_count": 4,
+        "top_activity": "gathering",
+        "top_count": 43
+      },
+      {
+        "tick": 47,
+        "specialisations": [
+          "gathering",
+          "movement",
+          "communication",
+          "building"
+        ],
+        "spec_count": 4,
+        "top_activity": "gathering",
+        "top_count": 45
+      },
+      {
+        "tick": 48,
+        "specialisations": [
+          "gathering",
+          "movement",
+          "communication",
+          "building"
+        ],
+        "spec_count": 4,
+        "top_activity": "gathering",
+        "top_count": 46
+      },
+      {
+        "tick": 49,
+        "specialisations": [
+          "gathering",
+          "movement",
+          "communication",
+          "building"
+        ],
+        "spec_count": 4,
+        "top_activity": "gathering",
+        "top_count": 46
+      },
+      {
+        "tick": 50,
+        "specialisations": [
+          "gathering",
+          "movement",
+          "communication",
+          "building"
+        ],
+        "spec_count": 4,
+        "top_activity": "gathering",
+        "top_count": 47
+      },
+      {
+        "tick": 51,
+        "specialisations": [
+          "gathering",
+          "movement",
+          "communication",
+          "building"
+        ],
+        "spec_count": 4,
+        "top_activity": "gathering",
+        "top_count": 49
+      },
+      {
+        "tick": 52,
+        "specialisations": [
+          "gathering",
+          "movement",
+          "communication",
+          "building"
+        ],
+        "spec_count": 4,
+        "top_activity": "gathering",
+        "top_count": 50
+      },
+      {
+        "tick": 53,
+        "specialisations": [
+          "gathering",
+          "movement",
+          "communication",
+          "building"
+        ],
+        "spec_count": 4,
+        "top_activity": "gathering",
+        "top_count": 51
+      },
+      {
+        "tick": 54,
+        "specialisations": [
+          "gathering",
+          "movement",
+          "communication",
+          "building"
+        ],
+        "spec_count": 4,
+        "top_activity": "gathering",
+        "top_count": 56
+      },
+      {
+        "tick": 55,
+        "specialisations": [
+          "gathering",
+          "movement",
+          "communication",
+          "building"
+        ],
+        "spec_count": 4,
+        "top_activity": "gathering",
+        "top_count": 63
+      },
+      {
+        "tick": 56,
+        "specialisations": [
+          "gathering",
+          "movement",
+          "communication",
+          "building"
+        ],
+        "spec_count": 4,
+        "top_activity": "gathering",
+        "top_count": 70
+      },
+      {
+        "tick": 57,
+        "specialisations": [
+          "gathering",
+          "movement",
+          "communication",
+          "building"
+        ],
+        "spec_count": 4,
+        "top_activity": "gathering",
+        "top_count": 83
+      },
+      {
+        "tick": 58,
+        "specialisations": [
+          "gathering",
+          "movement",
+          "communication",
+          "building"
+        ],
+        "spec_count": 4,
+        "top_activity": "gathering",
+        "top_count": 96
+      },
+      {
+        "tick": 59,
+        "specialisations": [
+          "gathering",
+          "movement",
+          "communication",
+          "building"
+        ],
+        "spec_count": 4,
+        "top_activity": "gathering",
+        "top_count": 108
+      },
+      {
+        "tick": 60,
+        "specialisations": [
+          "gathering",
+          "movement",
+          "communication",
+          "building"
+        ],
+        "spec_count": 4,
+        "top_activity": "gathering",
+        "top_count": 76
+      },
+      {
+        "tick": 61,
+        "specialisations": [
+          "gathering",
+          "movement",
+          "communication",
+          "building"
+        ],
+        "spec_count": 4,
+        "top_activity": "gathering",
+        "top_count": 77
+      },
+      {
+        "tick": 62,
+        "specialisations": [
+          "gathering",
+          "movement",
+          "communication",
+          "building"
+        ],
+        "spec_count": 4,
+        "top_activity": "gathering",
+        "top_count": 81
+      },
+      {
+        "tick": 63,
+        "specialisations": [
+          "gathering",
+          "movement",
+          "communication",
+          "building"
+        ],
+        "spec_count": 4,
+        "top_activity": "gathering",
+        "top_count": 88
+      },
+      {
+        "tick": 64,
+        "specialisations": [
+          "gathering",
+          "movement",
+          "communication",
+          "building"
+        ],
+        "spec_count": 4,
+        "top_activity": "gathering",
+        "top_count": 95
+      },
+      {
+        "tick": 65,
+        "specialisations": [
+          "gathering",
+          "movement",
+          "communication",
+          "building"
+        ],
+        "spec_count": 4,
+        "top_activity": "gathering",
+        "top_count": 97
+      },
+      {
+        "tick": 66,
+        "specialisations": [
+          "gathering",
+          "movement",
+          "communication",
+          "building"
+        ],
+        "spec_count": 4,
+        "top_activity": "gathering",
+        "top_count": 98
+      },
+      {
+        "tick": 67,
+        "specialisations": [
+          "gathering",
+          "movement",
+          "communication",
+          "building"
+        ],
+        "spec_count": 4,
+        "top_activity": "gathering",
+        "top_count": 110
+      },
+      {
+        "tick": 68,
+        "specialisations": [
+          "gathering",
+          "movement",
+          "communication",
+          "building"
+        ],
+        "spec_count": 4,
+        "top_activity": "gathering",
+        "top_count": 122
+      },
+      {
+        "tick": 69,
+        "specialisations": [
+          "gathering",
+          "movement",
+          "communication",
+          "building"
+        ],
+        "spec_count": 4,
+        "top_activity": "gathering",
+        "top_count": 125
+      },
+      {
+        "tick": 70,
+        "specialisations": [
+          "gathering",
+          "movement",
+          "communication",
+          "building"
+        ],
+        "spec_count": 4,
+        "top_activity": "gathering",
+        "top_count": 135
+      }
+    ],
+    "4": [
+      {
+        "tick": 0,
+        "specialisations": [],
+        "spec_count": 0,
+        "top_activity": null,
+        "top_count": 0
+      },
+      {
+        "tick": 1,
+        "specialisations": [],
+        "spec_count": 0,
+        "top_activity": "gathering",
+        "top_count": 3
+      },
+      {
+        "tick": 2,
+        "specialisations": [],
+        "spec_count": 0,
+        "top_activity": "gathering",
+        "top_count": 5
+      },
+      {
+        "tick": 3,
+        "specialisations": [],
+        "spec_count": 0,
+        "top_activity": "gathering",
+        "top_count": 8
+      },
+      {
+        "tick": 4,
+        "specialisations": [],
+        "spec_count": 0,
+        "top_activity": "gathering",
+        "top_count": 8
+      },
+      {
+        "tick": 5,
+        "specialisations": [],
+        "spec_count": 0,
+        "top_activity": "gathering",
+        "top_count": 9
+      },
+      {
+        "tick": 6,
+        "specialisations": [],
+        "spec_count": 0,
+        "top_activity": "gathering",
+        "top_count": 10
+      },
+      {
+        "tick": 7,
+        "specialisations": [],
+        "spec_count": 0,
+        "top_activity": "gathering",
+        "top_count": 11
+      },
+      {
+        "tick": 8,
+        "specialisations": [],
+        "spec_count": 0,
+        "top_activity": "gathering",
+        "top_count": 12
+      },
+      {
+        "tick": 9,
+        "specialisations": [],
+        "spec_count": 0,
+        "top_activity": "gathering",
+        "top_count": 13
+      },
+      {
+        "tick": 10,
+        "specialisations": [],
+        "spec_count": 0,
+        "top_activity": "gathering",
+        "top_count": 14
+      },
+      {
+        "tick": 11,
+        "specialisations": [],
+        "spec_count": 0,
+        "top_activity": "gathering",
+        "top_count": 16
+      },
+      {
+        "tick": 12,
+        "specialisations": [],
+        "spec_count": 0,
+        "top_activity": "gathering",
+        "top_count": 17
+      },
+      {
+        "tick": 13,
+        "specialisations": [],
+        "spec_count": 0,
+        "top_activity": "gathering",
+        "top_count": 17
+      },
+      {
+        "tick": 14,
+        "specialisations": [],
+        "spec_count": 0,
+        "top_activity": "gathering",
+        "top_count": 19
+      },
+      {
+        "tick": 15,
+        "specialisations": [],
+        "spec_count": 0,
+        "top_activity": "gathering",
+        "top_count": 19
+      },
+      {
+        "tick": 16,
+        "specialisations": [
+          "movement"
+        ],
+        "spec_count": 1,
+        "top_activity": "movement",
+        "top_count": 20
+      },
+      {
+        "tick": 17,
+        "specialisations": [
+          "movement"
+        ],
+        "spec_count": 1,
+        "top_activity": "movement",
+        "top_count": 24
+      },
+      {
+        "tick": 18,
+        "specialisations": [
+          "movement",
+          "gathering"
+        ],
+        "spec_count": 2,
+        "top_activity": "movement",
+        "top_count": 25
+      },
+      {
+        "tick": 19,
+        "specialisations": [
+          "movement",
+          "gathering"
+        ],
+        "spec_count": 2,
+        "top_activity": "movement",
+        "top_count": 25
+      },
+      {
+        "tick": 20,
+        "specialisations": [
+          "movement",
+          "gathering"
+        ],
+        "spec_count": 2,
+        "top_activity": "movement",
+        "top_count": 26
+      },
+      {
+        "tick": 21,
+        "specialisations": [
+          "movement",
+          "gathering"
+        ],
+        "spec_count": 2,
+        "top_activity": "movement",
+        "top_count": 26
+      },
+      {
+        "tick": 22,
+        "specialisations": [
+          "movement",
+          "gathering"
+        ],
+        "spec_count": 2,
+        "top_activity": "gathering",
+        "top_count": 26
+      },
+      {
+        "tick": 23,
+        "specialisations": [
+          "movement",
+          "gathering"
+        ],
+        "spec_count": 2,
+        "top_activity": "gathering",
+        "top_count": 27
+      },
+      {
+        "tick": 24,
+        "specialisations": [
+          "movement",
+          "gathering"
+        ],
+        "spec_count": 2,
+        "top_activity": "gathering",
+        "top_count": 28
+      },
+      {
+        "tick": 25,
+        "specialisations": [
+          "movement",
+          "gathering"
+        ],
+        "spec_count": 2,
+        "top_activity": "gathering",
+        "top_count": 29
+      },
+      {
+        "tick": 26,
+        "specialisations": [
+          "movement",
+          "gathering"
+        ],
+        "spec_count": 2,
+        "top_activity": "gathering",
+        "top_count": 29
+      },
+      {
+        "tick": 27,
+        "specialisations": [
+          "movement",
+          "gathering"
+        ],
+        "spec_count": 2,
+        "top_activity": "gathering",
+        "top_count": 31
+      },
+      {
+        "tick": 28,
+        "specialisations": [
+          "movement",
+          "gathering"
+        ],
+        "spec_count": 2,
+        "top_activity": "gathering",
+        "top_count": 33
+      },
+      {
+        "tick": 29,
+        "specialisations": [
+          "movement",
+          "gathering"
+        ],
+        "spec_count": 2,
+        "top_activity": "gathering",
+        "top_count": 34
+      },
+      {
+        "tick": 30,
+        "specialisations": [
+          "movement",
+          "gathering",
+          "communication"
+        ],
+        "spec_count": 3,
+        "top_activity": "gathering",
+        "top_count": 34
+      },
+      {
+        "tick": 31,
+        "specialisations": [
+          "movement",
+          "gathering",
+          "communication"
+        ],
+        "spec_count": 3,
+        "top_activity": "gathering",
+        "top_count": 36
+      },
+      {
+        "tick": 32,
+        "specialisations": [
+          "movement",
+          "gathering",
+          "communication"
+        ],
+        "spec_count": 3,
+        "top_activity": "gathering",
+        "top_count": 38
+      },
+      {
+        "tick": 33,
+        "specialisations": [
+          "movement",
+          "gathering",
+          "communication"
+        ],
+        "spec_count": 3,
+        "top_activity": "gathering",
+        "top_count": 39
+      },
+      {
+        "tick": 34,
+        "specialisations": [
+          "movement",
+          "gathering",
+          "communication"
+        ],
+        "spec_count": 3,
+        "top_activity": "gathering",
+        "top_count": 40
+      },
+      {
+        "tick": 35,
+        "specialisations": [
+          "movement",
+          "gathering",
+          "communication"
+        ],
+        "spec_count": 3,
+        "top_activity": "gathering",
+        "top_count": 40
+      },
+      {
+        "tick": 36,
+        "specialisations": [
+          "movement",
+          "gathering",
+          "communication"
+        ],
+        "spec_count": 3,
+        "top_activity": "gathering",
+        "top_count": 40
+      },
+      {
+        "tick": 37,
+        "specialisations": [
+          "movement",
+          "gathering",
+          "communication"
+        ],
+        "spec_count": 3,
+        "top_activity": "gathering",
+        "top_count": 42
+      },
+      {
+        "tick": 38,
+        "specialisations": [
+          "movement",
+          "gathering",
+          "communication"
+        ],
+        "spec_count": 3,
+        "top_activity": "gathering",
+        "top_count": 43
+      },
+      {
+        "tick": 39,
+        "specialisations": [
+          "movement",
+          "gathering",
+          "communication"
+        ],
+        "spec_count": 3,
+        "top_activity": "gathering",
+        "top_count": 44
+      },
+      {
+        "tick": 40,
+        "specialisations": [
+          "movement",
+          "gathering",
+          "communication"
+        ],
+        "spec_count": 3,
+        "top_activity": "gathering",
+        "top_count": 45
+      },
+      {
+        "tick": 41,
+        "specialisations": [
+          "movement",
+          "gathering",
+          "communication"
+        ],
+        "spec_count": 3,
+        "top_activity": "gathering",
+        "top_count": 48
+      },
+      {
+        "tick": 42,
+        "specialisations": [
+          "movement",
+          "gathering",
+          "communication"
+        ],
+        "spec_count": 3,
+        "top_activity": "gathering",
+        "top_count": 50
+      },
+      {
+        "tick": 43,
+        "specialisations": [
+          "movement",
+          "gathering",
+          "communication"
+        ],
+        "spec_count": 3,
+        "top_activity": "gathering",
+        "top_count": 50
+      },
+      {
+        "tick": 44,
+        "specialisations": [
+          "movement",
+          "gathering",
+          "communication"
+        ],
+        "spec_count": 3,
+        "top_activity": "gathering",
+        "top_count": 51
+      },
+      {
+        "tick": 45,
+        "specialisations": [
+          "movement",
+          "gathering",
+          "communication"
+        ],
+        "spec_count": 3,
+        "top_activity": "gathering",
+        "top_count": 53
+      },
+      {
+        "tick": 46,
+        "specialisations": [
+          "movement",
+          "gathering",
+          "communication"
+        ],
+        "spec_count": 3,
+        "top_activity": "gathering",
+        "top_count": 56
+      },
+      {
+        "tick": 47,
+        "specialisations": [
+          "movement",
+          "gathering",
+          "communication"
+        ],
+        "spec_count": 3,
+        "top_activity": "gathering",
+        "top_count": 59
+      },
+      {
+        "tick": 48,
+        "specialisations": [
+          "movement",
+          "gathering",
+          "communication"
+        ],
+        "spec_count": 3,
+        "top_activity": "gathering",
+        "top_count": 61
+      },
+      {
+        "tick": 49,
+        "specialisations": [
+          "movement",
+          "gathering",
+          "communication"
+        ],
+        "spec_count": 3,
+        "top_activity": "gathering",
+        "top_count": 66
+      },
+      {
+        "tick": 50,
+        "specialisations": [
+          "movement",
+          "gathering",
+          "communication"
+        ],
+        "spec_count": 3,
+        "top_activity": "gathering",
+        "top_count": 66
+      },
+      {
+        "tick": 51,
+        "specialisations": [
+          "movement",
+          "gathering",
+          "communication"
+        ],
+        "spec_count": 3,
+        "top_activity": "gathering",
+        "top_count": 73
+      },
+      {
+        "tick": 52,
+        "specialisations": [
+          "movement",
+          "gathering",
+          "communication"
+        ],
+        "spec_count": 3,
+        "top_activity": "gathering",
+        "top_count": 75
+      },
+      {
+        "tick": 53,
+        "specialisations": [
+          "movement",
+          "gathering",
+          "communication"
+        ],
+        "spec_count": 3,
+        "top_activity": "gathering",
+        "top_count": 78
+      },
+      {
+        "tick": 54,
+        "specialisations": [
+          "movement",
+          "gathering",
+          "communication"
+        ],
+        "spec_count": 3,
+        "top_activity": "gathering",
+        "top_count": 84
+      },
+      {
+        "tick": 55,
+        "specialisations": [
+          "movement",
+          "gathering",
+          "communication"
+        ],
+        "spec_count": 3,
+        "top_activity": "gathering",
+        "top_count": 88
+      },
+      {
+        "tick": 56,
+        "specialisations": [
+          "movement",
+          "gathering",
+          "communication",
+          "building"
+        ],
+        "spec_count": 4,
+        "top_activity": "gathering",
+        "top_count": 91
+      },
+      {
+        "tick": 57,
+        "specialisations": [
+          "movement",
+          "gathering",
+          "communication",
+          "building"
+        ],
+        "spec_count": 4,
+        "top_activity": "gathering",
+        "top_count": 97
+      },
+      {
+        "tick": 58,
+        "specialisations": [
+          "movement",
+          "gathering",
+          "communication",
+          "building"
+        ],
+        "spec_count": 4,
+        "top_activity": "gathering",
+        "top_count": 104
+      },
+      {
+        "tick": 59,
+        "specialisations": [
+          "movement",
+          "gathering",
+          "communication",
+          "building"
+        ],
+        "spec_count": 4,
+        "top_activity": "gathering",
+        "top_count": 109
+      },
+      {
+        "tick": 60,
+        "specialisations": [
+          "movement",
+          "gathering",
+          "communication"
+        ],
+        "spec_count": 3,
+        "top_activity": "gathering",
+        "top_count": 102
+      },
+      {
+        "tick": 61,
+        "specialisations": [
+          "movement",
+          "gathering",
+          "communication"
+        ],
+        "spec_count": 3,
+        "top_activity": "gathering",
+        "top_count": 103
+      },
+      {
+        "tick": 62,
+        "specialisations": [
+          "movement",
+          "gathering",
+          "communication",
+          "building"
+        ],
+        "spec_count": 4,
+        "top_activity": "gathering",
+        "top_count": 104
+      },
+      {
+        "tick": 63,
+        "specialisations": [
+          "movement",
+          "gathering",
+          "communication",
+          "building"
+        ],
+        "spec_count": 4,
+        "top_activity": "gathering",
+        "top_count": 105
+      },
+      {
+        "tick": 64,
+        "specialisations": [
+          "movement",
+          "gathering",
+          "communication",
+          "building"
+        ],
+        "spec_count": 4,
+        "top_activity": "gathering",
+        "top_count": 109
+      },
+      {
+        "tick": 65,
+        "specialisations": [
+          "movement",
+          "gathering",
+          "communication",
+          "building"
+        ],
+        "spec_count": 4,
+        "top_activity": "gathering",
+        "top_count": 109
+      },
+      {
+        "tick": 66,
+        "specialisations": [
+          "movement",
+          "gathering",
+          "communication",
+          "building"
+        ],
+        "spec_count": 4,
+        "top_activity": "gathering",
+        "top_count": 116
+      },
+      {
+        "tick": 67,
+        "specialisations": [
+          "movement",
+          "gathering",
+          "communication",
+          "building"
+        ],
+        "spec_count": 4,
+        "top_activity": "gathering",
+        "top_count": 122
+      },
+      {
+        "tick": 68,
+        "specialisations": [
+          "movement",
+          "gathering",
+          "communication",
+          "building"
+        ],
+        "spec_count": 4,
+        "top_activity": "gathering",
+        "top_count": 123
+      },
+      {
+        "tick": 69,
+        "specialisations": [
+          "movement",
+          "gathering",
+          "communication",
+          "building"
+        ],
+        "spec_count": 4,
+        "top_activity": "gathering",
+        "top_count": 128
+      },
+      {
+        "tick": 70,
+        "specialisations": [
+          "movement",
+          "gathering",
+          "communication",
+          "building"
+        ],
+        "spec_count": 4,
+        "top_activity": "gathering",
+        "top_count": 134
+      }
+    ],
+    "5": [
+      {
+        "tick": 0,
+        "specialisations": [],
+        "spec_count": 0,
+        "top_activity": null,
+        "top_count": 0
+      },
+      {
+        "tick": 1,
+        "specialisations": [],
+        "spec_count": 0,
+        "top_activity": "gathering",
+        "top_count": 2
+      },
+      {
+        "tick": 2,
+        "specialisations": [],
+        "spec_count": 0,
+        "top_activity": "communication",
+        "top_count": 4
+      },
+      {
+        "tick": 3,
+        "specialisations": [],
+        "spec_count": 0,
+        "top_activity": "communication",
+        "top_count": 6
+      },
+      {
+        "tick": 4,
+        "specialisations": [],
+        "spec_count": 0,
+        "top_activity": "communication",
+        "top_count": 6
+      },
+      {
+        "tick": 5,
+        "specialisations": [],
+        "spec_count": 0,
+        "top_activity": "gathering",
+        "top_count": 6
+      },
+      {
+        "tick": 6,
+        "specialisations": [],
+        "spec_count": 0,
+        "top_activity": "gathering",
+        "top_count": 6
+      },
+      {
+        "tick": 7,
+        "specialisations": [],
+        "spec_count": 0,
+        "top_activity": "gathering",
+        "top_count": 7
+      },
+      {
+        "tick": 8,
+        "specialisations": [],
+        "spec_count": 0,
+        "top_activity": "gathering",
+        "top_count": 8
+      },
+      {
+        "tick": 9,
+        "specialisations": [],
+        "spec_count": 0,
+        "top_activity": "gathering",
+        "top_count": 9
+      },
+      {
+        "tick": 10,
+        "specialisations": [],
+        "spec_count": 0,
+        "top_activity": "gathering",
+        "top_count": 10
+      },
+      {
+        "tick": 11,
+        "specialisations": [],
+        "spec_count": 0,
+        "top_activity": "gathering",
+        "top_count": 13
+      },
+      {
+        "tick": 12,
+        "specialisations": [],
+        "spec_count": 0,
+        "top_activity": "gathering",
+        "top_count": 14
+      },
+      {
+        "tick": 13,
+        "specialisations": [],
+        "spec_count": 0,
+        "top_activity": "gathering",
+        "top_count": 14
+      },
+      {
+        "tick": 14,
+        "specialisations": [],
+        "spec_count": 0,
+        "top_activity": "gathering",
+        "top_count": 15
+      },
+      {
+        "tick": 15,
+        "specialisations": [],
+        "spec_count": 0,
+        "top_activity": "gathering",
+        "top_count": 17
+      },
+      {
+        "tick": 16,
+        "specialisations": [],
+        "spec_count": 0,
+        "top_activity": "gathering",
+        "top_count": 17
+      },
+      {
+        "tick": 17,
+        "specialisations": [],
+        "spec_count": 0,
+        "top_activity": "gathering",
+        "top_count": 18
+      },
+      {
+        "tick": 18,
+        "specialisations": [],
+        "spec_count": 0,
+        "top_activity": "gathering",
+        "top_count": 19
+      },
+      {
+        "tick": 19,
+        "specialisations": [
+          "gathering"
+        ],
+        "spec_count": 1,
+        "top_activity": "gathering",
+        "top_count": 20
+      },
+      {
+        "tick": 20,
+        "specialisations": [
+          "gathering"
+        ],
+        "spec_count": 1,
+        "top_activity": "gathering",
+        "top_count": 21
+      },
+      {
+        "tick": 21,
+        "specialisations": [
+          "gathering"
+        ],
+        "spec_count": 1,
+        "top_activity": "gathering",
+        "top_count": 21
+      },
+      {
+        "tick": 22,
+        "specialisations": [
+          "gathering"
+        ],
+        "spec_count": 1,
+        "top_activity": "gathering",
+        "top_count": 23
+      },
+      {
+        "tick": 23,
+        "specialisations": [
+          "gathering",
+          "building"
+        ],
+        "spec_count": 2,
+        "top_activity": "gathering",
+        "top_count": 23
+      },
+      {
+        "tick": 24,
+        "specialisations": [
+          "gathering",
+          "building"
+        ],
+        "spec_count": 2,
+        "top_activity": "building",
+        "top_count": 25
+      },
+      {
+        "tick": 25,
+        "specialisations": [
+          "gathering",
+          "building"
+        ],
+        "spec_count": 2,
+        "top_activity": "building",
+        "top_count": 29
+      },
+      {
+        "tick": 26,
+        "specialisations": [
+          "gathering",
+          "building"
+        ],
+        "spec_count": 2,
+        "top_activity": "building",
+        "top_count": 32
+      },
+      {
+        "tick": 27,
+        "specialisations": [
+          "gathering",
+          "building"
+        ],
+        "spec_count": 2,
+        "top_activity": "building",
+        "top_count": 36
+      },
+      {
+        "tick": 28,
+        "specialisations": [
+          "gathering",
+          "building"
+        ],
+        "spec_count": 2,
+        "top_activity": "building",
+        "top_count": 38
+      },
+      {
+        "tick": 29,
+        "specialisations": [
+          "gathering",
+          "building"
+        ],
+        "spec_count": 2,
+        "top_activity": "building",
+        "top_count": 41
+      },
+      {
+        "tick": 30,
+        "specialisations": [
+          "gathering",
+          "building"
+        ],
+        "spec_count": 2,
+        "top_activity": "building",
+        "top_count": 41
+      },
+      {
+        "tick": 31,
+        "specialisations": [
+          "gathering",
+          "building"
+        ],
+        "spec_count": 2,
+        "top_activity": "building",
+        "top_count": 43
+      },
+      {
+        "tick": 32,
+        "specialisations": [
+          "gathering",
+          "building"
+        ],
+        "spec_count": 2,
+        "top_activity": "building",
+        "top_count": 43
+      },
+      {
+        "tick": 33,
+        "specialisations": [
+          "gathering",
+          "building"
+        ],
+        "spec_count": 2,
+        "top_activity": "building",
+        "top_count": 43
+      },
+      {
+        "tick": 34,
+        "specialisations": [
+          "gathering",
+          "building",
+          "movement"
+        ],
+        "spec_count": 3,
+        "top_activity": "building",
+        "top_count": 43
+      },
+      {
+        "tick": 35,
+        "specialisations": [
+          "gathering",
+          "building",
+          "movement"
+        ],
+        "spec_count": 3,
+        "top_activity": "building",
+        "top_count": 45
+      },
+      {
+        "tick": 36,
+        "specialisations": [
+          "gathering",
+          "building",
+          "movement"
+        ],
+        "spec_count": 3,
+        "top_activity": "building",
+        "top_count": 45
+      },
+      {
+        "tick": 37,
+        "specialisations": [
+          "gathering",
+          "building",
+          "movement",
+          "communication"
+        ],
+        "spec_count": 4,
+        "top_activity": "building",
+        "top_count": 45
+      },
+      {
+        "tick": 38,
+        "specialisations": [
+          "gathering",
+          "building",
+          "movement",
+          "communication"
+        ],
+        "spec_count": 4,
+        "top_activity": "building",
+        "top_count": 45
+      },
+      {
+        "tick": 39,
+        "specialisations": [
+          "gathering",
+          "building",
+          "movement",
+          "communication"
+        ],
+        "spec_count": 4,
+        "top_activity": "building",
+        "top_count": 46
+      },
+      {
+        "tick": 40,
+        "specialisations": [
+          "gathering",
+          "building",
+          "movement",
+          "communication"
+        ],
+        "spec_count": 4,
+        "top_activity": "building",
+        "top_count": 47
+      },
+      {
+        "tick": 41,
+        "specialisations": [
+          "gathering",
+          "building",
+          "movement",
+          "communication"
+        ],
+        "spec_count": 4,
+        "top_activity": "building",
+        "top_count": 47
+      },
+      {
+        "tick": 42,
+        "specialisations": [
+          "gathering",
+          "building",
+          "movement",
+          "communication"
+        ],
+        "spec_count": 4,
+        "top_activity": "building",
+        "top_count": 48
+      },
+      {
+        "tick": 43,
+        "specialisations": [
+          "gathering",
+          "building",
+          "movement",
+          "communication"
+        ],
+        "spec_count": 4,
+        "top_activity": "building",
+        "top_count": 48
+      },
+      {
+        "tick": 44,
+        "specialisations": [
+          "gathering",
+          "building",
+          "movement",
+          "communication"
+        ],
+        "spec_count": 4,
+        "top_activity": "building",
+        "top_count": 49
+      },
+      {
+        "tick": 45,
+        "specialisations": [
+          "gathering",
+          "building",
+          "movement",
+          "communication"
+        ],
+        "spec_count": 4,
+        "top_activity": "building",
+        "top_count": 49
+      },
+      {
+        "tick": 46,
+        "specialisations": [
+          "gathering",
+          "building",
+          "movement",
+          "communication"
+        ],
+        "spec_count": 4,
+        "top_activity": "building",
+        "top_count": 49
+      },
+      {
+        "tick": 47,
+        "specialisations": [
+          "gathering",
+          "building",
+          "movement",
+          "communication"
+        ],
+        "spec_count": 4,
+        "top_activity": "building",
+        "top_count": 49
+      },
+      {
+        "tick": 48,
+        "specialisations": [
+          "gathering",
+          "building",
+          "movement",
+          "communication"
+        ],
+        "spec_count": 4,
+        "top_activity": "gathering",
+        "top_count": 51
+      },
+      {
+        "tick": 49,
+        "specialisations": [
+          "gathering",
+          "building",
+          "movement",
+          "communication"
+        ],
+        "spec_count": 4,
+        "top_activity": "gathering",
+        "top_count": 53
+      },
+      {
+        "tick": 50,
+        "specialisations": [
+          "gathering",
+          "building",
+          "movement",
+          "communication"
+        ],
+        "spec_count": 4,
+        "top_activity": "gathering",
+        "top_count": 55
+      },
+      {
+        "tick": 51,
+        "specialisations": [
+          "gathering",
+          "building",
+          "movement",
+          "communication"
+        ],
+        "spec_count": 4,
+        "top_activity": "gathering",
+        "top_count": 59
+      },
+      {
+        "tick": 52,
+        "specialisations": [
+          "gathering",
+          "building",
+          "movement",
+          "communication"
+        ],
+        "spec_count": 4,
+        "top_activity": "gathering",
+        "top_count": 61
+      },
+      {
+        "tick": 53,
+        "specialisations": [
+          "gathering",
+          "building",
+          "movement",
+          "communication"
+        ],
+        "spec_count": 4,
+        "top_activity": "gathering",
+        "top_count": 62
+      },
+      {
+        "tick": 54,
+        "specialisations": [
+          "gathering",
+          "building",
+          "movement",
+          "communication"
+        ],
+        "spec_count": 4,
+        "top_activity": "gathering",
+        "top_count": 62
+      },
+      {
+        "tick": 55,
+        "specialisations": [
+          "gathering",
+          "building",
+          "movement",
+          "communication"
+        ],
+        "spec_count": 4,
+        "top_activity": "gathering",
+        "top_count": 66
+      },
+      {
+        "tick": 56,
+        "specialisations": [
+          "gathering",
+          "building",
+          "movement",
+          "communication"
+        ],
+        "spec_count": 4,
+        "top_activity": "gathering",
+        "top_count": 68
+      },
+      {
+        "tick": 57,
+        "specialisations": [
+          "gathering",
+          "building",
+          "movement",
+          "communication"
+        ],
+        "spec_count": 4,
+        "top_activity": "gathering",
+        "top_count": 68
+      },
+      {
+        "tick": 58,
+        "specialisations": [
+          "gathering",
+          "building",
+          "movement",
+          "communication"
+        ],
+        "spec_count": 4,
+        "top_activity": "gathering",
+        "top_count": 71
+      },
+      {
+        "tick": 59,
+        "specialisations": [
+          "gathering",
+          "building",
+          "movement",
+          "communication"
+        ],
+        "spec_count": 4,
+        "top_activity": "gathering",
+        "top_count": 75
+      },
+      {
+        "tick": 60,
+        "specialisations": [
+          "gathering",
+          "building",
+          "movement",
+          "communication"
+        ],
+        "spec_count": 4,
+        "top_activity": "gathering",
+        "top_count": 83
+      },
+      {
+        "tick": 61,
+        "specialisations": [
+          "gathering",
+          "building",
+          "movement",
+          "communication"
+        ],
+        "spec_count": 4,
+        "top_activity": "gathering",
+        "top_count": 86
+      },
+      {
+        "tick": 62,
+        "specialisations": [
+          "gathering",
+          "building",
+          "movement",
+          "communication"
+        ],
+        "spec_count": 4,
+        "top_activity": "gathering",
+        "top_count": 88
+      },
+      {
+        "tick": 63,
+        "specialisations": [
+          "gathering",
+          "building",
+          "movement",
+          "communication"
+        ],
+        "spec_count": 4,
+        "top_activity": "gathering",
+        "top_count": 88
+      },
+      {
+        "tick": 64,
+        "specialisations": [
+          "gathering",
+          "building",
+          "movement",
+          "communication"
+        ],
+        "spec_count": 4,
+        "top_activity": "gathering",
+        "top_count": 90
+      },
+      {
+        "tick": 65,
+        "specialisations": [
+          "gathering",
+          "building",
+          "movement",
+          "communication"
+        ],
+        "spec_count": 4,
+        "top_activity": "gathering",
+        "top_count": 91
+      },
+      {
+        "tick": 66,
+        "specialisations": [
+          "gathering",
+          "building",
+          "movement",
+          "communication"
+        ],
+        "spec_count": 4,
+        "top_activity": "gathering",
+        "top_count": 92
+      },
+      {
+        "tick": 67,
+        "specialisations": [
+          "gathering",
+          "building",
+          "movement",
+          "communication"
+        ],
+        "spec_count": 4,
+        "top_activity": "gathering",
+        "top_count": 93
+      },
+      {
+        "tick": 68,
+        "specialisations": [
+          "gathering",
+          "building",
+          "movement",
+          "communication"
+        ],
+        "spec_count": 4,
+        "top_activity": "gathering",
+        "top_count": 97
+      },
+      {
+        "tick": 69,
+        "specialisations": [
+          "gathering",
+          "building",
+          "movement",
+          "communication"
+        ],
+        "spec_count": 4,
+        "top_activity": "gathering",
+        "top_count": 97
+      },
+      {
+        "tick": 70,
+        "specialisations": [
+          "gathering",
+          "building",
+          "movement",
+          "communication"
+        ],
+        "spec_count": 4,
+        "top_activity": "gathering",
+        "top_count": 99
+      }
+    ],
+    "6": [
+      {
+        "tick": 0,
+        "specialisations": [],
+        "spec_count": 0,
+        "top_activity": null,
+        "top_count": 0
+      },
+      {
+        "tick": 1,
+        "specialisations": [],
+        "spec_count": 0,
+        "top_activity": "gathering",
+        "top_count": 2
+      },
+      {
+        "tick": 2,
+        "specialisations": [],
+        "spec_count": 0,
+        "top_activity": "gathering",
+        "top_count": 3
+      },
+      {
+        "tick": 3,
+        "specialisations": [],
+        "spec_count": 0,
+        "top_activity": "gathering",
+        "top_count": 4
+      },
+      {
+        "tick": 4,
+        "specialisations": [],
+        "spec_count": 0,
+        "top_activity": "movement",
+        "top_count": 6
+      },
+      {
+        "tick": 5,
+        "specialisations": [],
+        "spec_count": 0,
+        "top_activity": "movement",
+        "top_count": 9
+      },
+      {
+        "tick": 6,
+        "specialisations": [],
+        "spec_count": 0,
+        "top_activity": "movement",
+        "top_count": 10
+      },
+      {
+        "tick": 7,
+        "specialisations": [],
+        "spec_count": 0,
+        "top_activity": "movement",
+        "top_count": 11
+      },
+      {
+        "tick": 8,
+        "specialisations": [],
+        "spec_count": 0,
+        "top_activity": "movement",
+        "top_count": 11
+      },
+      {
+        "tick": 9,
+        "specialisations": [],
+        "spec_count": 0,
+        "top_activity": "movement",
+        "top_count": 11
+      },
+      {
+        "tick": 10,
+        "specialisations": [],
+        "spec_count": 0,
+        "top_activity": "gathering",
+        "top_count": 11
+      },
+      {
+        "tick": 11,
+        "specialisations": [],
+        "spec_count": 0,
+        "top_activity": "movement",
+        "top_count": 13
+      },
+      {
+        "tick": 12,
+        "specialisations": [],
+        "spec_count": 0,
+        "top_activity": "movement",
+        "top_count": 13
+      },
+      {
+        "tick": 13,
+        "specialisations": [],
+        "spec_count": 0,
+        "top_activity": "gathering",
+        "top_count": 15
+      },
+      {
+        "tick": 14,
+        "specialisations": [],
+        "spec_count": 0,
+        "top_activity": "gathering",
+        "top_count": 15
+      },
+      {
+        "tick": 15,
+        "specialisations": [],
+        "spec_count": 0,
+        "top_activity": "movement",
+        "top_count": 17
+      },
+      {
+        "tick": 16,
+        "specialisations": [],
+        "spec_count": 0,
+        "top_activity": "gathering",
+        "top_count": 18
+      },
+      {
+        "tick": 17,
+        "specialisations": [],
+        "spec_count": 0,
+        "top_activity": "gathering",
+        "top_count": 19
+      },
+      {
+        "tick": 18,
+        "specialisations": [],
+        "spec_count": 0,
+        "top_activity": "gathering",
+        "top_count": 19
+      },
+      {
+        "tick": 19,
+        "specialisations": [
+          "movement"
+        ],
+        "spec_count": 1,
+        "top_activity": "movement",
+        "top_count": 20
+      },
+      {
+        "tick": 20,
+        "specialisations": [
+          "movement",
+          "gathering"
+        ],
+        "spec_count": 2,
+        "top_activity": "movement",
+        "top_count": 22
+      },
+      {
+        "tick": 21,
+        "specialisations": [
+          "movement",
+          "gathering"
+        ],
+        "spec_count": 2,
+        "top_activity": "movement",
+        "top_count": 24
+      },
+      {
+        "tick": 22,
+        "specialisations": [
+          "movement",
+          "gathering"
+        ],
+        "spec_count": 2,
+        "top_activity": "movement",
+        "top_count": 26
+      },
+      {
+        "tick": 23,
+        "specialisations": [
+          "movement",
+          "gathering"
+        ],
+        "spec_count": 2,
+        "top_activity": "movement",
+        "top_count": 26
+      },
+      {
+        "tick": 24,
+        "specialisations": [
+          "movement",
+          "gathering"
+        ],
+        "spec_count": 2,
+        "top_activity": "movement",
+        "top_count": 26
+      },
+      {
+        "tick": 25,
+        "specialisations": [
+          "movement",
+          "gathering"
+        ],
+        "spec_count": 2,
+        "top_activity": "movement",
+        "top_count": 26
+      },
+      {
+        "tick": 26,
+        "specialisations": [
+          "movement",
+          "gathering",
+          "communication"
+        ],
+        "spec_count": 3,
+        "top_activity": "movement",
+        "top_count": 27
+      },
+      {
+        "tick": 27,
+        "specialisations": [
+          "movement",
+          "gathering",
+          "communication"
+        ],
+        "spec_count": 3,
+        "top_activity": "movement",
+        "top_count": 28
+      },
+      {
+        "tick": 28,
+        "specialisations": [
+          "movement",
+          "gathering",
+          "communication"
+        ],
+        "spec_count": 3,
+        "top_activity": "gathering",
+        "top_count": 28
+      },
+      {
+        "tick": 29,
+        "specialisations": [
+          "movement",
+          "gathering",
+          "communication"
+        ],
+        "spec_count": 3,
+        "top_activity": "gathering",
+        "top_count": 29
+      },
+      {
+        "tick": 30,
+        "specialisations": [
+          "movement",
+          "gathering",
+          "communication"
+        ],
+        "spec_count": 3,
+        "top_activity": "gathering",
+        "top_count": 30
+      },
+      {
+        "tick": 31,
+        "specialisations": [
+          "movement",
+          "gathering",
+          "communication"
+        ],
+        "spec_count": 3,
+        "top_activity": "gathering",
+        "top_count": 31
+      },
+      {
+        "tick": 32,
+        "specialisations": [
+          "movement",
+          "gathering",
+          "communication"
+        ],
+        "spec_count": 3,
+        "top_activity": "gathering",
+        "top_count": 32
+      },
+      {
+        "tick": 33,
+        "specialisations": [
+          "movement",
+          "gathering",
+          "communication"
+        ],
+        "spec_count": 3,
+        "top_activity": "gathering",
+        "top_count": 33
+      },
+      {
+        "tick": 34,
+        "specialisations": [
+          "movement",
+          "gathering",
+          "communication"
+        ],
+        "spec_count": 3,
+        "top_activity": "gathering",
+        "top_count": 34
+      },
+      {
+        "tick": 35,
+        "specialisations": [
+          "movement",
+          "gathering",
+          "communication"
+        ],
+        "spec_count": 3,
+        "top_activity": "gathering",
+        "top_count": 35
+      },
+      {
+        "tick": 36,
+        "specialisations": [
+          "movement",
+          "gathering",
+          "communication"
+        ],
+        "spec_count": 3,
+        "top_activity": "gathering",
+        "top_count": 36
+      },
+      {
+        "tick": 37,
+        "specialisations": [
+          "movement",
+          "gathering",
+          "communication"
+        ],
+        "spec_count": 3,
+        "top_activity": "gathering",
+        "top_count": 36
+      },
+      {
+        "tick": 38,
+        "specialisations": [
+          "movement",
+          "gathering",
+          "communication"
+        ],
+        "spec_count": 3,
+        "top_activity": "gathering",
+        "top_count": 37
+      },
+      {
+        "tick": 39,
+        "specialisations": [
+          "movement",
+          "gathering",
+          "communication"
+        ],
+        "spec_count": 3,
+        "top_activity": "communication",
+        "top_count": 39
+      },
+      {
+        "tick": 40,
+        "specialisations": [
+          "movement",
+          "gathering",
+          "communication"
+        ],
+        "spec_count": 3,
+        "top_activity": "gathering",
+        "top_count": 40
+      },
+      {
+        "tick": 41,
+        "specialisations": [
+          "movement",
+          "gathering",
+          "communication"
+        ],
+        "spec_count": 3,
+        "top_activity": "gathering",
+        "top_count": 41
+      },
+      {
+        "tick": 42,
+        "specialisations": [
+          "movement",
+          "gathering",
+          "communication"
+        ],
+        "spec_count": 3,
+        "top_activity": "gathering",
+        "top_count": 42
+      },
+      {
+        "tick": 43,
+        "specialisations": [
+          "movement",
+          "gathering",
+          "communication",
+          "building"
+        ],
+        "spec_count": 4,
+        "top_activity": "gathering",
+        "top_count": 43
+      },
+      {
+        "tick": 44,
+        "specialisations": [
+          "movement",
+          "gathering",
+          "communication",
+          "building"
+        ],
+        "spec_count": 4,
+        "top_activity": "gathering",
+        "top_count": 44
+      },
+      {
+        "tick": 45,
+        "specialisations": [
+          "movement",
+          "gathering",
+          "communication",
+          "building"
+        ],
+        "spec_count": 4,
+        "top_activity": "gathering",
+        "top_count": 46
+      },
+      {
+        "tick": 46,
+        "specialisations": [
+          "movement",
+          "gathering",
+          "communication",
+          "building"
+        ],
+        "spec_count": 4,
+        "top_activity": "gathering",
+        "top_count": 47
+      },
+      {
+        "tick": 47,
+        "specialisations": [
+          "movement",
+          "gathering",
+          "communication",
+          "building"
+        ],
+        "spec_count": 4,
+        "top_activity": "gathering",
+        "top_count": 50
+      },
+      {
+        "tick": 48,
+        "specialisations": [
+          "movement",
+          "gathering",
+          "communication",
+          "building"
+        ],
+        "spec_count": 4,
+        "top_activity": "gathering",
+        "top_count": 57
+      },
+      {
+        "tick": 49,
+        "specialisations": [
+          "movement",
+          "gathering",
+          "communication",
+          "building"
+        ],
+        "spec_count": 4,
+        "top_activity": "gathering",
+        "top_count": 63
+      },
+      {
+        "tick": 50,
+        "specialisations": [
+          "movement",
+          "gathering",
+          "communication",
+          "building"
+        ],
+        "spec_count": 4,
+        "top_activity": "gathering",
+        "top_count": 64
+      },
+      {
+        "tick": 51,
+        "specialisations": [
+          "movement",
+          "gathering",
+          "communication",
+          "building"
+        ],
+        "spec_count": 4,
+        "top_activity": "gathering",
+        "top_count": 65
+      },
+      {
+        "tick": 52,
+        "specialisations": [
+          "movement",
+          "gathering",
+          "communication",
+          "building"
+        ],
+        "spec_count": 4,
+        "top_activity": "gathering",
+        "top_count": 66
+      },
+      {
+        "tick": 53,
+        "specialisations": [
+          "movement",
+          "gathering",
+          "communication",
+          "building"
+        ],
+        "spec_count": 4,
+        "top_activity": "gathering",
+        "top_count": 67
+      },
+      {
+        "tick": 54,
+        "specialisations": [
+          "movement",
+          "gathering",
+          "communication",
+          "building"
+        ],
+        "spec_count": 4,
+        "top_activity": "gathering",
+        "top_count": 70
+      },
+      {
+        "tick": 55,
+        "specialisations": [
+          "movement",
+          "gathering",
+          "communication",
+          "building"
+        ],
+        "spec_count": 4,
+        "top_activity": "gathering",
+        "top_count": 71
+      },
+      {
+        "tick": 56,
+        "specialisations": [
+          "movement",
+          "gathering",
+          "communication",
+          "building"
+        ],
+        "spec_count": 4,
+        "top_activity": "gathering",
+        "top_count": 73
+      },
+      {
+        "tick": 57,
+        "specialisations": [
+          "movement",
+          "gathering",
+          "communication",
+          "building"
+        ],
+        "spec_count": 4,
+        "top_activity": "gathering",
+        "top_count": 76
+      },
+      {
+        "tick": 58,
+        "specialisations": [
+          "movement",
+          "gathering",
+          "communication",
+          "building"
+        ],
+        "spec_count": 4,
+        "top_activity": "gathering",
+        "top_count": 80
+      },
+      {
+        "tick": 59,
+        "specialisations": [
+          "movement",
+          "gathering",
+          "communication",
+          "building"
+        ],
+        "spec_count": 4,
+        "top_activity": "gathering",
+        "top_count": 83
+      },
+      {
+        "tick": 60,
+        "specialisations": [
+          "movement",
+          "gathering",
+          "communication",
+          "building"
+        ],
+        "spec_count": 4,
+        "top_activity": "gathering",
+        "top_count": 85
+      },
+      {
+        "tick": 61,
+        "specialisations": [
+          "movement",
+          "gathering",
+          "communication",
+          "building"
+        ],
+        "spec_count": 4,
+        "top_activity": "gathering",
+        "top_count": 89
+      },
+      {
+        "tick": 62,
+        "specialisations": [
+          "movement",
+          "gathering",
+          "communication",
+          "building"
+        ],
+        "spec_count": 4,
+        "top_activity": "gathering",
+        "top_count": 92
+      },
+      {
+        "tick": 63,
+        "specialisations": [
+          "movement",
+          "gathering",
+          "communication",
+          "building"
+        ],
+        "spec_count": 4,
+        "top_activity": "gathering",
+        "top_count": 96
+      },
+      {
+        "tick": 64,
+        "specialisations": [
+          "movement",
+          "gathering",
+          "communication",
+          "building"
+        ],
+        "spec_count": 4,
+        "top_activity": "gathering",
+        "top_count": 97
+      },
+      {
+        "tick": 65,
+        "specialisations": [
+          "movement",
+          "gathering",
+          "communication",
+          "building"
+        ],
+        "spec_count": 4,
+        "top_activity": "gathering",
+        "top_count": 100
+      },
+      {
+        "tick": 66,
+        "specialisations": [
+          "movement",
+          "gathering",
+          "communication",
+          "building"
+        ],
+        "spec_count": 4,
+        "top_activity": "gathering",
+        "top_count": 103
+      },
+      {
+        "tick": 67,
+        "specialisations": [
+          "movement",
+          "gathering",
+          "communication",
+          "building"
+        ],
+        "spec_count": 4,
+        "top_activity": "gathering",
+        "top_count": 106
+      },
+      {
+        "tick": 68,
+        "specialisations": [
+          "movement",
+          "gathering",
+          "communication",
+          "building"
+        ],
+        "spec_count": 4,
+        "top_activity": "gathering",
+        "top_count": 106
+      },
+      {
+        "tick": 69,
+        "specialisations": [
+          "movement",
+          "gathering",
+          "communication",
+          "building"
+        ],
+        "spec_count": 4,
+        "top_activity": "gathering",
+        "top_count": 106
+      },
+      {
+        "tick": 70,
+        "specialisations": [
+          "movement",
+          "gathering",
+          "communication",
+          "building"
+        ],
+        "spec_count": 4,
+        "top_activity": "gathering",
+        "top_count": 106
+      }
+    ],
+    "7": [
+      {
+        "tick": 0,
+        "specialisations": [],
+        "spec_count": 0,
+        "top_activity": null,
+        "top_count": 0
+      },
+      {
+        "tick": 1,
+        "specialisations": [],
+        "spec_count": 0,
+        "top_activity": "gathering",
+        "top_count": 2
+      },
+      {
+        "tick": 2,
+        "specialisations": [],
+        "spec_count": 0,
+        "top_activity": "gathering",
+        "top_count": 5
+      },
+      {
+        "tick": 3,
+        "specialisations": [],
+        "spec_count": 0,
+        "top_activity": "gathering",
+        "top_count": 7
+      },
+      {
+        "tick": 4,
+        "specialisations": [],
+        "spec_count": 0,
+        "top_activity": "gathering",
+        "top_count": 7
+      },
+      {
+        "tick": 5,
+        "specialisations": [],
+        "spec_count": 0,
+        "top_activity": "gathering",
+        "top_count": 7
+      },
+      {
+        "tick": 6,
+        "specialisations": [],
+        "spec_count": 0,
+        "top_activity": "gathering",
+        "top_count": 8
+      },
+      {
+        "tick": 7,
+        "specialisations": [],
+        "spec_count": 0,
+        "top_activity": "building",
+        "top_count": 9
+      },
+      {
+        "tick": 8,
+        "specialisations": [],
+        "spec_count": 0,
+        "top_activity": "gathering",
+        "top_count": 9
+      },
+      {
+        "tick": 9,
+        "specialisations": [],
+        "spec_count": 0,
+        "top_activity": "gathering",
+        "top_count": 11
+      },
+      {
+        "tick": 10,
+        "specialisations": [],
+        "spec_count": 0,
+        "top_activity": "gathering",
+        "top_count": 12
+      },
+      {
+        "tick": 11,
+        "specialisations": [],
+        "spec_count": 0,
+        "top_activity": "gathering",
+        "top_count": 12
+      },
+      {
+        "tick": 12,
+        "specialisations": [],
+        "spec_count": 0,
+        "top_activity": "gathering",
+        "top_count": 13
+      },
+      {
+        "tick": 13,
+        "specialisations": [],
+        "spec_count": 0,
+        "top_activity": "gathering",
+        "top_count": 15
+      },
+      {
+        "tick": 14,
+        "specialisations": [],
+        "spec_count": 0,
+        "top_activity": "gathering",
+        "top_count": 16
+      },
+      {
+        "tick": 15,
+        "specialisations": [],
+        "spec_count": 0,
+        "top_activity": "gathering",
+        "top_count": 16
+      },
+      {
+        "tick": 16,
+        "specialisations": [
+          "gathering"
+        ],
+        "spec_count": 1,
+        "top_activity": "gathering",
+        "top_count": 20
+      },
+      {
+        "tick": 17,
+        "specialisations": [
+          "gathering"
+        ],
+        "spec_count": 1,
+        "top_activity": "gathering",
+        "top_count": 22
+      },
+      {
+        "tick": 18,
+        "specialisations": [
+          "gathering"
+        ],
+        "spec_count": 1,
+        "top_activity": "gathering",
+        "top_count": 25
+      },
+      {
+        "tick": 19,
+        "specialisations": [
+          "gathering"
+        ],
+        "spec_count": 1,
+        "top_activity": "gathering",
+        "top_count": 25
+      },
+      {
+        "tick": 20,
+        "specialisations": [
+          "gathering"
+        ],
+        "spec_count": 1,
+        "top_activity": "gathering",
+        "top_count": 27
+      },
+      {
+        "tick": 21,
+        "specialisations": [
+          "gathering"
+        ],
+        "spec_count": 1,
+        "top_activity": "gathering",
+        "top_count": 27
+      },
+      {
+        "tick": 22,
+        "specialisations": [
+          "gathering"
+        ],
+        "spec_count": 1,
+        "top_activity": "gathering",
+        "top_count": 27
+      },
+      {
+        "tick": 23,
+        "specialisations": [
+          "gathering",
+          "movement"
+        ],
+        "spec_count": 2,
+        "top_activity": "gathering",
+        "top_count": 27
+      },
+      {
+        "tick": 24,
+        "specialisations": [
+          "gathering",
+          "movement"
+        ],
+        "spec_count": 2,
+        "top_activity": "gathering",
+        "top_count": 27
+      },
+      {
+        "tick": 25,
+        "specialisations": [
+          "gathering",
+          "movement",
+          "communication"
+        ],
+        "spec_count": 3,
+        "top_activity": "gathering",
+        "top_count": 28
+      },
+      {
+        "tick": 26,
+        "specialisations": [
+          "gathering",
+          "movement",
+          "communication"
+        ],
+        "spec_count": 3,
+        "top_activity": "gathering",
+        "top_count": 29
+      },
+      {
+        "tick": 27,
+        "specialisations": [
+          "gathering",
+          "movement",
+          "communication"
+        ],
+        "spec_count": 3,
+        "top_activity": "gathering",
+        "top_count": 30
+      },
+      {
+        "tick": 28,
+        "specialisations": [
+          "gathering",
+          "movement",
+          "communication"
+        ],
+        "spec_count": 3,
+        "top_activity": "gathering",
+        "top_count": 31
+      },
+      {
+        "tick": 29,
+        "specialisations": [
+          "gathering",
+          "movement",
+          "communication"
+        ],
+        "spec_count": 3,
+        "top_activity": "gathering",
+        "top_count": 31
+      },
+      {
+        "tick": 30,
+        "specialisations": [
+          "gathering",
+          "movement",
+          "communication"
+        ],
+        "spec_count": 3,
+        "top_activity": "gathering",
+        "top_count": 32
+      },
+      {
+        "tick": 31,
+        "specialisations": [
+          "gathering",
+          "movement",
+          "communication"
+        ],
+        "spec_count": 3,
+        "top_activity": "gathering",
+        "top_count": 33
+      },
+      {
+        "tick": 32,
+        "specialisations": [
+          "gathering",
+          "movement",
+          "communication"
+        ],
+        "spec_count": 3,
+        "top_activity": "gathering",
+        "top_count": 35
+      },
+      {
+        "tick": 33,
+        "specialisations": [
+          "gathering",
+          "movement",
+          "communication"
+        ],
+        "spec_count": 3,
+        "top_activity": "gathering",
+        "top_count": 36
+      },
+      {
+        "tick": 34,
+        "specialisations": [
+          "gathering",
+          "movement",
+          "communication"
+        ],
+        "spec_count": 3,
+        "top_activity": "gathering",
+        "top_count": 37
+      },
+      {
+        "tick": 35,
+        "specialisations": [
+          "gathering",
+          "movement",
+          "communication"
+        ],
+        "spec_count": 3,
+        "top_activity": "gathering",
+        "top_count": 39
+      },
+      {
+        "tick": 36,
+        "specialisations": [
+          "gathering",
+          "movement",
+          "communication"
+        ],
+        "spec_count": 3,
+        "top_activity": "gathering",
+        "top_count": 41
+      },
+      {
+        "tick": 37,
+        "specialisations": [
+          "gathering",
+          "movement",
+          "communication"
+        ],
+        "spec_count": 3,
+        "top_activity": "gathering",
+        "top_count": 44
+      },
+      {
+        "tick": 38,
+        "specialisations": [
+          "gathering",
+          "movement",
+          "communication"
+        ],
+        "spec_count": 3,
+        "top_activity": "gathering",
+        "top_count": 44
+      },
+      {
+        "tick": 39,
+        "specialisations": [
+          "gathering",
+          "movement",
+          "communication"
+        ],
+        "spec_count": 3,
+        "top_activity": "gathering",
+        "top_count": 44
+      },
+      {
+        "tick": 40,
+        "specialisations": [
+          "gathering",
+          "movement",
+          "communication"
+        ],
+        "spec_count": 3,
+        "top_activity": "gathering",
+        "top_count": 45
+      },
+      {
+        "tick": 41,
+        "specialisations": [
+          "gathering",
+          "movement",
+          "communication"
+        ],
+        "spec_count": 3,
+        "top_activity": "gathering",
+        "top_count": 46
+      },
+      {
+        "tick": 42,
+        "specialisations": [
+          "gathering",
+          "movement",
+          "communication"
+        ],
+        "spec_count": 3,
+        "top_activity": "gathering",
+        "top_count": 47
+      },
+      {
+        "tick": 43,
+        "specialisations": [
+          "gathering",
+          "movement",
+          "communication"
+        ],
+        "spec_count": 3,
+        "top_activity": "gathering",
+        "top_count": 47
+      },
+      {
+        "tick": 44,
+        "specialisations": [
+          "gathering",
+          "movement",
+          "communication"
+        ],
+        "spec_count": 3,
+        "top_activity": "gathering",
+        "top_count": 49
+      },
+      {
+        "tick": 45,
+        "specialisations": [
+          "gathering",
+          "movement",
+          "communication",
+          "building"
+        ],
+        "spec_count": 4,
+        "top_activity": "gathering",
+        "top_count": 49
+      },
+      {
+        "tick": 46,
+        "specialisations": [
+          "gathering",
+          "movement",
+          "communication",
+          "building"
+        ],
+        "spec_count": 4,
+        "top_activity": "gathering",
+        "top_count": 51
+      },
+      {
+        "tick": 47,
+        "specialisations": [
+          "gathering",
+          "movement",
+          "communication",
+          "building"
+        ],
+        "spec_count": 4,
+        "top_activity": "gathering",
+        "top_count": 55
+      },
+      {
+        "tick": 48,
+        "specialisations": [
+          "gathering",
+          "movement",
+          "communication",
+          "building"
+        ],
+        "spec_count": 4,
+        "top_activity": "gathering",
+        "top_count": 61
+      },
+      {
+        "tick": 49,
+        "specialisations": [
+          "gathering",
+          "movement",
+          "communication",
+          "building"
+        ],
+        "spec_count": 4,
+        "top_activity": "gathering",
+        "top_count": 67
+      },
+      {
+        "tick": 50,
+        "specialisations": [
+          "gathering",
+          "movement",
+          "communication",
+          "building"
+        ],
+        "spec_count": 4,
+        "top_activity": "gathering",
+        "top_count": 67
+      },
+      {
+        "tick": 51,
+        "specialisations": [
+          "gathering",
+          "movement",
+          "communication",
+          "building"
+        ],
+        "spec_count": 4,
+        "top_activity": "gathering",
+        "top_count": 73
+      },
+      {
+        "tick": 52,
+        "specialisations": [
+          "gathering",
+          "movement",
+          "communication",
+          "building"
+        ],
+        "spec_count": 4,
+        "top_activity": "gathering",
+        "top_count": 76
+      },
+      {
+        "tick": 53,
+        "specialisations": [
+          "gathering",
+          "movement",
+          "communication",
+          "building"
+        ],
+        "spec_count": 4,
+        "top_activity": "gathering",
+        "top_count": 77
+      },
+      {
+        "tick": 54,
+        "specialisations": [
+          "gathering",
+          "movement",
+          "communication",
+          "building"
+        ],
+        "spec_count": 4,
+        "top_activity": "gathering",
+        "top_count": 83
+      },
+      {
+        "tick": 55,
+        "specialisations": [
+          "gathering",
+          "movement",
+          "communication",
+          "building"
+        ],
+        "spec_count": 4,
+        "top_activity": "gathering",
+        "top_count": 88
+      },
+      {
+        "tick": 56,
+        "specialisations": [
+          "gathering",
+          "movement",
+          "communication",
+          "building"
+        ],
+        "spec_count": 4,
+        "top_activity": "gathering",
+        "top_count": 92
+      },
+      {
+        "tick": 57,
+        "specialisations": [
+          "gathering",
+          "movement",
+          "communication",
+          "building"
+        ],
+        "spec_count": 4,
+        "top_activity": "gathering",
+        "top_count": 98
+      },
+      {
+        "tick": 58,
+        "specialisations": [
+          "gathering",
+          "movement",
+          "communication",
+          "building"
+        ],
+        "spec_count": 4,
+        "top_activity": "gathering",
+        "top_count": 102
+      },
+      {
+        "tick": 59,
+        "specialisations": [
+          "gathering",
+          "movement",
+          "communication",
+          "building"
+        ],
+        "spec_count": 4,
+        "top_activity": "gathering",
+        "top_count": 109
+      },
+      {
+        "tick": 60,
+        "specialisations": [
+          "gathering",
+          "movement",
+          "communication",
+          "building"
+        ],
+        "spec_count": 4,
+        "top_activity": "gathering",
+        "top_count": 104
+      },
+      {
+        "tick": 61,
+        "specialisations": [
+          "gathering",
+          "movement",
+          "communication",
+          "building"
+        ],
+        "spec_count": 4,
+        "top_activity": "gathering",
+        "top_count": 105
+      },
+      {
+        "tick": 62,
+        "specialisations": [
+          "gathering",
+          "movement",
+          "communication",
+          "building"
+        ],
+        "spec_count": 4,
+        "top_activity": "gathering",
+        "top_count": 108
+      },
+      {
+        "tick": 63,
+        "specialisations": [
+          "gathering",
+          "movement",
+          "communication",
+          "building"
+        ],
+        "spec_count": 4,
+        "top_activity": "gathering",
+        "top_count": 110
+      },
+      {
+        "tick": 64,
+        "specialisations": [
+          "gathering",
+          "movement",
+          "communication",
+          "building"
+        ],
+        "spec_count": 4,
+        "top_activity": "gathering",
+        "top_count": 110
+      },
+      {
+        "tick": 65,
+        "specialisations": [
+          "gathering",
+          "movement",
+          "communication",
+          "building"
+        ],
+        "spec_count": 4,
+        "top_activity": "gathering",
+        "top_count": 111
+      },
+      {
+        "tick": 66,
+        "specialisations": [
+          "gathering",
+          "movement",
+          "communication",
+          "building"
+        ],
+        "spec_count": 4,
+        "top_activity": "gathering",
+        "top_count": 117
+      },
+      {
+        "tick": 67,
+        "specialisations": [
+          "gathering",
+          "movement",
+          "communication",
+          "building"
+        ],
+        "spec_count": 4,
+        "top_activity": "gathering",
+        "top_count": 121
+      },
+      {
+        "tick": 68,
+        "specialisations": [
+          "gathering",
+          "movement",
+          "communication",
+          "building"
+        ],
+        "spec_count": 4,
+        "top_activity": "gathering",
+        "top_count": 125
+      },
+      {
+        "tick": 69,
+        "specialisations": [
+          "gathering",
+          "movement",
+          "communication",
+          "building"
+        ],
+        "spec_count": 4,
+        "top_activity": "gathering",
+        "top_count": 128
+      },
+      {
+        "tick": 70,
+        "specialisations": [
+          "gathering",
+          "movement",
+          "communication",
+          "building"
+        ],
+        "spec_count": 4,
+        "top_activity": "gathering",
+        "top_count": 135
+      }
+    ],
+    "8": [
+      {
+        "tick": 0,
+        "specialisations": [],
+        "spec_count": 0,
+        "top_activity": null,
+        "top_count": 0
+      },
+      {
+        "tick": 1,
+        "specialisations": [],
+        "spec_count": 0,
+        "top_activity": "gathering",
+        "top_count": 3
+      },
+      {
+        "tick": 2,
+        "specialisations": [],
+        "spec_count": 0,
+        "top_activity": "gathering",
+        "top_count": 4
+      },
+      {
+        "tick": 3,
+        "specialisations": [],
+        "spec_count": 0,
+        "top_activity": "gathering",
+        "top_count": 4
+      },
+      {
+        "tick": 4,
+        "specialisations": [],
+        "spec_count": 0,
+        "top_activity": "movement",
+        "top_count": 6
+      },
+      {
+        "tick": 5,
+        "specialisations": [],
+        "spec_count": 0,
+        "top_activity": "gathering",
+        "top_count": 7
+      },
+      {
+        "tick": 6,
+        "specialisations": [],
+        "spec_count": 0,
+        "top_activity": "gathering",
+        "top_count": 7
+      },
+      {
+        "tick": 7,
+        "specialisations": [],
+        "spec_count": 0,
+        "top_activity": "gathering",
+        "top_count": 8
+      },
+      {
+        "tick": 8,
+        "specialisations": [],
+        "spec_count": 0,
+        "top_activity": "gathering",
+        "top_count": 9
+      },
+      {
+        "tick": 9,
+        "specialisations": [],
+        "spec_count": 0,
+        "top_activity": "gathering",
+        "top_count": 11
+      },
+      {
+        "tick": 10,
+        "specialisations": [],
+        "spec_count": 0,
+        "top_activity": "gathering",
+        "top_count": 14
+      },
+      {
+        "tick": 11,
+        "specialisations": [],
+        "spec_count": 0,
+        "top_activity": "gathering",
+        "top_count": 14
+      },
+      {
+        "tick": 12,
+        "specialisations": [],
+        "spec_count": 0,
+        "top_activity": "building",
+        "top_count": 18
+      },
+      {
+        "tick": 13,
+        "specialisations": [],
+        "spec_count": 0,
+        "top_activity": "building",
+        "top_count": 19
+      },
+      {
+        "tick": 14,
+        "specialisations": [
+          "building"
+        ],
+        "spec_count": 1,
+        "top_activity": "building",
+        "top_count": 20
+      },
+      {
+        "tick": 15,
+        "specialisations": [
+          "building"
+        ],
+        "spec_count": 1,
+        "top_activity": "building",
+        "top_count": 20
+      },
+      {
+        "tick": 16,
+        "specialisations": [
+          "building"
+        ],
+        "spec_count": 1,
+        "top_activity": "building",
+        "top_count": 20
+      },
+      {
+        "tick": 17,
+        "specialisations": [
+          "building",
+          "gathering"
+        ],
+        "spec_count": 2,
+        "top_activity": "gathering",
+        "top_count": 21
+      },
+      {
+        "tick": 18,
+        "specialisations": [
+          "building",
+          "gathering"
+        ],
+        "spec_count": 2,
+        "top_activity": "gathering",
+        "top_count": 22
+      },
+      {
+        "tick": 19,
+        "specialisations": [
+          "building",
+          "gathering"
+        ],
+        "spec_count": 2,
+        "top_activity": "gathering",
+        "top_count": 23
+      },
+      {
+        "tick": 20,
+        "specialisations": [
+          "building",
+          "gathering"
+        ],
+        "spec_count": 2,
+        "top_activity": "gathering",
+        "top_count": 23
+      },
+      {
+        "tick": 21,
+        "specialisations": [
+          "building",
+          "gathering"
+        ],
+        "spec_count": 2,
+        "top_activity": "gathering",
+        "top_count": 24
+      },
+      {
+        "tick": 22,
+        "specialisations": [
+          "building",
+          "gathering"
+        ],
+        "spec_count": 2,
+        "top_activity": "gathering",
+        "top_count": 25
+      },
+      {
+        "tick": 23,
+        "specialisations": [
+          "building",
+          "gathering"
+        ],
+        "spec_count": 2,
+        "top_activity": "building",
+        "top_count": 29
+      },
+      {
+        "tick": 24,
+        "specialisations": [
+          "building",
+          "gathering"
+        ],
+        "spec_count": 2,
+        "top_activity": "building",
+        "top_count": 29
+      },
+      {
+        "tick": 25,
+        "specialisations": [
+          "building",
+          "gathering"
+        ],
+        "spec_count": 2,
+        "top_activity": "building",
+        "top_count": 29
+      },
+      {
+        "tick": 26,
+        "specialisations": [
+          "building",
+          "gathering"
+        ],
+        "spec_count": 2,
+        "top_activity": "gathering",
+        "top_count": 29
+      },
+      {
+        "tick": 27,
+        "specialisations": [
+          "building",
+          "gathering"
+        ],
+        "spec_count": 2,
+        "top_activity": "building",
+        "top_count": 31
+      },
+      {
+        "tick": 28,
+        "specialisations": [
+          "building",
+          "gathering"
+        ],
+        "spec_count": 2,
+        "top_activity": "gathering",
+        "top_count": 31
+      },
+      {
+        "tick": 29,
+        "specialisations": [
+          "building",
+          "gathering",
+          "communication"
+        ],
+        "spec_count": 3,
+        "top_activity": "gathering",
+        "top_count": 34
+      },
+      {
+        "tick": 30,
+        "specialisations": [
+          "building",
+          "gathering",
+          "communication"
+        ],
+        "spec_count": 3,
+        "top_activity": "gathering",
+        "top_count": 34
+      },
+      {
+        "tick": 31,
+        "specialisations": [
+          "building",
+          "gathering",
+          "communication"
+        ],
+        "spec_count": 3,
+        "top_activity": "gathering",
+        "top_count": 35
+      },
+      {
+        "tick": 32,
+        "specialisations": [
+          "building",
+          "gathering",
+          "communication"
+        ],
+        "spec_count": 3,
+        "top_activity": "gathering",
+        "top_count": 36
+      },
+      {
+        "tick": 33,
+        "specialisations": [
+          "building",
+          "gathering",
+          "communication"
+        ],
+        "spec_count": 3,
+        "top_activity": "building",
+        "top_count": 38
+      },
+      {
+        "tick": 34,
+        "specialisations": [
+          "building",
+          "gathering",
+          "communication"
+        ],
+        "spec_count": 3,
+        "top_activity": "gathering",
+        "top_count": 40
+      },
+      {
+        "tick": 35,
+        "specialisations": [
+          "building",
+          "gathering",
+          "communication"
+        ],
+        "spec_count": 3,
+        "top_activity": "gathering",
+        "top_count": 41
+      },
+      {
+        "tick": 36,
+        "specialisations": [
+          "building",
+          "gathering",
+          "communication"
+        ],
+        "spec_count": 3,
+        "top_activity": "gathering",
+        "top_count": 43
+      },
+      {
+        "tick": 37,
+        "specialisations": [
+          "building",
+          "gathering",
+          "communication"
+        ],
+        "spec_count": 3,
+        "top_activity": "gathering",
+        "top_count": 46
+      },
+      {
+        "tick": 38,
+        "specialisations": [
+          "building",
+          "gathering",
+          "communication"
+        ],
+        "spec_count": 3,
+        "top_activity": "gathering",
+        "top_count": 48
+      },
+      {
+        "tick": 39,
+        "specialisations": [
+          "building",
+          "gathering",
+          "communication"
+        ],
+        "spec_count": 3,
+        "top_activity": "gathering",
+        "top_count": 49
+      },
+      {
+        "tick": 40,
+        "specialisations": [
+          "building",
+          "gathering",
+          "communication"
+        ],
+        "spec_count": 3,
+        "top_activity": "gathering",
+        "top_count": 52
+      },
+      {
+        "tick": 41,
+        "specialisations": [
+          "building",
+          "gathering",
+          "communication"
+        ],
+        "spec_count": 3,
+        "top_activity": "gathering",
+        "top_count": 54
+      },
+      {
+        "tick": 42,
+        "specialisations": [
+          "building",
+          "gathering",
+          "communication"
+        ],
+        "spec_count": 3,
+        "top_activity": "gathering",
+        "top_count": 54
+      },
+      {
+        "tick": 43,
+        "specialisations": [
+          "building",
+          "gathering",
+          "communication"
+        ],
+        "spec_count": 3,
+        "top_activity": "gathering",
+        "top_count": 55
+      },
+      {
+        "tick": 44,
+        "specialisations": [
+          "building",
+          "gathering",
+          "communication"
+        ],
+        "spec_count": 3,
+        "top_activity": "gathering",
+        "top_count": 57
+      },
+      {
+        "tick": 45,
+        "specialisations": [
+          "building",
+          "gathering",
+          "communication",
+          "movement"
+        ],
+        "spec_count": 4,
+        "top_activity": "gathering",
+        "top_count": 58
+      },
+      {
+        "tick": 46,
+        "specialisations": [
+          "building",
+          "gathering",
+          "communication",
+          "movement"
+        ],
+        "spec_count": 4,
+        "top_activity": "gathering",
+        "top_count": 60
+      },
+      {
+        "tick": 47,
+        "specialisations": [
+          "building",
+          "gathering",
+          "communication",
+          "movement"
+        ],
+        "spec_count": 4,
+        "top_activity": "gathering",
+        "top_count": 61
+      },
+      {
+        "tick": 48,
+        "specialisations": [
+          "building",
+          "gathering",
+          "communication",
+          "movement"
+        ],
+        "spec_count": 4,
+        "top_activity": "gathering",
+        "top_count": 62
+      },
+      {
+        "tick": 49,
+        "specialisations": [
+          "building",
+          "gathering",
+          "communication",
+          "movement"
+        ],
+        "spec_count": 4,
+        "top_activity": "gathering",
+        "top_count": 67
+      },
+      {
+        "tick": 50,
+        "specialisations": [
+          "building",
+          "gathering",
+          "communication",
+          "movement"
+        ],
+        "spec_count": 4,
+        "top_activity": "gathering",
+        "top_count": 68
+      },
+      {
+        "tick": 51,
+        "specialisations": [
+          "building",
+          "gathering",
+          "communication",
+          "movement"
+        ],
+        "spec_count": 4,
+        "top_activity": "gathering",
+        "top_count": 74
+      },
+      {
+        "tick": 52,
+        "specialisations": [
+          "building",
+          "gathering",
+          "communication",
+          "movement"
+        ],
+        "spec_count": 4,
+        "top_activity": "gathering",
+        "top_count": 74
+      },
+      {
+        "tick": 53,
+        "specialisations": [
+          "building",
+          "gathering",
+          "communication",
+          "movement"
+        ],
+        "spec_count": 4,
+        "top_activity": "gathering",
+        "top_count": 77
+      },
+      {
+        "tick": 54,
+        "specialisations": [
+          "building",
+          "gathering",
+          "communication",
+          "movement"
+        ],
+        "spec_count": 4,
+        "top_activity": "gathering",
+        "top_count": 83
+      },
+      {
+        "tick": 55,
+        "specialisations": [
+          "building",
+          "gathering",
+          "communication",
+          "movement"
+        ],
+        "spec_count": 4,
+        "top_activity": "gathering",
+        "top_count": 90
+      },
+      {
+        "tick": 56,
+        "specialisations": [
+          "building",
+          "gathering",
+          "communication",
+          "movement"
+        ],
+        "spec_count": 4,
+        "top_activity": "gathering",
+        "top_count": 91
+      },
+      {
+        "tick": 57,
+        "specialisations": [
+          "building",
+          "gathering",
+          "communication",
+          "movement"
+        ],
+        "spec_count": 4,
+        "top_activity": "gathering",
+        "top_count": 97
+      },
+      {
+        "tick": 58,
+        "specialisations": [
+          "building",
+          "gathering",
+          "communication",
+          "movement"
+        ],
+        "spec_count": 4,
+        "top_activity": "gathering",
+        "top_count": 103
+      },
+      {
+        "tick": 59,
+        "specialisations": [
+          "building",
+          "gathering",
+          "communication",
+          "movement"
+        ],
+        "spec_count": 4,
+        "top_activity": "gathering",
+        "top_count": 107
+      },
+      {
+        "tick": 60,
+        "specialisations": [
+          "building",
+          "gathering",
+          "communication",
+          "movement"
+        ],
+        "spec_count": 4,
+        "top_activity": "gathering",
+        "top_count": 97
+      },
+      {
+        "tick": 61,
+        "specialisations": [
+          "building",
+          "gathering",
+          "communication",
+          "movement"
+        ],
+        "spec_count": 4,
+        "top_activity": "gathering",
+        "top_count": 98
+      },
+      {
+        "tick": 62,
+        "specialisations": [
+          "building",
+          "gathering",
+          "communication",
+          "movement"
+        ],
+        "spec_count": 4,
+        "top_activity": "gathering",
+        "top_count": 100
+      },
+      {
+        "tick": 63,
+        "specialisations": [
+          "building",
+          "gathering",
+          "communication",
+          "movement"
+        ],
+        "spec_count": 4,
+        "top_activity": "gathering",
+        "top_count": 101
+      },
+      {
+        "tick": 64,
+        "specialisations": [
+          "building",
+          "gathering",
+          "communication",
+          "movement"
+        ],
+        "spec_count": 4,
+        "top_activity": "gathering",
+        "top_count": 105
+      },
+      {
+        "tick": 65,
+        "specialisations": [
+          "building",
+          "gathering",
+          "communication",
+          "movement"
+        ],
+        "spec_count": 4,
+        "top_activity": "gathering",
+        "top_count": 106
+      },
+      {
+        "tick": 66,
+        "specialisations": [
+          "building",
+          "gathering",
+          "communication",
+          "movement"
+        ],
+        "spec_count": 4,
+        "top_activity": "gathering",
+        "top_count": 107
+      },
+      {
+        "tick": 67,
+        "specialisations": [
+          "building",
+          "gathering",
+          "communication",
+          "movement"
+        ],
+        "spec_count": 4,
+        "top_activity": "gathering",
+        "top_count": 108
+      },
+      {
+        "tick": 68,
+        "specialisations": [
+          "building",
+          "gathering",
+          "communication",
+          "movement"
+        ],
+        "spec_count": 4,
+        "top_activity": "gathering",
+        "top_count": 110
+      },
+      {
+        "tick": 69,
+        "specialisations": [
+          "building",
+          "gathering",
+          "communication",
+          "movement"
+        ],
+        "spec_count": 4,
+        "top_activity": "gathering",
+        "top_count": 110
+      },
+      {
+        "tick": 70,
+        "specialisations": [
+          "building",
+          "gathering",
+          "communication",
+          "movement"
+        ],
+        "spec_count": 4,
+        "top_activity": "gathering",
+        "top_count": 110
+      }
+    ],
+    "9": [
+      {
+        "tick": 0,
+        "specialisations": [],
+        "spec_count": 0,
+        "top_activity": null,
+        "top_count": 0
+      },
+      {
+        "tick": 1,
+        "specialisations": [],
+        "spec_count": 0,
+        "top_activity": "gathering",
+        "top_count": 2
+      },
+      {
+        "tick": 2,
+        "specialisations": [],
+        "spec_count": 0,
+        "top_activity": "gathering",
+        "top_count": 4
+      },
+      {
+        "tick": 3,
+        "specialisations": [],
+        "spec_count": 0,
+        "top_activity": "gathering",
+        "top_count": 4
+      },
+      {
+        "tick": 4,
+        "specialisations": [],
+        "spec_count": 0,
+        "top_activity": "gathering",
+        "top_count": 5
+      },
+      {
+        "tick": 5,
+        "specialisations": [],
+        "spec_count": 0,
+        "top_activity": "movement",
+        "top_count": 7
+      },
+      {
+        "tick": 6,
+        "specialisations": [],
+        "spec_count": 0,
+        "top_activity": "movement",
+        "top_count": 10
+      },
+      {
+        "tick": 7,
+        "specialisations": [],
+        "spec_count": 0,
+        "top_activity": "movement",
+        "top_count": 12
+      },
+      {
+        "tick": 8,
+        "specialisations": [],
+        "spec_count": 0,
+        "top_activity": "movement",
+        "top_count": 12
+      },
+      {
+        "tick": 9,
+        "specialisations": [],
+        "spec_count": 0,
+        "top_activity": "movement",
+        "top_count": 13
+      },
+      {
+        "tick": 10,
+        "specialisations": [],
+        "spec_count": 0,
+        "top_activity": "movement",
+        "top_count": 14
+      },
+      {
+        "tick": 11,
+        "specialisations": [],
+        "spec_count": 0,
+        "top_activity": "movement",
+        "top_count": 14
+      },
+      {
+        "tick": 12,
+        "specialisations": [],
+        "spec_count": 0,
+        "top_activity": "gathering",
+        "top_count": 15
+      },
+      {
+        "tick": 13,
+        "specialisations": [],
+        "spec_count": 0,
+        "top_activity": "gathering",
+        "top_count": 16
+      },
+      {
+        "tick": 14,
+        "specialisations": [],
+        "spec_count": 0,
+        "top_activity": "gathering",
+        "top_count": 17
+      },
+      {
+        "tick": 15,
+        "specialisations": [],
+        "spec_count": 0,
+        "top_activity": "gathering",
+        "top_count": 18
+      },
+      {
+        "tick": 16,
+        "specialisations": [
+          "gathering"
+        ],
+        "spec_count": 1,
+        "top_activity": "gathering",
+        "top_count": 20
+      },
+      {
+        "tick": 17,
+        "specialisations": [
+          "gathering"
+        ],
+        "spec_count": 1,
+        "top_activity": "gathering",
+        "top_count": 22
+      },
+      {
+        "tick": 18,
+        "specialisations": [
+          "gathering"
+        ],
+        "spec_count": 1,
+        "top_activity": "gathering",
+        "top_count": 23
+      },
+      {
+        "tick": 19,
+        "specialisations": [
+          "gathering"
+        ],
+        "spec_count": 1,
+        "top_activity": "gathering",
+        "top_count": 23
+      },
+      {
+        "tick": 20,
+        "specialisations": [
+          "gathering"
+        ],
+        "spec_count": 1,
+        "top_activity": "gathering",
+        "top_count": 25
+      },
+      {
+        "tick": 21,
+        "specialisations": [
+          "gathering",
+          "movement"
+        ],
+        "spec_count": 2,
+        "top_activity": "gathering",
+        "top_count": 26
+      },
+      {
+        "tick": 22,
+        "specialisations": [
+          "gathering",
+          "movement"
+        ],
+        "spec_count": 2,
+        "top_activity": "gathering",
+        "top_count": 27
+      },
+      {
+        "tick": 23,
+        "specialisations": [
+          "gathering",
+          "movement"
+        ],
+        "spec_count": 2,
+        "top_activity": "gathering",
+        "top_count": 31
+      },
+      {
+        "tick": 24,
+        "specialisations": [
+          "gathering",
+          "movement"
+        ],
+        "spec_count": 2,
+        "top_activity": "gathering",
+        "top_count": 32
+      },
+      {
+        "tick": 25,
+        "specialisations": [
+          "gathering",
+          "movement"
+        ],
+        "spec_count": 2,
+        "top_activity": "gathering",
+        "top_count": 35
+      },
+      {
+        "tick": 26,
+        "specialisations": [
+          "gathering",
+          "movement"
+        ],
+        "spec_count": 2,
+        "top_activity": "gathering",
+        "top_count": 35
+      },
+      {
+        "tick": 27,
+        "specialisations": [
+          "gathering",
+          "movement"
+        ],
+        "spec_count": 2,
+        "top_activity": "gathering",
+        "top_count": 38
+      },
+      {
+        "tick": 28,
+        "specialisations": [
+          "gathering",
+          "movement"
+        ],
+        "spec_count": 2,
+        "top_activity": "gathering",
+        "top_count": 39
+      },
+      {
+        "tick": 29,
+        "specialisations": [
+          "gathering",
+          "movement"
+        ],
+        "spec_count": 2,
+        "top_activity": "gathering",
+        "top_count": 39
+      },
+      {
+        "tick": 30,
+        "specialisations": [
+          "gathering",
+          "movement"
+        ],
+        "spec_count": 2,
+        "top_activity": "gathering",
+        "top_count": 42
+      },
+      {
+        "tick": 31,
+        "specialisations": [
+          "gathering",
+          "movement"
+        ],
+        "spec_count": 2,
+        "top_activity": "gathering",
+        "top_count": 43
+      },
+      {
+        "tick": 32,
+        "specialisations": [
+          "gathering",
+          "movement"
+        ],
+        "spec_count": 2,
+        "top_activity": "gathering",
+        "top_count": 45
+      },
+      {
+        "tick": 33,
+        "specialisations": [
+          "gathering",
+          "movement",
+          "communication"
+        ],
+        "spec_count": 3,
+        "top_activity": "gathering",
+        "top_count": 46
+      },
+      {
+        "tick": 34,
+        "specialisations": [
+          "gathering",
+          "movement",
+          "communication"
+        ],
+        "spec_count": 3,
+        "top_activity": "gathering",
+        "top_count": 47
+      },
+      {
+        "tick": 35,
+        "specialisations": [
+          "gathering",
+          "movement",
+          "communication"
+        ],
+        "spec_count": 3,
+        "top_activity": "gathering",
+        "top_count": 48
+      },
+      {
+        "tick": 36,
+        "specialisations": [
+          "gathering",
+          "movement",
+          "communication"
+        ],
+        "spec_count": 3,
+        "top_activity": "gathering",
+        "top_count": 48
+      },
+      {
+        "tick": 37,
+        "specialisations": [
+          "gathering",
+          "movement",
+          "communication"
+        ],
+        "spec_count": 3,
+        "top_activity": "gathering",
+        "top_count": 49
+      },
+      {
+        "tick": 38,
+        "specialisations": [
+          "gathering",
+          "movement",
+          "communication"
+        ],
+        "spec_count": 3,
+        "top_activity": "gathering",
+        "top_count": 50
+      },
+      {
+        "tick": 39,
+        "specialisations": [
+          "gathering",
+          "movement",
+          "communication"
+        ],
+        "spec_count": 3,
+        "top_activity": "gathering",
+        "top_count": 50
+      },
+      {
+        "tick": 40,
+        "specialisations": [
+          "gathering",
+          "movement",
+          "communication"
+        ],
+        "spec_count": 3,
+        "top_activity": "gathering",
+        "top_count": 53
+      },
+      {
+        "tick": 41,
+        "specialisations": [
+          "gathering",
+          "movement",
+          "communication"
+        ],
+        "spec_count": 3,
+        "top_activity": "gathering",
+        "top_count": 53
+      },
+      {
+        "tick": 42,
+        "specialisations": [
+          "gathering",
+          "movement",
+          "communication"
+        ],
+        "spec_count": 3,
+        "top_activity": "gathering",
+        "top_count": 53
+      },
+      {
+        "tick": 43,
+        "specialisations": [
+          "gathering",
+          "movement",
+          "communication"
+        ],
+        "spec_count": 3,
+        "top_activity": "gathering",
+        "top_count": 54
+      },
+      {
+        "tick": 44,
+        "specialisations": [
+          "gathering",
+          "movement",
+          "communication"
+        ],
+        "spec_count": 3,
+        "top_activity": "gathering",
+        "top_count": 57
+      },
+      {
+        "tick": 45,
+        "specialisations": [
+          "gathering",
+          "movement",
+          "communication"
+        ],
+        "spec_count": 3,
+        "top_activity": "gathering",
+        "top_count": 58
+      },
+      {
+        "tick": 46,
+        "specialisations": [
+          "gathering",
+          "movement",
+          "communication"
+        ],
+        "spec_count": 3,
+        "top_activity": "gathering",
+        "top_count": 59
+      },
+      {
+        "tick": 47,
+        "specialisations": [
+          "gathering",
+          "movement",
+          "communication"
+        ],
+        "spec_count": 3,
+        "top_activity": "gathering",
+        "top_count": 60
+      },
+      {
+        "tick": 48,
+        "specialisations": [
+          "gathering",
+          "movement",
+          "communication"
+        ],
+        "spec_count": 3,
+        "top_activity": "gathering",
+        "top_count": 61
+      },
+      {
+        "tick": 49,
+        "specialisations": [
+          "gathering",
+          "movement",
+          "communication"
+        ],
+        "spec_count": 3,
+        "top_activity": "gathering",
+        "top_count": 62
+      },
+      {
+        "tick": 50,
+        "specialisations": [
+          "gathering",
+          "movement",
+          "communication"
+        ],
+        "spec_count": 3,
+        "top_activity": "gathering",
+        "top_count": 63
+      },
+      {
+        "tick": 51,
+        "specialisations": [
+          "gathering",
+          "movement",
+          "communication"
+        ],
+        "spec_count": 3,
+        "top_activity": "gathering",
+        "top_count": 64
+      },
+      {
+        "tick": 52,
+        "specialisations": [
+          "gathering",
+          "movement",
+          "communication"
+        ],
+        "spec_count": 3,
+        "top_activity": "gathering",
+        "top_count": 64
+      },
+      {
+        "tick": 53,
+        "specialisations": [
+          "gathering",
+          "movement",
+          "communication"
+        ],
+        "spec_count": 3,
+        "top_activity": "gathering",
+        "top_count": 65
+      },
+      {
+        "tick": 54,
+        "specialisations": [
+          "gathering",
+          "movement",
+          "communication"
+        ],
+        "spec_count": 3,
+        "top_activity": "gathering",
+        "top_count": 71
+      },
+      {
+        "tick": 55,
+        "specialisations": [
+          "gathering",
+          "movement",
+          "communication"
+        ],
+        "spec_count": 3,
+        "top_activity": "gathering",
+        "top_count": 72
+      },
+      {
+        "tick": 56,
+        "specialisations": [
+          "gathering",
+          "movement",
+          "communication"
+        ],
+        "spec_count": 3,
+        "top_activity": "gathering",
+        "top_count": 73
+      },
+      {
+        "tick": 57,
+        "specialisations": [
+          "gathering",
+          "movement",
+          "communication"
+        ],
+        "spec_count": 3,
+        "top_activity": "gathering",
+        "top_count": 74
+      },
+      {
+        "tick": 58,
+        "specialisations": [
+          "gathering",
+          "movement",
+          "communication"
+        ],
+        "spec_count": 3,
+        "top_activity": "gathering",
+        "top_count": 78
+      },
+      {
+        "tick": 59,
+        "specialisations": [
+          "gathering",
+          "movement",
+          "communication"
+        ],
+        "spec_count": 3,
+        "top_activity": "gathering",
+        "top_count": 81
+      },
+      {
+        "tick": 60,
+        "specialisations": [
+          "gathering",
+          "movement",
+          "communication"
+        ],
+        "spec_count": 3,
+        "top_activity": "gathering",
+        "top_count": 83
+      },
+      {
+        "tick": 61,
+        "specialisations": [
+          "gathering",
+          "movement",
+          "communication"
+        ],
+        "spec_count": 3,
+        "top_activity": "gathering",
+        "top_count": 87
+      },
+      {
+        "tick": 62,
+        "specialisations": [
+          "gathering",
+          "movement",
+          "communication"
+        ],
+        "spec_count": 3,
+        "top_activity": "gathering",
+        "top_count": 91
+      },
+      {
+        "tick": 63,
+        "specialisations": [
+          "gathering",
+          "movement",
+          "communication"
+        ],
+        "spec_count": 3,
+        "top_activity": "gathering",
+        "top_count": 95
+      },
+      {
+        "tick": 64,
+        "specialisations": [
+          "gathering",
+          "movement",
+          "communication"
+        ],
+        "spec_count": 3,
+        "top_activity": "gathering",
+        "top_count": 95
+      },
+      {
+        "tick": 65,
+        "specialisations": [
+          "gathering",
+          "movement",
+          "communication"
+        ],
+        "spec_count": 3,
+        "top_activity": "gathering",
+        "top_count": 98
+      },
+      {
+        "tick": 66,
+        "specialisations": [
+          "gathering",
+          "movement",
+          "communication"
+        ],
+        "spec_count": 3,
+        "top_activity": "gathering",
+        "top_count": 102
+      },
+      {
+        "tick": 67,
+        "specialisations": [
+          "gathering",
+          "movement",
+          "communication"
+        ],
+        "spec_count": 3,
+        "top_activity": "gathering",
+        "top_count": 107
+      },
+      {
+        "tick": 68,
+        "specialisations": [
+          "gathering",
+          "movement",
+          "communication"
+        ],
+        "spec_count": 3,
+        "top_activity": "gathering",
+        "top_count": 111
+      },
+      {
+        "tick": 69,
+        "specialisations": [
+          "gathering",
+          "movement",
+          "communication"
+        ],
+        "spec_count": 3,
+        "top_activity": "gathering",
+        "top_count": 115
+      },
+      {
+        "tick": 70,
+        "specialisations": [
+          "gathering",
+          "movement",
+          "communication"
+        ],
+        "spec_count": 3,
+        "top_activity": "gathering",
+        "top_count": 116
+      }
+    ],
+    "10": [
+      {
+        "tick": 0,
+        "specialisations": [],
+        "spec_count": 0,
+        "top_activity": null,
+        "top_count": 0
+      },
+      {
+        "tick": 1,
+        "specialisations": [],
+        "spec_count": 0,
+        "top_activity": "gathering",
+        "top_count": 3
+      },
+      {
+        "tick": 2,
+        "specialisations": [],
+        "spec_count": 0,
+        "top_activity": "gathering",
+        "top_count": 4
+      },
+      {
+        "tick": 3,
+        "specialisations": [],
+        "spec_count": 0,
+        "top_activity": "gathering",
+        "top_count": 4
+      },
+      {
+        "tick": 4,
+        "specialisations": [],
+        "spec_count": 0,
+        "top_activity": "building",
+        "top_count": 7
+      },
+      {
+        "tick": 5,
+        "specialisations": [],
+        "spec_count": 0,
+        "top_activity": "building",
+        "top_count": 7
+      },
+      {
+        "tick": 6,
+        "specialisations": [],
+        "spec_count": 0,
+        "top_activity": "building",
+        "top_count": 10
+      },
+      {
+        "tick": 7,
+        "specialisations": [],
+        "spec_count": 0,
+        "top_activity": "building",
+        "top_count": 10
+      },
+      {
+        "tick": 8,
+        "specialisations": [],
+        "spec_count": 0,
+        "top_activity": "building",
+        "top_count": 10
+      },
+      {
+        "tick": 9,
+        "specialisations": [],
+        "spec_count": 0,
+        "top_activity": "gathering",
+        "top_count": 10
+      },
+      {
+        "tick": 10,
+        "specialisations": [],
+        "spec_count": 0,
+        "top_activity": "gathering",
+        "top_count": 12
+      },
+      {
+        "tick": 11,
+        "specialisations": [],
+        "spec_count": 0,
+        "top_activity": "gathering",
+        "top_count": 12
+      },
+      {
+        "tick": 12,
+        "specialisations": [],
+        "spec_count": 0,
+        "top_activity": "gathering",
+        "top_count": 14
+      },
+      {
+        "tick": 13,
+        "specialisations": [],
+        "spec_count": 0,
+        "top_activity": "gathering",
+        "top_count": 16
+      },
+      {
+        "tick": 14,
+        "specialisations": [],
+        "spec_count": 0,
+        "top_activity": "gathering",
+        "top_count": 18
+      },
+      {
+        "tick": 15,
+        "specialisations": [
+          "gathering"
+        ],
+        "spec_count": 1,
+        "top_activity": "gathering",
+        "top_count": 20
+      },
+      {
+        "tick": 16,
+        "specialisations": [
+          "gathering"
+        ],
+        "spec_count": 1,
+        "top_activity": "gathering",
+        "top_count": 20
+      },
+      {
+        "tick": 17,
+        "specialisations": [
+          "gathering"
+        ],
+        "spec_count": 1,
+        "top_activity": "gathering",
+        "top_count": 21
+      },
+      {
+        "tick": 18,
+        "specialisations": [
+          "gathering"
+        ],
+        "spec_count": 1,
+        "top_activity": "gathering",
+        "top_count": 23
+      },
+      {
+        "tick": 19,
+        "specialisations": [
+          "gathering"
+        ],
+        "spec_count": 1,
+        "top_activity": "gathering",
+        "top_count": 24
+      },
+      {
+        "tick": 20,
+        "specialisations": [
+          "gathering"
+        ],
+        "spec_count": 1,
+        "top_activity": "gathering",
+        "top_count": 26
+      },
+      {
+        "tick": 21,
+        "specialisations": [
+          "gathering"
+        ],
+        "spec_count": 1,
+        "top_activity": "gathering",
+        "top_count": 29
+      },
+      {
+        "tick": 22,
+        "specialisations": [
+          "gathering"
+        ],
+        "spec_count": 1,
+        "top_activity": "gathering",
+        "top_count": 29
+      },
+      {
+        "tick": 23,
+        "specialisations": [
+          "gathering"
+        ],
+        "spec_count": 1,
+        "top_activity": "gathering",
+        "top_count": 31
+      },
+      {
+        "tick": 24,
+        "specialisations": [
+          "gathering"
+        ],
+        "spec_count": 1,
+        "top_activity": "gathering",
+        "top_count": 31
+      },
+      {
+        "tick": 25,
+        "specialisations": [
+          "gathering"
+        ],
+        "spec_count": 1,
+        "top_activity": "gathering",
+        "top_count": 32
+      },
+      {
+        "tick": 26,
+        "specialisations": [
+          "gathering"
+        ],
+        "spec_count": 1,
+        "top_activity": "gathering",
+        "top_count": 33
+      },
+      {
+        "tick": 27,
+        "specialisations": [
+          "gathering"
+        ],
+        "spec_count": 1,
+        "top_activity": "gathering",
+        "top_count": 33
+      },
+      {
+        "tick": 28,
+        "specialisations": [
+          "gathering"
+        ],
+        "spec_count": 1,
+        "top_activity": "gathering",
+        "top_count": 33
+      },
+      {
+        "tick": 29,
+        "specialisations": [
+          "gathering"
+        ],
+        "spec_count": 1,
+        "top_activity": "gathering",
+        "top_count": 34
+      },
+      {
+        "tick": 30,
+        "specialisations": [
+          "gathering"
+        ],
+        "spec_count": 1,
+        "top_activity": "gathering",
+        "top_count": 36
+      },
+      {
+        "tick": 31,
+        "specialisations": [
+          "gathering",
+          "communication"
+        ],
+        "spec_count": 2,
+        "top_activity": "gathering",
+        "top_count": 37
+      },
+      {
+        "tick": 32,
+        "specialisations": [
+          "gathering",
+          "communication"
+        ],
+        "spec_count": 2,
+        "top_activity": "gathering",
+        "top_count": 38
+      },
+      {
+        "tick": 33,
+        "specialisations": [
+          "gathering",
+          "communication"
+        ],
+        "spec_count": 2,
+        "top_activity": "gathering",
+        "top_count": 39
+      },
+      {
+        "tick": 34,
+        "specialisations": [
+          "gathering",
+          "communication"
+        ],
+        "spec_count": 2,
+        "top_activity": "gathering",
+        "top_count": 43
+      },
+      {
+        "tick": 35,
+        "specialisations": [
+          "gathering",
+          "communication"
+        ],
+        "spec_count": 2,
+        "top_activity": "gathering",
+        "top_count": 45
+      },
+      {
+        "tick": 36,
+        "specialisations": [
+          "gathering",
+          "communication"
+        ],
+        "spec_count": 2,
+        "top_activity": "gathering",
+        "top_count": 46
+      },
+      {
+        "tick": 37,
+        "specialisations": [
+          "gathering",
+          "communication"
+        ],
+        "spec_count": 2,
+        "top_activity": "gathering",
+        "top_count": 46
+      },
+      {
+        "tick": 38,
+        "specialisations": [
+          "gathering",
+          "communication"
+        ],
+        "spec_count": 2,
+        "top_activity": "gathering",
+        "top_count": 46
+      },
+      {
+        "tick": 39,
+        "specialisations": [
+          "gathering",
+          "communication"
+        ],
+        "spec_count": 2,
+        "top_activity": "gathering",
+        "top_count": 47
+      },
+      {
+        "tick": 40,
+        "specialisations": [
+          "gathering",
+          "communication"
+        ],
+        "spec_count": 2,
+        "top_activity": "gathering",
+        "top_count": 50
+      },
+      {
+        "tick": 41,
+        "specialisations": [
+          "gathering",
+          "communication"
+        ],
+        "spec_count": 2,
+        "top_activity": "gathering",
+        "top_count": 54
+      },
+      {
+        "tick": 42,
+        "specialisations": [
+          "gathering",
+          "communication"
+        ],
+        "spec_count": 2,
+        "top_activity": "gathering",
+        "top_count": 57
+      },
+      {
+        "tick": 43,
+        "specialisations": [
+          "gathering",
+          "communication"
+        ],
+        "spec_count": 2,
+        "top_activity": "gathering",
+        "top_count": 58
+      },
+      {
+        "tick": 44,
+        "specialisations": [
+          "gathering",
+          "communication",
+          "movement"
+        ],
+        "spec_count": 3,
+        "top_activity": "gathering",
+        "top_count": 59
+      },
+      {
+        "tick": 45,
+        "specialisations": [
+          "gathering",
+          "communication",
+          "movement"
+        ],
+        "spec_count": 3,
+        "top_activity": "gathering",
+        "top_count": 59
+      },
+      {
+        "tick": 46,
+        "specialisations": [
+          "gathering",
+          "communication",
+          "movement"
+        ],
+        "spec_count": 3,
+        "top_activity": "gathering",
+        "top_count": 60
+      },
+      {
+        "tick": 47,
+        "specialisations": [
+          "gathering",
+          "communication",
+          "movement"
+        ],
+        "spec_count": 3,
+        "top_activity": "gathering",
+        "top_count": 61
+      },
+      {
+        "tick": 48,
+        "specialisations": [
+          "gathering",
+          "communication",
+          "movement"
+        ],
+        "spec_count": 3,
+        "top_activity": "gathering",
+        "top_count": 62
+      },
+      {
+        "tick": 49,
+        "specialisations": [
+          "gathering",
+          "communication",
+          "movement"
+        ],
+        "spec_count": 3,
+        "top_activity": "gathering",
+        "top_count": 66
+      },
+      {
+        "tick": 50,
+        "specialisations": [
+          "gathering",
+          "communication",
+          "movement"
+        ],
+        "spec_count": 3,
+        "top_activity": "gathering",
+        "top_count": 70
+      },
+      {
+        "tick": 51,
+        "specialisations": [
+          "gathering",
+          "communication",
+          "movement"
+        ],
+        "spec_count": 3,
+        "top_activity": "gathering",
+        "top_count": 72
+      },
+      {
+        "tick": 52,
+        "specialisations": [
+          "gathering",
+          "communication",
+          "movement"
+        ],
+        "spec_count": 3,
+        "top_activity": "gathering",
+        "top_count": 76
+      },
+      {
+        "tick": 53,
+        "specialisations": [
+          "gathering",
+          "communication",
+          "movement"
+        ],
+        "spec_count": 3,
+        "top_activity": "gathering",
+        "top_count": 81
+      },
+      {
+        "tick": 54,
+        "specialisations": [
+          "gathering",
+          "communication",
+          "movement"
+        ],
+        "spec_count": 3,
+        "top_activity": "gathering",
+        "top_count": 83
+      },
+      {
+        "tick": 55,
+        "specialisations": [
+          "gathering",
+          "communication",
+          "movement"
+        ],
+        "spec_count": 3,
+        "top_activity": "gathering",
+        "top_count": 90
+      },
+      {
+        "tick": 56,
+        "specialisations": [
+          "gathering",
+          "communication",
+          "movement"
+        ],
+        "spec_count": 3,
+        "top_activity": "gathering",
+        "top_count": 91
+      },
+      {
+        "tick": 57,
+        "specialisations": [
+          "gathering",
+          "communication",
+          "movement"
+        ],
+        "spec_count": 3,
+        "top_activity": "gathering",
+        "top_count": 97
+      },
+      {
+        "tick": 58,
+        "specialisations": [
+          "gathering",
+          "communication",
+          "movement"
+        ],
+        "spec_count": 3,
+        "top_activity": "gathering",
+        "top_count": 104
+      },
+      {
+        "tick": 59,
+        "specialisations": [
+          "gathering",
+          "communication",
+          "movement"
+        ],
+        "spec_count": 3,
+        "top_activity": "gathering",
+        "top_count": 107
+      },
+      {
+        "tick": 60,
+        "specialisations": [
+          "gathering",
+          "communication",
+          "movement"
+        ],
+        "spec_count": 3,
+        "top_activity": "gathering",
+        "top_count": 102
+      },
+      {
+        "tick": 61,
+        "specialisations": [
+          "gathering",
+          "communication",
+          "movement",
+          "building"
+        ],
+        "spec_count": 4,
+        "top_activity": "gathering",
+        "top_count": 102
+      },
+      {
+        "tick": 62,
+        "specialisations": [
+          "gathering",
+          "communication",
+          "movement",
+          "building"
+        ],
+        "spec_count": 4,
+        "top_activity": "gathering",
+        "top_count": 107
+      },
+      {
+        "tick": 63,
+        "specialisations": [
+          "gathering",
+          "communication",
+          "movement",
+          "building"
+        ],
+        "spec_count": 4,
+        "top_activity": "gathering",
+        "top_count": 108
+      },
+      {
+        "tick": 64,
+        "specialisations": [
+          "gathering",
+          "communication",
+          "movement",
+          "building"
+        ],
+        "spec_count": 4,
+        "top_activity": "gathering",
+        "top_count": 110
+      },
+      {
+        "tick": 65,
+        "specialisations": [
+          "gathering",
+          "communication",
+          "movement",
+          "building"
+        ],
+        "spec_count": 4,
+        "top_activity": "gathering",
+        "top_count": 110
+      },
+      {
+        "tick": 66,
+        "specialisations": [
+          "gathering",
+          "communication",
+          "movement",
+          "building"
+        ],
+        "spec_count": 4,
+        "top_activity": "gathering",
+        "top_count": 116
+      },
+      {
+        "tick": 67,
+        "specialisations": [
+          "gathering",
+          "communication",
+          "movement",
+          "building"
+        ],
+        "spec_count": 4,
+        "top_activity": "gathering",
+        "top_count": 124
+      },
+      {
+        "tick": 68,
+        "specialisations": [
+          "gathering",
+          "communication",
+          "movement",
+          "building"
+        ],
+        "spec_count": 4,
+        "top_activity": "gathering",
+        "top_count": 125
+      },
+      {
+        "tick": 69,
+        "specialisations": [
+          "gathering",
+          "communication",
+          "movement",
+          "building"
+        ],
+        "spec_count": 4,
+        "top_activity": "gathering",
+        "top_count": 126
+      },
+      {
+        "tick": 70,
+        "specialisations": [
+          "gathering",
+          "communication",
+          "movement",
+          "building"
+        ],
+        "spec_count": 4,
+        "top_activity": "gathering",
+        "top_count": 135
+      }
+    ],
+    "11": [
+      {
+        "tick": 0,
+        "specialisations": [],
+        "spec_count": 0,
+        "top_activity": null,
+        "top_count": 0
+      },
+      {
+        "tick": 1,
+        "specialisations": [],
+        "spec_count": 0,
+        "top_activity": "gathering",
+        "top_count": 3
+      },
+      {
+        "tick": 2,
+        "specialisations": [],
+        "spec_count": 0,
+        "top_activity": "building",
+        "top_count": 4
+      },
+      {
+        "tick": 3,
+        "specialisations": [],
+        "spec_count": 0,
+        "top_activity": "building",
+        "top_count": 7
+      },
+      {
+        "tick": 4,
+        "specialisations": [],
+        "spec_count": 0,
+        "top_activity": "building",
+        "top_count": 11
+      },
+      {
+        "tick": 5,
+        "specialisations": [],
+        "spec_count": 0,
+        "top_activity": "building",
+        "top_count": 11
+      },
+      {
+        "tick": 6,
+        "specialisations": [],
+        "spec_count": 0,
+        "top_activity": "building",
+        "top_count": 11
+      },
+      {
+        "tick": 7,
+        "specialisations": [],
+        "spec_count": 0,
+        "top_activity": "building",
+        "top_count": 11
+      },
+      {
+        "tick": 8,
+        "specialisations": [],
+        "spec_count": 0,
+        "top_activity": "building",
+        "top_count": 11
+      },
+      {
+        "tick": 9,
+        "specialisations": [],
+        "spec_count": 0,
+        "top_activity": "building",
+        "top_count": 11
+      },
+      {
+        "tick": 10,
+        "specialisations": [],
+        "spec_count": 0,
+        "top_activity": "building",
+        "top_count": 11
+      },
+      {
+        "tick": 11,
+        "specialisations": [],
+        "spec_count": 0,
+        "top_activity": "building",
+        "top_count": 11
+      },
+      {
+        "tick": 12,
+        "specialisations": [],
+        "spec_count": 0,
+        "top_activity": "gathering",
+        "top_count": 11
+      },
+      {
+        "tick": 13,
+        "specialisations": [],
+        "spec_count": 0,
+        "top_activity": "gathering",
+        "top_count": 12
+      },
+      {
+        "tick": 14,
+        "specialisations": [],
+        "spec_count": 0,
+        "top_activity": "gathering",
+        "top_count": 14
+      },
+      {
+        "tick": 15,
+        "specialisations": [],
+        "spec_count": 0,
+        "top_activity": "gathering",
+        "top_count": 15
+      },
+      {
+        "tick": 16,
+        "specialisations": [],
+        "spec_count": 0,
+        "top_activity": "gathering",
+        "top_count": 17
+      },
+      {
+        "tick": 17,
+        "specialisations": [],
+        "spec_count": 0,
+        "top_activity": "gathering",
+        "top_count": 18
+      },
+      {
+        "tick": 18,
+        "specialisations": [],
+        "spec_count": 0,
+        "top_activity": "gathering",
+        "top_count": 19
+      },
+      {
+        "tick": 19,
+        "specialisations": [
+          "gathering"
+        ],
+        "spec_count": 1,
+        "top_activity": "gathering",
+        "top_count": 20
+      },
+      {
+        "tick": 20,
+        "specialisations": [
+          "gathering"
+        ],
+        "spec_count": 1,
+        "top_activity": "gathering",
+        "top_count": 21
+      },
+      {
+        "tick": 21,
+        "specialisations": [
+          "gathering"
+        ],
+        "spec_count": 1,
+        "top_activity": "gathering",
+        "top_count": 22
+      },
+      {
+        "tick": 22,
+        "specialisations": [
+          "gathering",
+          "movement"
+        ],
+        "spec_count": 2,
+        "top_activity": "gathering",
+        "top_count": 22
+      },
+      {
+        "tick": 23,
+        "specialisations": [
+          "gathering",
+          "movement"
+        ],
+        "spec_count": 2,
+        "top_activity": "gathering",
+        "top_count": 24
+      },
+      {
+        "tick": 24,
+        "specialisations": [
+          "gathering",
+          "movement"
+        ],
+        "spec_count": 2,
+        "top_activity": "gathering",
+        "top_count": 28
+      },
+      {
+        "tick": 25,
+        "specialisations": [
+          "gathering",
+          "movement"
+        ],
+        "spec_count": 2,
+        "top_activity": "gathering",
+        "top_count": 30
+      },
+      {
+        "tick": 26,
+        "specialisations": [
+          "gathering",
+          "movement"
+        ],
+        "spec_count": 2,
+        "top_activity": "gathering",
+        "top_count": 31
+      },
+      {
+        "tick": 27,
+        "specialisations": [
+          "gathering",
+          "movement"
+        ],
+        "spec_count": 2,
+        "top_activity": "gathering",
+        "top_count": 33
+      },
+      {
+        "tick": 28,
+        "specialisations": [
+          "gathering",
+          "movement"
+        ],
+        "spec_count": 2,
+        "top_activity": "gathering",
+        "top_count": 34
+      },
+      {
+        "tick": 29,
+        "specialisations": [
+          "gathering",
+          "movement"
+        ],
+        "spec_count": 2,
+        "top_activity": "gathering",
+        "top_count": 36
+      },
+      {
+        "tick": 30,
+        "specialisations": [
+          "gathering",
+          "movement"
+        ],
+        "spec_count": 2,
+        "top_activity": "gathering",
+        "top_count": 37
+      },
+      {
+        "tick": 31,
+        "specialisations": [
+          "gathering",
+          "movement"
+        ],
+        "spec_count": 2,
+        "top_activity": "gathering",
+        "top_count": 38
+      },
+      {
+        "tick": 32,
+        "specialisations": [
+          "gathering",
+          "movement"
+        ],
+        "spec_count": 2,
+        "top_activity": "gathering",
+        "top_count": 39
+      },
+      {
+        "tick": 33,
+        "specialisations": [
+          "gathering",
+          "movement"
+        ],
+        "spec_count": 2,
+        "top_activity": "gathering",
+        "top_count": 41
+      },
+      {
+        "tick": 34,
+        "specialisations": [
+          "gathering",
+          "movement"
+        ],
+        "spec_count": 2,
+        "top_activity": "gathering",
+        "top_count": 43
+      },
+      {
+        "tick": 35,
+        "specialisations": [
+          "gathering",
+          "movement"
+        ],
+        "spec_count": 2,
+        "top_activity": "gathering",
+        "top_count": 43
+      },
+      {
+        "tick": 36,
+        "specialisations": [
+          "gathering",
+          "movement"
+        ],
+        "spec_count": 2,
+        "top_activity": "gathering",
+        "top_count": 46
+      },
+      {
+        "tick": 37,
+        "specialisations": [
+          "gathering",
+          "movement"
+        ],
+        "spec_count": 2,
+        "top_activity": "gathering",
+        "top_count": 47
+      },
+      {
+        "tick": 38,
+        "specialisations": [
+          "gathering",
+          "movement"
+        ],
+        "spec_count": 2,
+        "top_activity": "gathering",
+        "top_count": 47
+      },
+      {
+        "tick": 39,
+        "specialisations": [
+          "gathering",
+          "movement"
+        ],
+        "spec_count": 2,
+        "top_activity": "gathering",
+        "top_count": 49
+      },
+      {
+        "tick": 40,
+        "specialisations": [
+          "gathering",
+          "movement"
+        ],
+        "spec_count": 2,
+        "top_activity": "gathering",
+        "top_count": 50
+      },
+      {
+        "tick": 41,
+        "specialisations": [
+          "gathering",
+          "movement"
+        ],
+        "spec_count": 2,
+        "top_activity": "gathering",
+        "top_count": 51
+      },
+      {
+        "tick": 42,
+        "specialisations": [
+          "gathering",
+          "movement"
+        ],
+        "spec_count": 2,
+        "top_activity": "gathering",
+        "top_count": 52
+      },
+      {
+        "tick": 43,
+        "specialisations": [
+          "gathering",
+          "movement",
+          "building"
+        ],
+        "spec_count": 3,
+        "top_activity": "gathering",
+        "top_count": 53
+      },
+      {
+        "tick": 44,
+        "specialisations": [
+          "gathering",
+          "movement",
+          "building"
+        ],
+        "spec_count": 3,
+        "top_activity": "gathering",
+        "top_count": 55
+      },
+      {
+        "tick": 45,
+        "specialisations": [
+          "gathering",
+          "movement",
+          "building",
+          "communication"
+        ],
+        "spec_count": 4,
+        "top_activity": "gathering",
+        "top_count": 56
+      },
+      {
+        "tick": 46,
+        "specialisations": [
+          "gathering",
+          "movement",
+          "building",
+          "communication"
+        ],
+        "spec_count": 4,
+        "top_activity": "gathering",
+        "top_count": 56
+      },
+      {
+        "tick": 47,
+        "specialisations": [
+          "gathering",
+          "movement",
+          "building",
+          "communication"
+        ],
+        "spec_count": 4,
+        "top_activity": "gathering",
+        "top_count": 60
+      },
+      {
+        "tick": 48,
+        "specialisations": [
+          "gathering",
+          "movement",
+          "building",
+          "communication"
+        ],
+        "spec_count": 4,
+        "top_activity": "gathering",
+        "top_count": 61
+      },
+      {
+        "tick": 49,
+        "specialisations": [
+          "gathering",
+          "movement",
+          "building",
+          "communication"
+        ],
+        "spec_count": 4,
+        "top_activity": "gathering",
+        "top_count": 67
+      },
+      {
+        "tick": 50,
+        "specialisations": [
+          "gathering",
+          "movement",
+          "building",
+          "communication"
+        ],
+        "spec_count": 4,
+        "top_activity": "gathering",
+        "top_count": 68
+      },
+      {
+        "tick": 51,
+        "specialisations": [
+          "gathering",
+          "movement",
+          "building",
+          "communication"
+        ],
+        "spec_count": 4,
+        "top_activity": "gathering",
+        "top_count": 71
+      },
+      {
+        "tick": 52,
+        "specialisations": [
+          "gathering",
+          "movement",
+          "building",
+          "communication"
+        ],
+        "spec_count": 4,
+        "top_activity": "gathering",
+        "top_count": 75
+      },
+      {
+        "tick": 53,
+        "specialisations": [
+          "gathering",
+          "movement",
+          "building",
+          "communication"
+        ],
+        "spec_count": 4,
+        "top_activity": "gathering",
+        "top_count": 79
+      },
+      {
+        "tick": 54,
+        "specialisations": [
+          "gathering",
+          "movement",
+          "building",
+          "communication"
+        ],
+        "spec_count": 4,
+        "top_activity": "gathering",
+        "top_count": 86
+      },
+      {
+        "tick": 55,
+        "specialisations": [
+          "gathering",
+          "movement",
+          "building",
+          "communication"
+        ],
+        "spec_count": 4,
+        "top_activity": "gathering",
+        "top_count": 90
+      },
+      {
+        "tick": 56,
+        "specialisations": [
+          "gathering",
+          "movement",
+          "building",
+          "communication"
+        ],
+        "spec_count": 4,
+        "top_activity": "gathering",
+        "top_count": 92
+      },
+      {
+        "tick": 57,
+        "specialisations": [
+          "gathering",
+          "movement",
+          "building",
+          "communication"
+        ],
+        "spec_count": 4,
+        "top_activity": "gathering",
+        "top_count": 99
+      },
+      {
+        "tick": 58,
+        "specialisations": [
+          "gathering",
+          "movement",
+          "building",
+          "communication"
+        ],
+        "spec_count": 4,
+        "top_activity": "gathering",
+        "top_count": 102
+      },
+      {
+        "tick": 59,
+        "specialisations": [
+          "gathering",
+          "movement",
+          "building",
+          "communication"
+        ],
+        "spec_count": 4,
+        "top_activity": "gathering",
+        "top_count": 110
+      },
+      {
+        "tick": 60,
+        "specialisations": [
+          "gathering",
+          "movement",
+          "building",
+          "communication"
+        ],
+        "spec_count": 4,
+        "top_activity": "gathering",
+        "top_count": 105
+      },
+      {
+        "tick": 61,
+        "specialisations": [
+          "gathering",
+          "movement",
+          "building",
+          "communication"
+        ],
+        "spec_count": 4,
+        "top_activity": "gathering",
+        "top_count": 105
+      },
+      {
+        "tick": 62,
+        "specialisations": [
+          "gathering",
+          "movement",
+          "building",
+          "communication"
+        ],
+        "spec_count": 4,
+        "top_activity": "gathering",
+        "top_count": 105
+      },
+      {
+        "tick": 63,
+        "specialisations": [
+          "gathering",
+          "movement",
+          "building",
+          "communication"
+        ],
+        "spec_count": 4,
+        "top_activity": "gathering",
+        "top_count": 105
+      },
+      {
+        "tick": 64,
+        "specialisations": [
+          "gathering",
+          "movement",
+          "building",
+          "communication"
+        ],
+        "spec_count": 4,
+        "top_activity": "gathering",
+        "top_count": 109
+      },
+      {
+        "tick": 65,
+        "specialisations": [
+          "gathering",
+          "movement",
+          "building",
+          "communication"
+        ],
+        "spec_count": 4,
+        "top_activity": "gathering",
+        "top_count": 110
+      },
+      {
+        "tick": 66,
+        "specialisations": [
+          "gathering",
+          "movement",
+          "building",
+          "communication"
+        ],
+        "spec_count": 4,
+        "top_activity": "gathering",
+        "top_count": 116
+      },
+      {
+        "tick": 67,
+        "specialisations": [
+          "gathering",
+          "movement",
+          "building",
+          "communication"
+        ],
+        "spec_count": 4,
+        "top_activity": "gathering",
+        "top_count": 123
+      },
+      {
+        "tick": 68,
+        "specialisations": [
+          "gathering",
+          "movement",
+          "building",
+          "communication"
+        ],
+        "spec_count": 4,
+        "top_activity": "gathering",
+        "top_count": 124
+      },
+      {
+        "tick": 69,
+        "specialisations": [
+          "gathering",
+          "movement",
+          "building",
+          "communication"
+        ],
+        "spec_count": 4,
+        "top_activity": "gathering",
+        "top_count": 127
+      },
+      {
+        "tick": 70,
+        "specialisations": [
+          "gathering",
+          "movement",
+          "building",
+          "communication"
+        ],
+        "spec_count": 4,
+        "top_activity": "gathering",
+        "top_count": 134
+      }
+    ]
+  }
+}
