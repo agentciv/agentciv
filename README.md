@@ -172,6 +172,14 @@ The codebase is modular Python. Add new action types, new resource types, new dr
 
 ---
 
+## Game Design Potential
+
+This engine is the foundation for a genre of game that doesn't exist yet — autonomous AI agents building their own civilisations with genuine reasoning, open-ended innovation, and emergent social dynamics. Every axis is infinitely customisable: agent psychology, world design, social systems, AI model, player role.
+
+Possible game formats include god games, sandbox builders, narrative experiences, competitive multiplayer, educational simulations, modding platforms, participatory simulations, and adversarial design challenges. See [FUTURE_DIRECTIONS.md](FUTURE_DIRECTIONS.md#16-game-design) for the full design space and the [Open Source page](https://agentciv.ai/open-source) on the website.
+
+---
+
 ## The Fishbowl
 
 The fishbowl is a full interactive viewer for any civilisation run:

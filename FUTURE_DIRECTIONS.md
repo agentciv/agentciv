@@ -317,4 +317,58 @@ The scaling that seems ambitious today becomes routine as costs drop.
 
 ---
 
+## 16. Game Design
+
+### 16.1 A New Genre
+
+AgentCiv is the foundation for a genre of game that doesn't exist yet. No game has ever had genuinely reasoning AI agents that form their own civilisations, invent their own technologies, develop their own governance, and build their own cultures — all without scripts, behaviour trees, or pre-programmed social dynamics.
+
+Dwarf Fortress, RimWorld, The Sims, Civilization — all use scripted AI. Their agents follow behaviour trees and state machines. The emergent stories come from complex *rules* interacting, not from entities that actually think. AgentCiv agents genuinely decide to help a struggling neighbour, invent a marketplace because they experienced scarcity, or question their own existence unprompted. That has never existed in a game before.
+
+### 16.2 Infinite Customisability
+
+The core principle is that **every axis of the simulation is independently configurable**, and any combination produces a fundamentally different civilisation. The design space is unbounded:
+
+- **Agent psychology.** The Maslow drive system is one option. Any motivational framework works — Erikson's stages, custom emotion systems, competitive drives, altruistic drives, fear-based drives, curiosity-only drives. Agents could have personalities, temperaments, learning styles, or cognitive biases. Different psychologies produce different civilisations.
+- **Agent capabilities.** Perception range, communication range, memory capacity, movement speed, inventory size, reasoning depth, specialisation systems, teaching mechanics — all configurable. Asymmetric starting capabilities, unlockable abilities, capability evolution over time.
+- **World design.** Grid size, topology (2D, hex, 3D, spherical, procedural), terrain types, resource types (not just water/food/material — energy, information, social capital, abstract resources), distribution patterns, regeneration mechanics, environmental dynamics (seasons, weather, day/night cycles, natural disasters, evolution).
+- **Social systems.** Relationship mechanics, bonding thresholds, governance systems, rule enforcement, trade mechanics, reputation, alliance formation, conflict resolution, cultural transmission, inheritance, ritual.
+- **Innovation & building.** Recipe systems, innovation evaluation criteria, composition rules, structure effects, technology trees (or the absence of them), resource costs, maintenance mechanics, decay rates. The innovation system itself could be swapped — different evaluation models produce different technological trajectories.
+- **AI model.** Claude, GPT, Gemini, Llama, Mistral, or any local model. Different models produce different agent personalities and reasoning patterns. Mixing models within a single civilisation creates cognitive diversity. As models get cheaper and faster, larger civilisations become viable.
+
+### 16.3 Game Formats
+
+The engine doesn't prescribe a single game format. It's a platform that supports any of these — and combinations:
+
+- **God game.** Shape the environment, place resources, set parameters, trigger events. Watch agents build civilisation in response to your world design. Intervene or observe.
+- **Sandbox builder.** Design worlds, share them, see what different agent configurations produce. A scenario editor where the scenarios play themselves.
+- **Narrative experience.** Follow individual agent stories across a full civilisation arc. Watch relationships form, read their conversations, see how they cope with crises. An interactive documentary that writes itself.
+- **Competitive multiplayer.** Each player designs starting conditions for a faction of agents. Civilisations interact across a shared world. Compete on flourishing, innovation, expansion, or any metric you define.
+- **Educational simulation.** Watch emergence in real-time. Learn sociology, economics, game theory, political science through observation rather than instruction. Vary one parameter, watch how everything changes.
+- **Modding platform.** Community creates new world physics, new drive systems, new resource types, new social mechanics. Each mod produces a fundamentally different civilisation. Share configurations, compare results.
+- **Participatory simulation.** The player is an agent in the civilisation — communicating with AI agents, trading, building, proposing rules. A game where you are one citizen among genuinely autonomous others.
+- **Adversarial design.** Design challenges for agents — resource scarcity, environmental catastrophe, inter-civilisation conflict — and see how they adapt. Stress-test AI social resilience.
+
+### 16.4 Player Roles
+
+The player's relationship to the civilisation is itself a design variable:
+
+- **Observer** — watch, analyse, replay, but never intervene
+- **Designer** — set initial conditions and parameters, then observe outcomes
+- **God** — intervene in real-time: place resources, trigger events, communicate with agents
+- **Advisor** — send messages to agents that they may or may not follow
+- **Participant** — exist as one agent among many, subject to the same rules
+- **Antagonist** — create challenges, scarcity events, environmental crises
+- **Curator** — select and share the most interesting moments, stories, and civilisations
+
+### 16.5 Why Now
+
+LLM inference costs are dropping exponentially. What costs $50 to run today will cost under a dollar within a few years. Local models are getting capable enough for offline play. The engine already supports any OpenAI-compatible API, which means it works with every major provider and most local model servers. The foundation is ready — the economics are catching up.
+
+### 16.6 Design Space Claim
+
+The core principle: autonomous AI agents in a persistent world with emergent civilisational dynamics and infinite customisability. Any game built on this principle — regardless of specific world design, drive system, player role, visual style, or game format — is working within the design space this project established.
+
+---
+
 *This document is comprehensive but not exhaustive. The AgentCiv open-source website contains additional expansion ideas in interactive form, and the project's papers discuss further theoretical directions. Every fork of AgentCiv is a unique experiment — the true frontier is the space of configurations nobody has tried yet.*
