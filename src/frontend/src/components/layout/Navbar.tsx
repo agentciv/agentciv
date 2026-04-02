@@ -1,15 +1,17 @@
 import { Link, NavLink } from "react-router-dom";
 
 const navItems = [
+  { to: "/discovery", label: "Findings" },
+  { to: "/simulations", label: "Data" },
+  { to: "/interviews", label: "Interviews" },
+  { to: "/explorer", label: "Explorer" },
   { to: "/how-it-works", label: "How It Works" },
-  { to: "/science", label: "The Science" },
-  { to: "/ethics", label: "Ethics" },
-  { to: "/observations", label: "Observations" },
-  { to: "/open-source", label: "Open Source" },
-  { to: "/simulations", label: "Simulations" },
-  { to: "/whitepaper", label: "Whitepaper" },
+  { to: "/journey", label: "The Journey" },
   { to: "/methodology", label: "Methodology" },
-  { to: "/discovery", label: "Discovery" },
+  { to: "/science", label: "The Science" },
+  { to: "/whitepaper", label: "Papers" },
+  { to: "/ethics", label: "Ethics" },
+  { to: "/open-source", label: "Open Source" },
 ];
 
 export default function Navbar() {
