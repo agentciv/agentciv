@@ -237,7 +237,7 @@ The distance between the current experiment and the full vision remains substant
 
 The mechanism is the same at any scale: intelligent agents interacting under pressure produce emergent civilisational complexity and innovation. This mechanism works at the proof-of-concept scale — the 70-tick results demonstrate it conclusively. Whether it produces sustained, compounding, open-ended innovation at larger scales and longer durations — whether the acceleration continues or whether it plateaus at some threshold — is the empirical question that defines the research agenda.
 
-The cost trajectory is encouraging. At ~$1–2/tick in early 2026, with inference costs falling roughly an order of magnitude per year, and open-weight models enabling local GPU deployment at near-zero marginal cost, the economic barriers to civilisational simulation at scale are dissolving rapidly.
+The cost trajectory is encouraging. Inference costs have fallen by roughly an order of magnitude per year since 2023, and open-weight models enable local GPU deployment at near-zero marginal cost. The economic barriers to civilisational simulation at scale are dissolving rapidly.
 
 AgentCiv is open source. Every fork is a different experiment. Every configuration explores a different region of civilisational possibility space. The community collectively pushes the frontier of what's known about what civilisations of intelligent agents can produce.
 

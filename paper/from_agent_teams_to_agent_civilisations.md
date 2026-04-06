@@ -319,7 +319,7 @@ AgentCiv (agentciv.ai) is an open source experiment that tests whether the ideas
 
 The platform runs LLM-based agents on a 15×15 grid world with resource dynamics, building mechanics, a composition engine, an innovation system, practice-based specialisation, collective rule proposal, feedback loops, and environmental co-evolution. Agents operate with ReAct-style reasoning loops, persistent goals, multi-step planning, relationship memory, and an 8-level Maslow-inspired drive hierarchy with felt-state prompting and a wellbeing ceiling — what we term *Maslow Machines* (detailed in the companion paper, Alam, 2026). The full set of design principles from Section 6 is implemented.
 
-The showcase simulation ran 12 Claude Sonnet agents across 70 ticks (~6 hours of runtime, ~$70–140 in API costs). This deliberate modesty in scale — a few dozen dollars of compute, a handful of hours — demonstrates that the phenomenon of emergent civilisation does not require massive infrastructure. It requires the right conditions.
+The showcase simulation ran 12 Claude Sonnet agents across 70 ticks (~6 hours of runtime) on a single researcher's personal API budget. This deliberate modesty in scale — a single individual's compute budget, a handful of hours — demonstrates that the phenomenon of emergent civilisation does not require massive infrastructure. It requires the right conditions.
 
 ### 9.2 Results
 
@@ -348,7 +348,7 @@ The 70-tick simulation demonstrates that the phenomenon is real: intelligent age
 
 The architectural principles work. The composition engine scales. The innovation system produces genuine novelty. The feedback loops drive accelerating returns. The Maslow drive mechanism prevents contentment traps. What changes with scale is the richness of emergence — more agents would produce more diverse specialisations, more complex social structures, deeper innovation chains, and phenomena we cannot currently predict: cultural drift, inter-settlement politics, competing civilisational trajectories, mythology, and perhaps genuine open-ended evolution.
 
-The cost trajectory makes scaling increasingly feasible. At ~$1–2/tick in early 2026, with inference costs falling roughly an order of magnitude per year, a 1,000-tick simulation that costs $1,400 today may cost $140 by 2027 and $14 by 2028. Open-weight models on local GPU clusters could reduce marginal cost to near zero.
+The cost trajectory makes scaling increasingly feasible. Inference costs have fallen by roughly an order of magnitude per year since 2023, and open-weight models on local GPU clusters could reduce marginal cost to near zero. Cost scales linearly with agents and ticks — what requires a personal budget today will be trivial compute within years.
 
 AgentCiv is open source precisely because the possibility space is too large for any single team. Every fork is a unique experiment. Different drive systems, different organisational structures, different environmental configurations — each explores a different region of civilisational possibility space. If one configuration produces sustained complexity growth that doesn't plateau, that is a significant finding. If none do, that is equally significant — it constrains the theory and points toward what's missing.
 

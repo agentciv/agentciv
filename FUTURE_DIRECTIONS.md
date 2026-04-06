@@ -308,12 +308,7 @@ A continuously growing library of emergent innovations: coordination mechanisms,
 
 ### 15.4 Cost Trajectory
 
-- 2026: ~$1–2/tick with frontier models
-- 2027: ~$0.14–0.20/tick
-- 2028: ~$0.01–0.02/tick
-- Local open-weight models: marginal cost approaching zero
-
-The scaling that seems ambitious today becomes routine as costs drop.
+Inference costs have fallen by roughly an order of magnitude per year since 2023, and this trajectory shows no sign of slowing. Local open-weight models running on GPU clusters already reduce marginal cost to near zero. The scaling that seems ambitious today becomes routine as costs drop.
 
 ---
 

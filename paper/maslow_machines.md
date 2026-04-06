@@ -259,7 +259,7 @@ The parser uses a priority chain: it first checks for structured action formats 
 
 **Steps 7–8:** Entity 5 gathers material at its new position (`Action: gather(resource=material)`) — material need restores by 0.45 (the gather_restore parameter), bringing it from 0.38 to 0.83. It then decides to `consume(resource=material)` from inventory to push the need even higher.
 
-**Total for this tick:** Entity 5 made 4 decisions, consumed 4 LLM calls (400 tokens output each, ~800 tokens input each), and performed: communicate → move → gather → consume. Total cost: ~$0.01 for this agent this tick. With 12 agents, each tick costs approximately $0.12–0.15, or $1–2/tick including the Watcher's narrative generation and overhead.
+**Total for this tick:** Entity 5 made 4 decisions, consumed 4 LLM calls (400 tokens output each, ~800 tokens input each), and performed: communicate → move → gather → consume. Each agent-tick requires approximately 4 LLM calls. With 12 agents plus the Watcher's narrative generation, each tick involves roughly 50+ API calls. Cost scales linearly with agents and ticks.
 
 ### 3.8 Communication Mechanics
 
@@ -903,9 +903,9 @@ Our simulation involved 12 agents across 70 ticks. This is a small population ov
 
 ### 11.2 Cost
 
-The simulation cost approximately $70–140 in API calls (Claude Sonnet at ~$1–2/tick) and took approximately 6 hours of wall-clock time. This constrained the duration to 70 ticks.
+The simulation was conducted by a single researcher on a personal API budget (Claude Sonnet) and took approximately 6 hours of wall-clock time. The modest scale — 12 agents, 70 ticks — was constrained by budget and time rather than methodology.
 
-However, this constraint is rapidly dissolving. Inference costs have fallen by roughly an order of magnitude per year since 2023, and this trajectory shows no sign of slowing. What cost $140 in early 2026 may cost $14 by early 2027 and $1.40 by 2028. Open-weight models running on local GPU clusters could reduce marginal cost to near zero. The implication is significant: the scale limitations of this study are *temporal* constraints, not *structural* ones. Longer runs — 500, 1,000, or 100,000 ticks — are not merely desirable but increasingly feasible, and would reveal phenomena we cannot currently observe: cultural drift, inter-settlement politics, generational knowledge transfer, mythology and religion from shared memories, schisms, and competing civilisations.
+However, this constraint is rapidly dissolving. Inference costs have fallen by roughly an order of magnitude per year since 2023, and this trajectory shows no sign of slowing. Open-weight models running on local GPU clusters could reduce marginal cost to near zero. The implication is significant: the scale limitations of this study are *temporal* constraints, not *structural* ones. Longer runs — 500, 1,000, or 100,000 ticks — are not merely desirable but increasingly feasible, and would reveal phenomena we cannot currently observe: cultural drift, inter-settlement politics, generational knowledge transfer, mythology and religion from shared memories, schisms, and competing civilisations.
 
 ### 11.3 Single Model
 
@@ -938,7 +938,7 @@ Our parameter changes at tick 50 introduce a confound: the emergence explosion c
 We stopped because:
 - The primary hypothesis was confirmed (Maslow drives produce civilisation)
 - Diminishing marginal insight per tick (agents had saturated at Maslow Level 8)
-- Cost constraints ($70–140 already invested)
+- Budget constraints (personal API budget fully utilised)
 - Time constraints (6+ hours of runtime)
 
 We are explicit that 70 ticks is a beginning, not a conclusion. We stopped because we had enough to demonstrate the mechanism. What happens at 700 ticks, 7,000 ticks, or 70,000 ticks is an open and fascinating question.

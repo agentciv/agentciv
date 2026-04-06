@@ -77,7 +77,7 @@ export AGENT_CIV_API_KEY=your-anthropic-api-key
 ### 3. Run a simulation
 
 ```bash
-# Replicate the showcase (12 agents, 15×15 grid, Sonnet, 70 ticks) — costs ~$5-15
+# Replicate the showcase (12 agents, 15×15 grid, Sonnet, 70 ticks)
 python3 scripts/run.py --ticks 70
 
 # Shorter test run — same config, fewer ticks
