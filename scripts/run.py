@@ -481,6 +481,11 @@ def parse_args() -> argparse.Namespace:
         help="Enable gardener mode: interactive mid-run intervention between ticks",
     )
     parser.add_argument(
+        "--dashboard",
+        action="store_true",
+        help="Rich terminal dashboard with live panels (replaces plain text output)",
+    )
+    parser.add_argument(
         "--gardener-interval",
         type=int,
         default=10,
@@ -561,9 +566,25 @@ async def async_main() -> None:
     # ---- Create Event Bus ----
     event_bus = EventBus()
 
-    # ---- Subscribe CLI handler ----
-    cli_handler = make_cli_subscriber(config, world_state)
-    event_bus.subscribe(cli_handler)
+    # ---- Subscribe event handler (dashboard or plain text) ----
+    dashboard = None
+    if args.dashboard:
+        try:
+            from src.dashboard import Dashboard, make_dashboard_subscriber
+            dashboard = Dashboard(
+                config=config,
+                total_ticks=args.ticks if args.ticks > 0 else 100,
+                preset=args.preset or "default",
+            )
+            dashboard_handler = make_dashboard_subscriber(dashboard, config)
+            event_bus.subscribe(dashboard_handler)
+        except ImportError:
+            print(f"{_YELLOW}Warning: Rich dashboard not available, falling back to plain text{_RESET}")
+            cli_handler = make_cli_subscriber(config, world_state)
+            event_bus.subscribe(cli_handler)
+    else:
+        cli_handler = make_cli_subscriber(config, world_state)
+        event_bus.subscribe(cli_handler)
 
     # ---- Create LLM client ----
     llm_client = LLMClient(config)
@@ -680,6 +701,10 @@ async def async_main() -> None:
         except ImportError:
             print(f"{_YELLOW}Warning: gardener module not found, continuing without gardener{_RESET}")
 
+    # ---- Start dashboard ----
+    if dashboard is not None:
+        dashboard.start()
+
     recording = args.record
     if recording:
         print(f"{_CYAN}Recording mode: per-tick snapshots will be saved to {config.save_path}/snapshots/{_RESET}")
@@ -729,6 +754,10 @@ async def async_main() -> None:
         except (asyncio.TimeoutError, Exception):
             pass
 
+    # ---- Stop dashboard ----
+    if dashboard is not None:
+        dashboard.stop()
+
     # ---- Save state on exit ----
     wall_time = time.time() - _run_start_time
     print(f"\n{_BOLD}Simulation ended.{_RESET} Ran {tick_count} ticks (tick {original_tick} -> {world_state.tick}).")
@@ -744,32 +773,38 @@ async def async_main() -> None:
         emergence = compute_emergence(world_state, bus_events)
 
         if args.metrics:
-            print(f"\n{_BOLD}Emergence Metrics{_RESET}")
-            print(f"  Composite score:    {emergence.composite_score:.4f}")
-            print(f"  Innovations:        {emergence.innovation_count}")
-            print(f"  Structures:         {emergence.structure_count} ({emergence.unique_structure_types} types)")
-            print(f"  Relationships:      {emergence.relationship_count} ({emergence.bonded_pairs} bonded pairs)")
-            print(f"  Rules:              {emergence.rules_proposed} proposed, {emergence.rules_established} established")
-            print(f"  Avg wellbeing:      {emergence.avg_wellbeing:.3f}")
-            print(f"  Avg Maslow level:   {emergence.avg_maslow_level:.2f}")
-            print(f"  Specialisations:    {emergence.total_specialisations} ({emergence.agents_with_specialisation} agents)")
-            print(f"  Messages:           {emergence.total_messages}")
-            print(f"  Cooperation events: {emergence.cooperation_events}")
+            if dashboard is not None:
+                dashboard.print_emergence(emergence)
+            else:
+                print(f"\n{_BOLD}Emergence Metrics{_RESET}")
+                print(f"  Composite score:    {emergence.composite_score:.4f}")
+                print(f"  Innovations:        {emergence.innovation_count}")
+                print(f"  Structures:         {emergence.structure_count} ({emergence.unique_structure_types} types)")
+                print(f"  Relationships:      {emergence.relationship_count} ({emergence.bonded_pairs} bonded pairs)")
+                print(f"  Rules:              {emergence.rules_proposed} proposed, {emergence.rules_established} established")
+                print(f"  Avg wellbeing:      {emergence.avg_wellbeing:.3f}")
+                print(f"  Avg Maslow level:   {emergence.avg_maslow_level:.2f}")
+                print(f"  Specialisations:    {emergence.total_specialisations} ({emergence.agents_with_specialisation} agents)")
+                print(f"  Messages:           {emergence.total_messages}")
+                print(f"  Cooperation events: {emergence.cooperation_events}")
 
         # ---- End-of-run chronicler story ----
         if watcher and watcher.chronicler.commentary_count > 0:
-            print(f"\n{_CYAN}{'=' * 70}{_RESET}")
-            print(f"{_BOLD}{_CYAN}  The Story of This Civilisation{_RESET}")
-            print(f"{_CYAN}{'=' * 70}{_RESET}\n")
             try:
                 story = await watcher.chronicler.tell_story(chronicle, world_state)
-                for line in story.strip().split("\n"):
-                    print(f"  {line}")
+                if dashboard is not None:
+                    dashboard.print_story(story)
+                else:
+                    print(f"\n{_CYAN}{'=' * 70}{_RESET}")
+                    print(f"{_BOLD}{_CYAN}  The Story of This Civilisation{_RESET}")
+                    print(f"{_CYAN}{'=' * 70}{_RESET}\n")
+                    for line in story.strip().split("\n"):
+                        print(f"  {line}")
+                    print(f"\n{_CYAN}{'=' * 70}{_RESET}")
+                    print(f"  {_DIM}Chronicler made {watcher.chronicler.commentary_count} observations during the run.{_RESET}")
+                    print(f"{_CYAN}{'=' * 70}{_RESET}\n")
             except Exception as e:
                 logger.warning("End-of-run story failed: %s", e)
-            print(f"\n{_CYAN}{'=' * 70}{_RESET}")
-            print(f"  {_DIM}Chronicler made {watcher.chronicler.commentary_count} observations during the run.{_RESET}")
-            print(f"{_CYAN}{'=' * 70}{_RESET}\n")
 
         if args.output:
             # Gather chronicle highlights

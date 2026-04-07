@@ -191,6 +191,9 @@ def cmd_run(args: argparse.Namespace) -> None:
     if args.gardener:
         cmd_args.append("--gardener")
 
+    if args.dashboard:
+        cmd_args.append("--dashboard")
+
     # Print header
     _print_run_header(args, config)
 
@@ -296,6 +299,118 @@ def cmd_configs(args: argparse.Namespace) -> None:
         print("  No custom configs yet. Create one with:")
         print("    agentciv-sim create")
     print()
+
+
+def cmd_interview(args: argparse.Namespace) -> None:
+    """Interview an agent about their experience in the civilisation."""
+    import asyncio
+
+    agent_id = args.agent_id
+
+    # Load saved world state
+    state_path = args.state or "./data/simulation_state"
+    state_file = Path(state_path) / "world_state.json"
+
+    if not state_file.exists():
+        _error(f"No saved world state found at {state_file}")
+        _error("Run a simulation first, or specify --state path/to/save/dir")
+        sys.exit(1)
+
+    _header()
+    print(f"  Loading world state from {state_path}...")
+
+    try:
+        from src.world.generate import WorldState
+        from src.types import WorldState as WS
+        from src.persistence import load_state
+        from src.config import SimulationConfig
+        from src.watcher.chronicler import Chronicler
+        from src.watcher.chronicle import Chronicle
+        from src.llm_client import LLMClient
+
+        config = SimulationConfig.default()
+        config_path = Path(state_path).parent / "config.yaml"
+        if config_path.exists():
+            config = SimulationConfig.from_yaml(config_path)
+
+        world_state = load_state(state_path)
+        chronicle_path = Path(config.log_path) / "chronicle.jsonl"
+        chronicle = Chronicle(str(chronicle_path))
+        chronicle.load()
+
+        llm_client = LLMClient(config) if not args.no_llm else None
+        chronicler = Chronicler(config, llm_client)
+
+        async def _run_interview():
+            result = await chronicler.interview_agent(agent_id, world_state, chronicle)
+            return result
+
+        interview_text = asyncio.run(_run_interview())
+
+        try:
+            from src.dashboard import Dashboard
+            d = Dashboard()
+            d.print_interview(agent_id, interview_text)
+        except ImportError:
+            print(f"\n  Agent {agent_id} — Interview")
+            print(f"  {'=' * 40}")
+            for line in interview_text.strip().split("\n"):
+                print(f"  {line}")
+            print()
+
+    except Exception as e:
+        _error(f"Interview failed: {e}")
+        sys.exit(1)
+
+
+def cmd_story(args: argparse.Namespace) -> None:
+    """Tell the complete story of a completed civilisation."""
+    import asyncio
+
+    state_path = args.state or "./data/simulation_state"
+    state_file = Path(state_path) / "world_state.json"
+
+    if not state_file.exists():
+        _error(f"No saved world state found at {state_file}")
+        sys.exit(1)
+
+    _header()
+    print(f"  Loading civilisation from {state_path}...")
+
+    try:
+        from src.persistence import load_state
+        from src.config import SimulationConfig
+        from src.watcher.chronicler import Chronicler
+        from src.watcher.chronicle import Chronicle
+        from src.llm_client import LLMClient
+
+        config = SimulationConfig.default()
+        world_state = load_state(state_path)
+        chronicle_path = Path(config.log_path) / "chronicle.jsonl"
+        chronicle = Chronicle(str(chronicle_path))
+        chronicle.load()
+
+        llm_client = LLMClient(config) if not args.no_llm else None
+        chronicler = Chronicler(config, llm_client)
+
+        async def _run_story():
+            return await chronicler.tell_story(chronicle, world_state)
+
+        story = asyncio.run(_run_story())
+
+        try:
+            from src.dashboard import Dashboard
+            d = Dashboard()
+            d.print_story(story)
+        except ImportError:
+            print()
+            for line in story.strip().split("\n"):
+                print(f"  {line}")
+            print()
+
+    except Exception as e:
+        _error(f"Story generation failed: {e}")
+        sys.exit(1)
 
 
 def cmd_dimensions(args: argparse.Namespace) -> None:
@@ -697,6 +812,7 @@ def build_parser() -> argparse.ArgumentParser:
     run_parser.add_argument("--api-port", type=int, help="API server port (default: 8000)")
     run_parser.add_argument("--run-id", help="Unique run identifier")
     run_parser.add_argument("--gardener", action="store_true", help="Enable mid-run intervention mode")
+    run_parser.add_argument("--dashboard", action="store_true", help="Rich terminal dashboard with live panels")
     run_parser.add_argument(
         "--describe", type=str, default="",
         help="Natural language: describe the civilisation you want (e.g. \"20 curious agents in a harsh world\")",
@@ -720,6 +836,21 @@ def build_parser() -> argparse.ArgumentParser:
         help="Natural language description (e.g. \"harsh world with curious loners\")",
     )
     _add_dimension_args(desc_parser)
+
+    # ── interview ──
+    interview_parser = subparsers.add_parser(
+        "interview", help="Interview an agent about their experience",
+    )
+    interview_parser.add_argument("agent_id", type=int, help="Agent ID to interview")
+    interview_parser.add_argument("--state", help="Path to saved simulation state directory")
+    interview_parser.add_argument("--no-llm", action="store_true", help="Skip LLM (show raw data only)")
+
+    # ── story ──
+    story_parser = subparsers.add_parser(
+        "story", help="Tell the complete story of a completed civilisation",
+    )
+    story_parser.add_argument("--state", help="Path to saved simulation state directory")
+    story_parser.add_argument("--no-llm", action="store_true", help="Skip LLM (show milestone summary only)")
 
     # ── configs ──
     subparsers.add_parser("configs", help="List all presets and saved custom configs")
@@ -753,6 +884,8 @@ def main() -> None:
         "run": cmd_run,
         "create": cmd_create,
         "describe": cmd_describe,
+        "interview": cmd_interview,
+        "story": cmd_story,
         "configs": cmd_configs,
         "dimensions": cmd_dimensions,
         "experiment": cmd_experiment,

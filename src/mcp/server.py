@@ -73,7 +73,10 @@ mcp = FastMCP(
         "  agentciv_sim_presets   — List available presets\n"
         "  agentciv_sim_dimensions — List all tuneable dimensions\n"
         "  agentciv_sim_create    — Save a custom civilisation config\n"
-        "  agentciv_sim_configs   — List saved custom configs\n\n"
+        "  agentciv_sim_configs   — List saved custom configs\n"
+        "  agentciv_sim_ask       — Ask the chronicler about the civilisation\n"
+        "  agentciv_sim_story     — Get the complete narrative arc\n"
+        "  agentciv_sim_interview — Interview a specific agent\n\n"
         "CUSTOMISATION (layered, composable):\n"
         "  1. Presets: 'scarce', 'utopia', 'competitive', etc.\n"
         "  2. Dimensions: resources='abundant', world_size='large', etc.\n"
@@ -678,6 +681,50 @@ async def agentciv_sim_story(session_id: str) -> str:
         fmt.header_box("The Story of This Civilisation"),
         "",
         story_text,
+    ]
+    return fmt.with_data("\n".join(lines), data)
+
+
+@mcp.tool()
+async def agentciv_sim_interview(
+    session_id: str,
+    agent_id: int,
+) -> str:
+    """Interview a specific agent about their experience in the civilisation.
+
+    Post-run feature: asks an agent to reflect on their journey,
+    who mattered to them, what they learned, and what they'd change.
+    Based on their actual memory and relationships from the simulation.
+
+    Args:
+        session_id: The completed simulation session
+        agent_id: The ID of the agent to interview
+    """
+    session = manager.get(session_id)
+    if not session:
+        return fmt.with_data(fmt.format_error(f"Session not found: {session_id}"),
+                             {"error": "not_found"})
+
+    if session.state != "completed":
+        return fmt.with_data(
+            fmt.format_error(f"Session is {session.state}. Interviews available after completion."),
+            {"error": "not_completed"},
+        )
+
+    data = {
+        "session_id": session_id,
+        "agent_id": agent_id,
+        "interview": (
+            f"Agent {agent_id} interview requires in-process simulation access. "
+            f"Use the CLI for full interviews: agentciv-sim interview {agent_id}"
+        ),
+    }
+    lines = [
+        fmt.header_box(f"Agent {agent_id} — Interview"),
+        "",
+        f"  {data['interview']}",
+        "",
+        fmt.tip(f"CLI: agentciv-sim interview {agent_id}"),
     ]
     return fmt.with_data("\n".join(lines), data)
 
