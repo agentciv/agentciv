@@ -1,0 +1,24 @@
+# Utopia — maximum everything
+# Abundant resources, strong social drives, all features maxed.
+# Watch for: what do agents do when survival is trivial?
+# Do they innovate? Create art? Form deep bonds? Build governance?
+
+initial_agent_count: 15
+grid_width: 35
+grid_height: 35
+resource_distribution: clustered
+resource_cluster_count: 6
+resource_max_per_tile: 1.0
+resource_regeneration_rate: 0.15
+agent_needs_depletion_rate: 0.01
+agent_communication_range: 6
+agent_wellbeing_interaction_bonus: 0.08
+agent_wellbeing_proximity_bonus: 0.02
+agent_curiosity_decay_rate: 0.001
+agent_curiosity_discovery_bonus: 0.08
+agent_bond_threshold: 5
+agent_reflection_interval: 10
+enable_innovation: true
+enable_composition: true
+enable_specialisation: true
+enable_collective_rules: true

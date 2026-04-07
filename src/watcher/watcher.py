@@ -18,6 +18,7 @@ from src.types import (
     WorldState,
 )
 from src.watcher.chronicle import Chronicle
+from src.watcher.chronicler import Chronicler
 from src.watcher.milestone import MilestoneDetector
 from src.watcher.narrative_report import generate_narrative
 from src.watcher.tick_report import generate_tick_report
@@ -50,7 +51,9 @@ class Watcher:
         self.chronicle = chronicle
         self.llm_client = llm_client
         self.milestone_detector = MilestoneDetector()
+        self.chronicler = Chronicler(config, llm_client)
         self.recent_reports: list[dict] = []
+        self._last_milestones: list[dict] = []  # From most recent tick
 
     async def observe_tick(self, world_state: WorldState, tick: int) -> None:
         """Run all Watcher observations for the given tick.
@@ -81,11 +84,13 @@ class Watcher:
         ))
 
         # 3. Check milestones
+        self._last_milestones = []
         if self.config.enable_milestone_reports:
             try:
                 milestones = await self.milestone_detector.check_milestones(
                     world_state, self.event_bus, tick, self.config, self.llm_client,
                 )
+                self._last_milestones = milestones
                 for m in milestones:
                     # Ethical flags get a different entry type
                     if m.get("name") in ("Persistent Degradation", "Social Exclusion"):
@@ -99,6 +104,21 @@ class Watcher:
                     ))
             except Exception:
                 logger.exception("Milestone check failed at tick %d", tick)
+
+        # 3b. Chronicler — live commentary (Attenborough mode)
+        try:
+            commentary = await self.chronicler.observe(
+                world_state, report, self._last_milestones, tick
+            )
+            if commentary:
+                self.chronicle.record("chronicler", tick, {"text": commentary})
+                await self.event_bus.emit(BusEvent(
+                    type=BusEventType.WATCHER_NARRATIVE,
+                    tick=tick,
+                    data={"text": commentary, "source": "chronicler"},
+                ))
+        except Exception:
+            logger.exception("Chronicler failed at tick %d", tick)
 
         # 4. Narrative (every N ticks, after tick 0)
         interval = self.config.narrative_report_interval

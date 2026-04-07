@@ -1,0 +1,16 @@
+# Competitive — conditions favouring competition
+# Scattered resources, limited communication, survival pressure.
+# Watch for: hoarding, territorial behaviour, conflict.
+
+initial_agent_count: 12
+grid_width: 50
+grid_height: 50
+resource_distribution: scattered
+resource_max_per_tile: 0.5
+resource_regeneration_rate: 0.03
+agent_communication_range: 1
+agent_wellbeing_interaction_bonus: 0.02
+enable_innovation: true
+enable_composition: true
+enable_specialisation: true
+enable_collective_rules: true

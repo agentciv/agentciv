@@ -1,0 +1,15 @@
+# Minimal — cheapest possible run
+# 4 agents, small world, quick validation.
+# Good for testing configs or when budget is tight.
+
+initial_agent_count: 4
+grid_width: 20
+grid_height: 20
+resource_distribution: random
+resource_max_per_tile: 1.0
+resource_regeneration_rate: 0.08
+agent_communication_range: 4
+enable_innovation: true
+enable_composition: false
+enable_specialisation: false
+enable_collective_rules: false

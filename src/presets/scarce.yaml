@@ -1,0 +1,15 @@
+# Scarce — resource scarcity
+# Low resources force agents into cooperation or competition.
+# Watch for: sharing behaviour, conflict, territorial marking.
+
+initial_agent_count: 12
+grid_width: 50
+grid_height: 50
+resource_distribution: scattered
+resource_max_per_tile: 0.4
+resource_regeneration_rate: 0.02
+resource_cluster_count: 2
+enable_innovation: true
+enable_composition: true
+enable_specialisation: true
+enable_collective_rules: true

@@ -1,0 +1,19 @@
+# Cooperative — conditions favouring cooperation
+# Clustered resources, high communication range, strong social drive.
+# Watch for: settlements, resource sharing, governance, deep bonds.
+
+initial_agent_count: 12
+grid_width: 40
+grid_height: 40
+resource_distribution: clustered
+resource_cluster_count: 4
+resource_max_per_tile: 0.8
+resource_regeneration_rate: 0.05
+agent_communication_range: 5
+agent_wellbeing_interaction_bonus: 0.1
+agent_wellbeing_proximity_bonus: 0.02
+agent_bond_threshold: 7
+enable_innovation: true
+enable_composition: true
+enable_specialisation: true
+enable_collective_rules: true

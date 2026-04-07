@@ -1,0 +1,15 @@
+# Sparse — low population density
+# 6 agents in a large world. Isolation pressure.
+# Watch for: how agents find each other, long-distance communication, loneliness.
+
+initial_agent_count: 6
+grid_width: 80
+grid_height: 80
+resource_distribution: clustered
+resource_max_per_tile: 1.0
+resource_regeneration_rate: 0.05
+agent_communication_range: 3
+enable_innovation: true
+enable_composition: true
+enable_specialisation: true
+enable_collective_rules: true

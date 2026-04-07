@@ -16,6 +16,7 @@ import logging
 import os
 import signal
 import sys
+import time
 
 # Ensure the project root is on sys.path so `src.*` imports resolve
 # regardless of where the script is invoked from.
@@ -37,6 +38,8 @@ from src.engine.persistence import load_state, save_state, save_tick_snapshot
 from src.agents.llm import LLMClient
 from src.watcher.chronicle import Chronicle
 from src.watcher.watcher import Watcher
+from src.metrics.emergence import compute_emergence
+from src.metrics.run_record import SimulationRunRecord, build_agent_summary
 
 # Graceful import of AgenticLoop — another agent is building it.
 # If not available yet, we fall back to deterministic-only mode.
@@ -325,7 +328,11 @@ def make_cli_subscriber(config: SimulationConfig, world_state: WorldState):
 
         elif event.type == BusEventType.WATCHER_NARRATIVE:
             text = event.data.get("text", "")
-            if text:
+            source = event.data.get("source", "")
+            if text and source == "chronicler":
+                # Chronicler: short, punchy, Attenborough-style
+                print(f"\n  {_BOLD}{_CYAN}\u2756 {text}{_RESET}\n")
+            elif text:
                 border = "=" * 70
                 print(f"\n  {_CYAN}{border}{_RESET}")
                 print(f"  {_BOLD}{_CYAN}WATCHER — Narrative Report (Tick {event.tick}){_RESET}")
@@ -445,11 +452,46 @@ def parse_args() -> argparse.Namespace:
         action="store_true",
         help="Record per-tick snapshots for replay (saves to snapshots/ directory)",
     )
+    parser.add_argument(
+        "--metrics",
+        action="store_true",
+        help="Compute and print emergence metrics after the run completes",
+    )
+    parser.add_argument(
+        "--output",
+        type=str,
+        default="",
+        help="Export structured run record to this JSON file path",
+    )
+    parser.add_argument(
+        "--preset",
+        type=str,
+        default="",
+        help="Named preset label (for Creator Mode tracking; does not change config)",
+    )
+    parser.add_argument(
+        "--run-id",
+        type=str,
+        default="",
+        help="Unique run identifier (for Creator Mode tracking)",
+    )
+    parser.add_argument(
+        "--gardener",
+        action="store_true",
+        help="Enable gardener mode: interactive mid-run intervention between ticks",
+    )
+    parser.add_argument(
+        "--gardener-interval",
+        type=int,
+        default=10,
+        help="Ticks between gardener prompts (default: 10, only with --gardener)",
+    )
     return parser.parse_args()
 
 
 async def async_main() -> None:
     args = parse_args()
+    _run_start_time = time.time()
 
     # ---- Load config ----
     config_path = os.path.join(_PROJECT_ROOT, args.config)
@@ -627,6 +669,17 @@ async def async_main() -> None:
     tick_count = 0
     target_ticks = args.ticks if args.ticks > 0 else float("inf")
 
+    # ---- Gardener mode ----
+    gardener = None
+    if args.gardener:
+        try:
+            from src.gardener import CLIGardener
+            gardener = CLIGardener(interval=args.gardener_interval)
+            print(f"{_CYAN}Gardener mode: you'll be prompted every {args.gardener_interval} ticks{_RESET}")
+            sys.stdout.flush()
+        except ImportError:
+            print(f"{_YELLOW}Warning: gardener module not found, continuing without gardener{_RESET}")
+
     recording = args.record
     if recording:
         print(f"{_CYAN}Recording mode: per-tick snapshots will be saved to {config.save_path}/snapshots/{_RESET}")
@@ -651,6 +704,12 @@ async def async_main() -> None:
                 except Exception as e:
                     logger.warning("Failed to save tick snapshot: %s", e)
 
+            # Gardener intervention (between ticks)
+            if gardener is not None:
+                should_continue = gardener.post_tick(world_state, tick_count)
+                if not should_continue:
+                    break
+
             # Pacing
             if config.ticks_per_real_minute > 0:
                 seconds_per_tick = 60.0 / config.ticks_per_real_minute
@@ -671,12 +730,89 @@ async def async_main() -> None:
             pass
 
     # ---- Save state on exit ----
+    wall_time = time.time() - _run_start_time
     print(f"\n{_BOLD}Simulation ended.{_RESET} Ran {tick_count} ticks (tick {original_tick} -> {world_state.tick}).")
     try:
         save_state(world_state, config.save_path)
         print(f"State saved to {config.save_path}/")
     except Exception as e:
         print(f"{_RED}Failed to save state: {e}{_RESET}")
+
+    # ---- Compute emergence metrics ----
+    if args.metrics or args.output:
+        bus_events = event_bus.get_log() if event_bus else None
+        emergence = compute_emergence(world_state, bus_events)
+
+        if args.metrics:
+            print(f"\n{_BOLD}Emergence Metrics{_RESET}")
+            print(f"  Composite score:    {emergence.composite_score:.4f}")
+            print(f"  Innovations:        {emergence.innovation_count}")
+            print(f"  Structures:         {emergence.structure_count} ({emergence.unique_structure_types} types)")
+            print(f"  Relationships:      {emergence.relationship_count} ({emergence.bonded_pairs} bonded pairs)")
+            print(f"  Rules:              {emergence.rules_proposed} proposed, {emergence.rules_established} established")
+            print(f"  Avg wellbeing:      {emergence.avg_wellbeing:.3f}")
+            print(f"  Avg Maslow level:   {emergence.avg_maslow_level:.2f}")
+            print(f"  Specialisations:    {emergence.total_specialisations} ({emergence.agents_with_specialisation} agents)")
+            print(f"  Messages:           {emergence.total_messages}")
+            print(f"  Cooperation events: {emergence.cooperation_events}")
+
+        # ---- End-of-run chronicler story ----
+        if watcher and watcher.chronicler.commentary_count > 0:
+            print(f"\n{_CYAN}{'=' * 70}{_RESET}")
+            print(f"{_BOLD}{_CYAN}  The Story of This Civilisation{_RESET}")
+            print(f"{_CYAN}{'=' * 70}{_RESET}\n")
+            try:
+                story = await watcher.chronicler.tell_story(chronicle, world_state)
+                for line in story.strip().split("\n"):
+                    print(f"  {line}")
+            except Exception as e:
+                logger.warning("End-of-run story failed: %s", e)
+            print(f"\n{_CYAN}{'=' * 70}{_RESET}")
+            print(f"  {_DIM}Chronicler made {watcher.chronicler.commentary_count} observations during the run.{_RESET}")
+            print(f"{_CYAN}{'=' * 70}{_RESET}\n")
+
+        if args.output:
+            # Gather chronicle highlights
+            milestones = []
+            highlights = []
+            for entry in chronicle.entries:
+                if entry.get("type") == "milestone":
+                    milestones.append(entry.get("data", {}).get("name", ""))
+                elif entry.get("type") == "narrative":
+                    text = entry.get("data", {}).get("text", "")
+                    if text:
+                        highlights.append(text[:200])
+
+            # Estimate token usage from LLM client
+            total_tokens = getattr(llm_client, "total_tokens", 0)
+
+            record = SimulationRunRecord(
+                run_id=args.run_id or f"run_{int(time.time())}",
+                timestamp=time.strftime("%Y-%m-%dT%H:%M:%SZ", time.gmtime()),
+                wall_time_seconds=wall_time,
+                config_snapshot={
+                    "initial_agent_count": config.initial_agent_count,
+                    "grid_width": config.grid_width,
+                    "grid_height": config.grid_height,
+                    "resource_distribution": config.resource_distribution,
+                    "model_provider": config.model_provider,
+                    "model_name": config.model_name,
+                    "enable_innovation": config.enable_innovation,
+                    "enable_composition": config.enable_composition,
+                    "enable_specialisation": config.enable_specialisation,
+                    "enable_collective_rules": config.enable_collective_rules,
+                },
+                preset=args.preset,
+                ticks_completed=tick_count,
+                total_tokens=total_tokens,
+                emergence=emergence,
+                milestones=milestones[:20],
+                chronicle_highlights=highlights[:10],
+                agent_summary=build_agent_summary(world_state.agents),
+                success=True,
+            )
+            output_path = record.save(args.output)
+            print(f"\n{_GREEN}Run record exported to {output_path}{_RESET}")
 
 
 def main() -> None:

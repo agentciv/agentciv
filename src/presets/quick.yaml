@@ -1,0 +1,14 @@
+# Quick — fast validation run
+# 6 agents, smaller world, all features on.
+# Good for checking a config works before a longer run.
+
+initial_agent_count: 6
+grid_width: 30
+grid_height: 30
+resource_distribution: clustered
+resource_max_per_tile: 0.8
+resource_regeneration_rate: 0.06
+enable_innovation: true
+enable_composition: true
+enable_specialisation: true
+enable_collective_rules: true

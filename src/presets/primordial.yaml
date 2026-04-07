@@ -1,0 +1,16 @@
+# Primordial — nothing enabled
+# Agents can only move, gather, and communicate.
+# No building, no innovation, no governance. Pure survival.
+# Watch for: does cooperation still emerge from nothing?
+
+initial_agent_count: 10
+grid_width: 40
+grid_height: 40
+resource_distribution: scattered
+resource_max_per_tile: 0.6
+resource_regeneration_rate: 0.04
+enable_innovation: false
+enable_composition: false
+enable_specialisation: false
+enable_collective_rules: false
+enable_environmental_coevolution: false
