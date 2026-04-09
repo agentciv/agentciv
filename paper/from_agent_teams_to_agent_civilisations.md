@@ -5,6 +5,8 @@
 
 *Part of the AgentCiv research programme. Companion publications: [Civilisation as Innovation Engine](civilisation_as_innovation_engine.md) (Whitepaper II), [Maslow Machines](maslow_machines.md) (Paper III — empirical evidence).*
 
+**DOI:** [10.5281/zenodo.19479918](https://doi.org/10.5281/zenodo.19479918)
+
 ---
 
 ## Abstract

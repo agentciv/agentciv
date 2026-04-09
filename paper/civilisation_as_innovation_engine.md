@@ -5,6 +5,8 @@
 
 *Part of the AgentCiv research programme. Companion publications: [From Agent Teams to Agent Civilisations](from_agent_teams_to_agent_civilisations.md) (Whitepaper I — theoretical framework), [Maslow Machines](maslow_machines.md) (Paper III — empirical evidence).*
 
+**DOI:** [10.5281/zenodo.19479932](https://doi.org/10.5281/zenodo.19479932)
+
 ---
 
 ## Abstract
