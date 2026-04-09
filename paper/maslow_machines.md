@@ -2,7 +2,7 @@
 
 **Mark E. Mala**
 
-*April 2026*
+*1 April 2026*
 
 ---
 
@@ -1104,4 +1104,4 @@ Note: 11 of 12 innovations were discovered during Era I (ticks 0–50), before t
 
 ---
 
-*Paper draft v1.0 — April 2026. All simulation data, interview transcripts, and code available at https://github.com/agentciv/agentciv.*
+*Paper draft v1.0 — 1 April 2026. All simulation data, interview transcripts, and code available at https://github.com/agentciv/agentciv.*

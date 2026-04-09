@@ -1,7 +1,7 @@
 # From Agent Teams to Agent Civilisations: Emergent Collective Intelligence as a New Dimension in Artificial Intelligence
 
 **Mark E. Mala**
-April 2026
+1 April 2026
 
 *Part of the AgentCiv research programme. Companion publications: [Civilisation as Innovation Engine](civilisation_as_innovation_engine.md) (Whitepaper II), [Maslow Machines](maslow_machines.md) (Paper III — empirical evidence).*
 

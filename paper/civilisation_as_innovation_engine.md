@@ -1,7 +1,7 @@
 # Civilisation as Innovation Engine: Why Simulating a Thousand Civilisations Changes Everything
 
 **Mark E. Mala**
-April 2026
+1 April 2026
 
 *Part of the AgentCiv research programme. Companion publications: [From Agent Teams to Agent Civilisations](from_agent_teams_to_agent_civilisations.md) (Whitepaper I — theoretical framework), [Maslow Machines](maslow_machines.md) (Paper III — empirical evidence).*
 
