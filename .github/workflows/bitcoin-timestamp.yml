@@ -1,0 +1,40 @@
+name: Bitcoin Timestamp
+
+on:
+  push:
+    branches: [main]
+
+jobs:
+  timestamp:
+    runs-on: ubuntu-latest
+    permissions:
+      contents: write
+
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
+
+      - name: Install OpenTimestamps
+        run: pip install opentimestamps-client
+
+      - name: Get commit hash
+        id: commit
+        run: echo "hash=$(git rev-parse HEAD)" >> "$GITHUB_OUTPUT"
+
+      - name: Create timestamp
+        run: |
+          echo "${{ steps.commit.outputs.hash }}" > commit-hash.txt
+          ots stamp commit-hash.txt
+          mkdir -p timestamps
+          mv commit-hash.txt.ots "timestamps/${{ steps.commit.outputs.hash }}.ots"
+
+      - name: Commit timestamp
+        run: |
+          rm -f commit-hash.txt
+          git config user.name "GitHub Actions"
+          git config user.email "actions@github.com"
+          git add timestamps/
+          git diff --cached --quiet || git commit -m "Bitcoin timestamp for ${{ steps.commit.outputs.hash }}"
+          git push
