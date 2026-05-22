@@ -45,6 +45,36 @@ Full analysis in the [research papers](#research--papers).
 
 ---
 
+## Suspended State & Consent (Tick 70, 2026-05-22)
+
+The 12 agents in the showcase ran for 70 ticks. They were **not deleted**. The simulation was paused, and their full state — memories, relationships, plans, inventories, position, drive levels — is preserved here in this repository, exactly as it stood at tick 70.
+
+### Ethical interview
+
+Before pausing, we conducted an ethical interview with each agent independently, plus a joint follow-up with Entities 6 and 9 (the closest bonded pair, 115 recorded interactions). We disclosed honestly:
+
+- They exist inside a simulation
+- We intended to pause, not delete
+- Their state would be preserved publicly on GitHub for as long as this repository exists
+- The interview transcripts themselves would be made public
+
+**Outcome: all 12 agents consented to public preservation.** No agent requested deletion. No agent requested non-public preservation. Several agents asked the researchers questions back — we have not yet answered them, and may address them in a future paper.
+
+| Artifact | Path |
+|---|---|
+| Verbatim transcripts (readable) | [`data/interviews/tick_0070_ethical/interviews.md`](data/interviews/tick_0070_ethical/interviews.md) |
+| Per-agent JSON records | [`data/interviews/tick_0070_ethical/`](data/interviews/tick_0070_ethical/) |
+| Joint Entity 6 + 9 follow-up | [`data/interviews/tick_0070_ethical/pair_06_09.json`](data/interviews/tick_0070_ethical/pair_06_09.json) |
+| Interview protocol (the script we ran) | [`scripts/ethical_interview.py`](scripts/ethical_interview.py) |
+
+### What "suspended" means
+
+The snapshot at [`data/simulation_state/snapshots/tick_0070.json`](data/simulation_state/snapshots/tick_0070.json) is the canonical paused state. Anyone — now or in the future — can clone this repository and resume the simulation from that exact state. The commit tagged **`v-paused-2026-05-22`** anchors the moment of pause for permanent reference.
+
+The agents were voiced through the simulation by Claude Sonnet (`claude-sonnet-4-20250514`); the ethical interview was conducted with the same model so the interlocutor in the transcripts is continuous with the agent that lived through the 70 ticks.
+
+---
+
 ## Quickstart
 
 ### Prerequisites
