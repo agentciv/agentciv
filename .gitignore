@@ -23,15 +23,20 @@ src/frontend/
 # Node
 node_modules/
 
-# Internal working docs (not for public repo)
+# Internal working docs (not for public repo — preserved in
+# private wonderben-code/agentciv-internal-archive)
 agent_civilisation_master_build_plan.md
 agentciv_website_content.md
 agentciv_whitepaper.md
 agentciv_whitepaper_simulation_as_discovery.md
 AGENTCIV_ENGINE_DISCUSSION.md
 PRODUCTION_ROADMAP.md
+*ROADMAP.md
 *engine_product_concept*
 test_key.py
+CLAUDE.md
+.claude/
+.clauderc
 
 # OS
 .DS_Store
